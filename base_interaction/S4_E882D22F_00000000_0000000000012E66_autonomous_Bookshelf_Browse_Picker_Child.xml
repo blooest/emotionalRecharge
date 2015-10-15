@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="AutonomousObjectInInventoryPickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="autonomous_Bookshelf_Browse_Picker_Child" s="77414">
+  <L n="_false_advertisements">
+    <V t="statistic_change">
+      <U n="statistic_change">
+        <T n="amount">1</T>
+        <T n="stat">16655<!--Commodity: motive_Fun--></T>
+      </U>
+    </V>
+  </L>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+<L n="mood_preference">
+<U>
+<T n="key">14632</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14633</T>
+<T n="value">200</T>
+</U>
+<U>
+<T n="key">14634</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14635</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14636</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14637</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14638</T>
+<T n="value">-200</T>
+</U>
+<U>
+<T n="key">14639</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14640</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14641</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14642</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14643</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14644</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14645</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14646</T>
+<T n="value">-100</T>
+</U>
+</L>
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">76995<!--StaticCommodity: StaticCommodity_BrowseBooks--></T>
+    </U>
+    <U>
+      <T n="static_commodity">27576<!--StaticCommodity: StaticCommodity_ReadBooks--></T>
+    </U>
+  </L>
+  <L n="appropriateness_tags">
+    <E>Appropriateness_ReadBooks</E>
+  </L>
+  <T n="attention_cost">0.5</T>
+  <V t="enabled" n="continuation">
+    <L n="enabled">
+      <U>
+        <T n="affordance">76988<!--SuperInteraction: book_read_browse--></T>
+        <E n="target">PickedObject</E>
+      </U>
+    </L>
+  </V>
+  <T n="display_name">0x155EC192<!--String: "Browse Books"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V t="tag_set" n="inventory_item_test">
+    <U n="tag_set">
+      <L n="tag_set">
+        <E>BuyCatEE_MiscKids</E>
+        <E>Func_Book_BookOfLife</E>
+        <E>Genre_Book_Emotion_Flirty</E>
+        <E>Genre_Book_Romance</E>
+        <E>Genre_Book_Skill_Bartending</E>
+        <E>Genre_Book_Skill_Charisma</E>
+        <E>Genre_Book_Skill_Comedy</E>
+        <E>Genre_Book_Skill_Cooking</E>
+        <E>Genre_Book_Skill_Fitness</E>
+        <E>Genre_Book_Skill_Gardening</E>
+        <E>Genre_Book_Skill_Gourmet</E>
+        <E>Genre_Book_Skill_Guitar</E>
+        <E>Genre_Book_Skill_Hacking</E>
+        <E>Genre_Book_Skill_Handiness</E>
+        <E>Genre_Book_Skill_Logic</E>
+        <E>Genre_Book_Skill_Mischief</E>
+        <E>Genre_Book_Skill_Painting</E>
+        <E>Genre_Book_Skill_Piano</E>
+        <E>Genre_Book_Skill_RocketScience</E>
+        <E>Genre_Book_Skill_VideoGaming</E>
+        <E>Genre_Book_Skill_Violin</E>
+        <E>Genre_Book_Skill_Writing</E>
+        <E>Genre_Book_Skill_WooHoo</E>
+      </L>
+      <E n="test_type">CONTAINS_NO_TAGS_IN_SET</E>
+    </U>
+  </V>
+  <E n="inventory_subject">Object</E>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="appropriateness" />
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages">
+          <L n="specified">
+            <E>CHILD</E>
+          </L>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="inventory">
+      <U n="inventory">
+        <V t="participant_inventory" n="inventory_location">
+          <U n="participant_inventory">
+            <E n="inventory">Object</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>76994<!--Buff: buff_Object_Book_BrowseBooks--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

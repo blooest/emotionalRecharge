@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="phone_Chat_FromPhonePicker" s="100859">
+  <T n="_affordance_key_override_for_autonomy">Phone_Fun</T>
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="circle">
+        <U n="circle">
+          <T n="radius">3</T>
+          <T n="require_los">False</T>
+        </U>
+      </V>
+    </U>
+  </L>
+  <V t="resource_key" n="_icon">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueue\IconQueueCellPhone.png">2f7d0004:00000000:6189ced9570b8609</T>
+    </U>
+  </V>
+  <V t="disabled" n="_saveable" />
+  <T n="allow_autonomous">True</T>
+  <T n="attention_cost">1.24</T>
+  <V t="flexible_length" n="basic_content">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="list_reference">
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="time_based">
+                <U n="time_based">
+                  <T n="max_time">60</T>
+                  <T n="min_time">15</T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+            <E n="restrictions">USER_DIRECTED_ONLY</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="time_based">
+                <U n="time_based">
+                  <T n="max_time">2</T>
+                  <T n="min_time">2</T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+            <L n="tests">
+              <L>
+                <V t="day_and_time">
+                  <U n="day_and_time">
+                    <V t="enabled" n="days_available">
+                      <U n="enabled">
+                        <T n="0 SUNDAY">True</T>
+                        <T n="1 MONDAY">True</T>
+                        <T n="2 TUESDAY">True</T>
+                        <T n="3 WEDNESDAY">True</T>
+                        <T n="4 THURSDAY">True</T>
+                        <T n="5 FRIDAY">True</T>
+                        <T n="6 SATURDAY">True</T>
+                      </U>
+                    </V>
+                    <V n="time_range" t="enabled">
+                      <U n="enabled">
+                        <U n="begin_time">
+                          <T n="hour">23</T>
+                        </U>
+                        <U n="duration">
+                          <T n="hour">0</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </V>
+      </L>
+      <V t="looping_content" n="content">
+        <U n="looping_content">
+          <U n="animation_ref">
+            <T n="factory">11702<!--AnimationElement: Phone_Chat--></T>
+            <U n="overrides">
+              <V n="balloons" t="enabled">
+                <L n="enabled">
+                  <U>
+                    <L n="balloon_choices">
+                      <U>
+                        <V t="balloon_category" n="item">
+                          <T n="balloon_category">38721<!--BalloonCategory: BalloonCategory_SetSocialSTC_Casual_Speech--></T>
+                        </V>
+                      </U>
+                    </L>
+                    <T n="balloon_delay">1</T>
+                    <L n="balloon_target">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </L>
+              </V>
+              <L n="props">
+                <U>
+                  <T n="key">cellphone</T>
+                  <U n="value">
+                    <T n="definition">62463</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </U>
+        </U>
+      </V>
+      <V t="enabled" n="periodic_stat_change">
+        <U n="enabled">
+          <L n="operations">
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="amount">1</T>
+        <T n="stat">16658</T>
+       </U>
+      </V>
+      <V t="relationship_change">
+       <U n="relationship_change">
+        <T n="amount">0.3</T>
+        <L n="target_participant_type">
+         <E>PickedSim</E>
+        </L>
+        <U n="track_range">
+         <T n="lower_bound">-20.0</T>
+         <T n="upper_bound">80.0</T>
+        </U>
+        <L n="tests">
+         <L>
+          <V t="relationship">
+           <U n="relationship">
+            <U n="relationship_score_interval">
+             <T n="lower_bound">-20.0</T>
+             <T n="upper_bound">80.0</T>
+            </U>
+            <L n="target_sim">
+             <E>PickedSim</E>
+            </L>
+            <T n="track">16650</T>
+           </U>
+          </V>
+         </L>
+        </L>
+        <T n="track">16650</T>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <T n="start_autonomous_inertial">True</T>
+    </U>
+  </V>
+  <T n="display_name">0xA2856542<!--String: "Chat"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">PickedSim</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Chat</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V t="test_based" n="outcome">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="loot_list">
+              <T>74345<!--LootActions: Rel_Gain_Small_Phone--></T>
+              <T>24044<!--LootActions: loot_Buff_Phone_Chat_Success--></T>
+            </L>
+            <E n="outcome_result">SUCCESS</E>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="notification">
+                    <U n="notification">
+                      <V n="dialog" t="single">
+                        <V n="single" t="literal">
+                          <U n="literal">
+                            <V t="enabled" n="participant">
+                              <E n="enabled">PickedSim</E>
+                            </V>
+                            <V n="text" t="single">
+                              <T n="single">0x9505A9DC<!--String: "What? I'm sleeping! Call later."--></T>
+                            </V>
+                            <E n="visual_type">SPEECH</E>
+                          </U>
+                        </V>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <L n="loot_list">
+                  <T>77818<!--LootActions: Rel_Loss_Small_Phone--></T>
+                </L>
+                <E n="outcome_result">FAILURE</E>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="day_and_time">
+                <U n="day_and_time">
+                  <V t="enabled" n="days_available">
+                    <U n="enabled">
+                      <T n="0 SUNDAY">True</T>
+                      <T n="1 MONDAY">True</T>
+                      <T n="2 TUESDAY">True</T>
+                      <T n="3 WEDNESDAY">True</T>
+                      <T n="4 THURSDAY">True</T>
+                      <T n="5 FRIDAY">True</T>
+                      <T n="6 SATURDAY">True</T>
+                    </U>
+                  </V>
+                  <V n="time_range" t="enabled">
+                    <U n="enabled">
+                      <U n="begin_time">
+                        <T n="hour">23</T>
+                        <T n="minute">0</T>
+                      </U>
+                      <U n="duration">
+                        <T n="hour">0</T>
+                        <T n="minute">0</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V t="reference" n="super_affordance_compatibility">
+    <T n="reference">76400<!--AffordanceFilter: af_PhoneCompatability_TalkingOnPhone--></T>
+  </V>
+  <E n="target_type">ACTOR</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="location">
+        <U n="location">
+          <U n="location_tests">
+            <V n="is_venue_type" t="enabled">
+              <U n="enabled">
+                <T n="negate">True</T>
+                <T n="venue_type">111611<!--Venue: venue_HiddenAlienWorld--></T>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals" />
+  <T n="time_overhead">30</T>
+</I>

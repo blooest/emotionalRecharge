@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="StartCraftingAutonomouslySuperInteraction" i="interaction" m="crafting.crafting_interactions" n="woodworkingTable_Craft_Autonomously" s="27702">
+  <L n="_false_advertisements">
+    <V t="statistic_set_max">
+      <U n="statistic_set_max">
+        <T n="stat">28630<!--Commodity: commodity_Trait_Autonomy_Creative--></T>
+      </U>
+    </V>
+  </L>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="mood_preference">
+<U>
+<T n="key">14632</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14633</T>
+<T n="value">150</T>
+</U>
+<U>
+<T n="key">14634</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14635</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14636</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14637</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14638</T>
+<T n="value">-200</T>
+</U>
+<U>
+<T n="key">14639</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14640</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14641</T>
+<T n="value">200</T>
+</U>
+<U>
+<T n="key">14642</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14643</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14644</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14645</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14646</T>
+<T n="value">-100</T>
+</U>
+</L>
+  <L n="_static_commodities">
+	 <U>
+      <T n="static_commodity">3392579<!--GetToCollege--></T>
+    </U>
+  </L>
+  <T n="attention_cost">0.75</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <V n="periodic_stat_change" t="enabled">
+        <U n="enabled">
+          <L n="operations">
+            <V t="statistic_set_max">
+              <U n="statistic_set_max">
+                <T n="stat">16467<!--Commodity: commodity_Emotion_Autonomy_Inspired--></T>
+              </U>
+            </V>
+          </L>
+          <T n="trigger_gain_on_start">True</T>
+        </U>
+      </V>
+    </U>
+  </V>
+  <V t="enabled" n="canonical_animation">
+    <U n="enabled">
+      <T n="factory">11501<!--AnimationElement: Fridge_Get--></T>
+    </U>
+  </V>
+  <T n="display_name">0x8865E082<!--String: "Craft"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Skill_Handiness</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V t="single" n="outcome" />
+  <L n="recipes">
+    <T>29853<!--Recipe: recipe_Woodwork_Barstool1--></T>
+    <T>29894<!--Recipe: recipe_Woodwork_TableEnd1--></T>
+    <T>15789<!--Recipe: recipe_Woodwork_Table1--></T>
+    <T>8688<!--Recipe: recipe_Woodwork_Chair1--></T>
+    <T>37342<!--Recipe: recipe_Woodwork_Bathtub1--></T>
+    <T>29899<!--Recipe: recipe_Woodwork_Toilet1--></T>
+    <T>107901<!--Recipe: recipe_Woodwork_GardenPlanter--></T>
+    <T>107900<!--Recipe: recipe_Woodwork_GardenPot--></T>
+    <T>107903<!--Recipe: recipe_Woodwork_Mirror--></T>
+    <T>107904<!--Recipe: recipe_Woodwork_WallHanging--></T>
+    <T>107902<!--Recipe: recipe_Woodwork_WallShelf--></T>
+    <T>24103<!--Recipe: recipe_Woodwork_Guitar1--></T>
+	<T>29897<!--Recipe: recipe_Woodwork_Violin1--></T>
+    <T>38469<!--Recipe: recipe_Woodwork_ViolinChild1--></T>
+    <T>9083<!--Recipe: recipe_Woodwork_Sculpture1--></T>
+    <T>29878<!--Recipe: recipe_Woodwork_Sculpture_Dragon--></T>
+    <T>29879<!--Recipe: recipe_Woodwork_Sculpture_Elephant--></T>
+    <T>29880<!--Recipe: recipe_Woodwork_Sculpture_Horse--></T>
+    <T>29881<!--Recipe: recipe_Woodwork_Sculpture_Knifeblock--></T>
+    <T>29882<!--Recipe: recipe_Woodwork_Sculpture_Large_Bear--></T>
+    <T>29883<!--Recipe: recipe_Woodwork_Sculpture_Large_Lumberjack--></T>
+    <T>74064<!--Recipe: recipe_Woodwork_Sculpture_Angry--></T>
+    <T>74349<!--Recipe: recipe_Woodwork_Sculpture_Flirty--></T>
+    <T>74360<!--Recipe: recipe_Woodwork_Sculpture_Playful--></T>
+    <T>74399<!--Recipe: recipe_Woodwork_Sculpture_Sad--></T>
+    <T>107899<!--Recipe: recipe_Woodwork_Sculpture_CampingMascot--></T>
+  </L>
+  <V t="enabled" n="route_start_balloon">
+    <U n="enabled">
+      <U n="balloon">
+        <L n="balloon_choices">
+          <U>
+            <V n="item" t="balloon_icon">
+              <U n="balloon_icon">
+                <V t="participant" n="icon">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </L>
+        <L n="balloon_target">
+          <E>Actor</E>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V t="reference" n="super_affordance_compatibility">
+    <T n="reference">76934<!--AffordanceFilter: af_WoodWorkingCompatability--></T>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <L n="test_autonomous"/>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
+    </V>
+  </L>
+  <T n="time_overhead">90</T>
+</I>

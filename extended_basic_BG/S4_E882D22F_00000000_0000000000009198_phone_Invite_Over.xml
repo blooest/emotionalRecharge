@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="phone_Invite_Over" s="37272">
+  <T n="_affordance_key_override_for_autonomy">Phone_Fun</T>
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="circle">
+        <U n="circle">
+          <T n="radius">3</T>
+          <T n="require_los">False</T>
+        </U>
+      </V>
+    </U>
+  </L>
+  <V t="resource_key" n="_icon">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueue\IconQueueCellPhone.png">2f7d0004:00000000:6189ced9570b8609</T>
+    </U>
+  </V>
+  <V t="disabled" n="_saveable" />
+  <T n="allow_autonomous">True</T>
+  <T n="attention_cost">1.24</T>
+  <V t="flexible_length" n="basic_content">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="time_based">
+                <U n="time_based">
+                  <T n="max_time">7</T>
+                  <T n="min_time">5</T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+      </L>
+      <V t="looping_content" n="content">
+        <U n="looping_content">
+          <U n="animation_ref">
+            <T n="factory">11702<!--AnimationElement: Phone_Chat--></T>
+            <U n="overrides">
+              <V t="disabled" n="balloons" />
+              <L n="props">
+                <U>
+                  <T n="key">cellphone</T>
+                  <U n="value">
+                    <T n="definition">62463</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </U>
+        </U>
+      </V>
+      <T n="start_autonomous_inertial">False</T>
+    </U>
+  </V>
+  <T n="display_name">0xF6FBE17C<!--String: "Invite to Hangout at Current Lot"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V t="partial" n="outcome">
+    <U n="partial">
+      <T n="all_failure_string">0x246B697F<!--String: "Nobody can make it over right now!\n{0.String}"--></T>
+      <T n="all_success_string">0x70F44FEA<!--String: "Everyone is coming over!"--></T>
+      <U n="default_actions">
+        <L n="basic_extras">
+          <V t="npc_summon">
+            <U n="npc_summon">
+              <E n="purpose">Invite_Over</E>
+              <E n="subject">PickedSim</E>
+            </U>
+          </V>
+        </L>
+      </U>
+      <U n="notification">
+        <V t="enabled" n="icon">
+          <V t="resource_key" n="enabled">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\InteractionQueue\IconQueueCellPhone.png">2f7d0004:00000000:6189ced9570b8609</T>
+            </U>
+          </V>
+        </V>
+        <V n="title" t="enabled">
+          <T n="enabled">0x71890E9E<!--String: "Invite to Hangout"--></T>
+        </V>
+        <E n="visual_type">INFORMATION</E>
+      </U>
+      <T n="partial_success_string">0x4477AF8<!--String: "Not everyone could make it over!\n{0.String}"--></T>
+      <T n="single_failure_string">0x3DF4105A<!--String: "{0.String}"--></T>
+      <T n="single_success_string">0x2724103B<!--String: "{1.SimName} will be right over!"--></T>
+      <L n="test_and_results">
+        <U>
+          <T n="result_string">0x9AFF2B31<!--String: "{0.SimFirstName} is busy right now!"--></T>
+          <L n="test">
+            <L>
+              <V t="filter_test">
+                <U n="filter_test">
+                  <V t="enabled" n="filter_target">
+                    <E n="enabled">PickedSim</E>
+                  </V>
+                  <T n="sim_filter">100958<!--TunableSimFilter: filter_IsBusy--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <T n="result_string">0xC1FD0AA<!--String: "{0.SimFirstName} is already here!"--></T>
+          <L n="test">
+            <L>
+              <V t="existence">
+                <U n="existence">
+                  <T n="exists">True</T>
+                  <E n="participant">PickedSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+     <T n="result_string">0x79C3BF8A</T>
+          <L n="test">
+            <L>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="relationship_score_interval">
+                    <T n="upper_bound">-20</T>
+                  </U>
+                  <L n="target_sim">
+                    <E>PickedSim</E>
+                  </L>
+                  <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V t="reference" n="super_affordance_compatibility">
+    <T n="reference">76447<!--AffordanceFilter: af_PhoneCompatability_QuickUse--></T>
+  </V>
+  <E n="target_type">ACTOR</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="location">
+        <U n="location">
+          <U n="location_tests">
+            <V n="is_venue_type" t="enabled">
+              <U n="enabled">
+                <T n="negate">True</T>
+                <T n="venue_type">111611<!--Venue: venue_HiddenAlienWorld--></T>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals"/>
+  <T n="time_overhead">30</T>
+</I>

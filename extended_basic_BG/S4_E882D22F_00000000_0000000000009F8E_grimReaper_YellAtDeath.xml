@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SocialSuperInteraction" i="interaction" m="interactions.social.social_super_interaction" n="grimReaper_YellAtDeath" s="40846">
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>TargetSim</E>
+      </L>
+    </U>
+  </V>
+  <L n="_party_size_weight_tuning">
+    <U>
+      <T n="y">100</T>
+    </U>
+    <U>
+      <T n="x">1</T>
+      <T n="y">100</T>
+    </U>
+    <U>
+      <T n="x">2</T>
+      <T n="y">50</T>
+    </U>
+    <U>
+      <T n="x">3</T>
+      <T n="y">0</T>
+    </U>
+    <U>
+      <T n="x">4</T>
+    </U>
+  </L>
+  <V t="enabled" n="_saveable" />
+  <T n="_social_group_type">97607<!--JigGroup: group_GrimReaper_Plead--></T>
+  <V t="push_affordance" n="affordance_to_push_on_target">
+    <T n="push_affordance">97606<!--SocialSuperInteraction: grimReaper_ListenToPlead--></T>
+  </V>
+  <T n="allow_autonomous">True</T>
+  <T n="attention_cost">0</T>
+  <V t="one_shot" n="basic_content" />
+  <V t="disabled" n="basic_reserve_object" />
+  <T n="display_name">0xA0428415<!--String: "Yell at Death"--></T>
+  <V t="testable" n="display_name_overrides">
+    <U n="testable">
+      <L n="overrides">
+        <U>
+          <T n="new_display_name">0x2662B988<!--String: "Plead"--></T>
+          <L n="test">
+            <L>
+              <V t="existence">
+                <U n="existence">
+                  <T n="exists">False</T>
+                  <E n="participant">StoredSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">StoredSim</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <V t="enabled" n="idle_animation">
+    <U n="enabled">
+      <T n="factory">11570<!--AnimationElement: Listen_Listen_Looping_basic--></T>
+    </U>
+  </V>
+  <T n="ignore_group_socials">False</T>
+  <L n="interaction_category_tags">
+    <E>Interaction_SocialSuper</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <U n="listen_animation">
+    <T n="factory">11570<!--AnimationElement: Listen_Listen_Looping_basic--></T>
+  </U>
+  <L n="mood_list">
+    <T>14632<!--Mood: Mood_Angry--></T>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <V n="animation_ref" t="enabled">
+          <U n="enabled">
+            <T n="factory">75268<!--AnimationElement: GrimReaper_Plead_Angry_Fail--></T>
+          </U>
+        </V>
+        <L n="loot_list">
+          <T>37237<!--LootActions: Loot_Reaper_PleadedTo--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <T n="relationship_scoring">True</T>
+  <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <T n="negate_tag">True</T>
+          <E n="running_interaction_tag">Sleeping</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Loud</E>
+      </L>
+    </U>
+  </V>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">TARGET</E>
+  <V t="enabled" n="test_disallow_while_running">
+    <U n="enabled">
+      <T n="test_self">True</T>
+    </U>
+  </V>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="statistic">
+      <U n="statistic">
+        <T n="stat">16667<!--Statistic: statistic_NPC-GrimReaper_Clemency--></T>
+        <V t="value_threshold" n="threshold">
+          <U n="value_threshold">
+            <E n="comparison">LESS</E>
+            <T n="value">50</T>
+          </U>
+        </V>
+        <E n="who">Lot</E>
+      </U>
+    </V>
+    <V t="statistic">
+      <U n="statistic">
+        <T n="stat">16665<!--Statistic: statistic_GrimReaper_DeathCount--></T>
+        <V t="value_threshold" n="threshold">
+          <U n="value_threshold">
+            <E n="comparison">GREATER</E>
+          </U>
+        </V>
+        <E n="who">Lot</E>
+      </U>
+    </V>
+    <V t="mood">
+      <U n="mood">
+        <T n="mood">14632<!--Mood: Mood_Angry--></T>
+      </U>
+    </V>
+    <V t="existence">
+      <U n="existence">
+        <E n="participant">StoredSim</E>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>37235<!--Buff: buff_Reaper_PleadedTo--></T>
+        </L>
+        <E n="subject">TargetSim</E>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0x70CA695F<!--String: "Someone has already pleaded to the Grim Reaper recently!"--></T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">15</T>
+</I>

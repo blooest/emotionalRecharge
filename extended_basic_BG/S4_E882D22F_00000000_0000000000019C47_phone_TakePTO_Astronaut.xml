@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="phone_TakePTO_Astronaut" s="105543">
+  <T n="_affordance_key_override_for_autonomy">Phone_Fun</T>
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="circle">
+        <U n="circle">
+          <T n="radius">3</T>
+          <T n="require_los">False</T>
+        </U>
+      </V>
+    </U>
+  </L>
+  <V t="resource_key" n="_icon">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueue\IconQueueCellPhone.png">2f7d0004:00000000:6189ced9570b8609</T>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <T n="allow_autonomous">True</T>
+  <T n="attention_cost">1.24</T>
+  <V n="basic_content" t="flexible_length">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="list_reference">
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="time_based">
+                <U n="time_based">
+                  <T n="max_time">7</T>
+                  <T n="min_time">5</T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+      </L>
+      <V n="content" t="looping_content">
+        <U n="looping_content">
+          <U n="animation_ref">
+            <T n="factory">11702<!--AnimationElement: Phone_Chat--></T>
+            <U n="overrides">
+              <V n="balloons" t="enabled">
+                <L n="enabled">
+                  <U>
+                    <L n="balloon_choices">
+                      <U>
+                        <V n="item" t="balloon_category">
+                          <T n="balloon_category">32066<!--BalloonCategory: balloonCategory_CareerAstronaut_Speech--></T>
+                        </V>
+                      </U>
+                    </L>
+                    <T n="balloon_delay">2</T>
+                    <L n="balloon_target">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </L>
+              </V>
+              <L n="props">
+                <U>
+                  <T n="key">cellphone</T>
+                  <U n="value">
+                    <T n="definition">62463</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </U>
+        </U>
+      </V>
+      <T n="start_autonomous_inertial">False</T>
+    </U>
+  </V>
+  <T n="category">105922<!--PieMenuCategory: phoneCategory_Household--></T>
+  <T n="display_name">0xB8B58CE0<!--String: "Take Vacation Day (Astronaut)"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="basic_extras">
+          <V t="notification">
+            <U n="notification">
+              <V n="dialog" t="single">
+                <V n="single" t="literal">
+                  <U n="literal">
+                    <V n="icon" t="enabled">
+                      <V n="enabled" t="resource_key">
+                        <U n="resource_key">
+                          <T p="InGame\UI\Icons\Career\Career_Astronaut.png" n="key">2f7d0004:00000000:bf7d6b4d52ab54ff</T>
+                        </U>
+                      </V>
+                    </V>
+                    <V t="enabled" n="secondary_icon">
+                      <V t="participant" n="enabled" />
+                    </V>
+                    <V t="single" n="text">
+                      <T n="single">0x7D0457C4<!--String: "{0.SimFirstName} has taken a vacation day. Enjoy the day off!"--></T>
+                    </V>
+                  </U>
+                </V>
+              </V>
+            </U>
+          </V>
+        </L>
+        <L n="loot_list">
+          <T>105535<!--LootActions: loot_Career_PTO_Astronaut--></T>
+          <T>111106<!--LootActions: loot_Career_PTO_Reset--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V t="reference" n="super_affordance_compatibility">
+    <T n="reference">76447<!--AffordanceFilter: af_PhoneCompatability_QuickUse--></T>
+  </V>
+  <E n="target_type">ACTOR</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="location">
+        <U n="location">
+          <U n="location_tests">
+            <V n="is_venue_type" t="enabled">
+              <U n="enabled">
+                <T n="negate">True</T>
+                <T n="venue_type">111611<!--Venue: venue_HiddenAlienWorld--></T>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <V t="career_reference" n="test_type">
+          <U n="career_reference">
+            <V t="specific_career" n="career">
+              <T n="specific_career">12893<!--Career: career_Adult_Astronaut--></T>
+            </V>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <V n="test_type" t="time_until_work">
+          <U n="time_until_work">
+            <T n="career">12893<!--Career: career_Adult_Astronaut--></T>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <T n="negate">False</T>
+        <V t="time_off" n="test_type" />
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">111347<!--TestSetInstance: testSet_NotWorkLocation--></T>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <V t="pto_amount" n="test_type">
+          <U n="pto_amount">
+            <T n="career">12893<!--Career: career_Adult_Astronaut--></T>
+            <U n="required_pto_available">
+              <T n="value">1</T>
+            </U>
+          </U>
+        </V>
+        <V t="enabled" n="tooltip">
+          <T n="enabled">0xB9CD9707<!--String: "{0.SimFirstName} does not have any vacation days!"--></T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

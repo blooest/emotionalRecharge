@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="Buffs_CoreSocialBuffs_OnARoll" s="37664">
+  <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xB14417F1<!--String: "Keep the Jokes coming!"--></T>
+  <T n="buff_name">0x936544C4<!--String: "On a Roll"--></T>
+  <T p="InGame\UI\Icons\Buffs\Buffs_OnARoll.png" n="icon">2f7d0004:00000000:6e7a2abb897d1fbd</T>
+  <T p="InGame\UI\Icons\Buffs\Buffs_OnARoll.png" n="icon_highlight">2f7d0004:00000000:6e7a2abb897d1fbd</T>
+  <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
+  <T n="mood_weight">1</T>
+  <U n="game_effect_modifiers">
+	<L n="game_effect_modifiers">
+	  <V t="affordance_modifier">
+		<U n="affordance_modifier">
+		  <L n="affordance_lists"/>
+		  <T n="content_score_bonus">20</T>
+		  <L n="interaction_category_tags">
+			<E>Interaction_Funny</E>
+			<E>Interaction_Jokes</E>
+			<E>Interaction_Mischievous</E>
+		  </L>
+		</U>
+	  </V>
+	</L>
+  </U>
+</I>

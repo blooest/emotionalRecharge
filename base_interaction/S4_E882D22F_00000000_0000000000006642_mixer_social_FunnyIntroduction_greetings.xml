@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SocialMixerInteraction" i="interaction" m="interactions.social.social_mixer_interaction" n="mixer_social_FunnyIntroduction_greetings" s="26178">
+  <V t="resource_key" n="_icon">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueueSubInteractions\icon_queuesubinteraction_funny.png">2f7d0004:00000000:4b90d2a210f78639</T>
+    </U>
+  </V>
+  <T n="allow_autonomous">True</T>
+  <T n="allow_user_directed">True</T>
+  <T n="base_score">1</T>
+  <T n="display_name">0xB2BEB5BA</T>
+  <T n="display_name_target">0xF218EF2B</T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Greeting</E>
+    <E>Interaction_Chat</E>
+    <E>Interaction_Mixer</E>
+    <E>Interaction_All</E>
+  </L>
+  <L n="mood_preference">
+    <U>
+      <T n="key">14632</T>
+<T n="value">-100</T>
+    </U>
+    <U>
+      <T n="key">14633</T>
+<T n="value">-80</T>
+    </U>
+    <U>
+      <T n="key">14634</T>
+<T n="value">60</T>
+    </U>
+    <U>
+      <T n="key">14635</T>
+      <T n="value">0</T>
+    </U>
+    <U>
+      <T n="key">14636</T>
+<T n="value">40</T>
+    </U>
+    <U>
+      <T n="key">14637</T>
+<T n="value">60</T>
+    </U>
+    <U>
+      <T n="key">14638</T>
+<T n="value">20</T>
+    </U>
+    <U>
+      <T n="key">14639</T>
+<T n="value">40</T>
+    </U>
+    <U>
+      <T n="key">14640</T>
+<T n="value">80</T>
+    </U>
+    <U>
+      <T n="key">14641</T>
+<T n="value">40</T>
+    </U>
+    <U>
+      <T n="key">14642</T>
+<T n="value">100</T>
+    </U>
+    <U>
+      <T n="key">14643</T>
+<T n="value">-80</T>
+    </U>
+    <U>
+      <T n="key">14644</T>
+<T n="value">-20</T>
+    </U>
+    <U>
+      <T n="key">14645</T>
+      <T n="value">0</T>
+    </U>
+    <U>
+      <T n="key">14646</T>
+<T n="value">-60</T>
+    </U>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <V n="animation_ref" t="enabled">
+              <U n="enabled">
+                <T n="factory">76358</T>
+                <U n="overrides">
+                  <V n="balloons" t="enabled">
+                    <L n="enabled">
+                      <U>
+                        <L n="balloon_choices">
+                          <U>
+                            <V n="item" t="balloon_category">
+                              <T n="balloon_category">38698</T>
+                            </V>
+                          </U>
+                        </L>
+                        <L n="balloon_target">
+                          <E>Actor</E>
+                        </L>
+                      </U>
+                    </L>
+                  </V>
+                </U>
+              </U>
+            </V>
+            <L n="loot_list">
+              <T>11029</T>
+              <T>26262</T>
+              <T>11036</T>
+              <T>102790</T>
+            </L>
+            <V n="response" t="enabled">
+              <V n="enabled" t="individual">
+                <U n="individual">
+                  <L n="animations">
+                    <U>
+                      <E n="target">Actor</E>
+                      <U n="animation">
+                        <T n="factory">11830</T>
+                      </U>
+                    </U>
+                    <U>
+                      <E n="target">TargetSim</E>
+                      <U n="animation">
+                        <T n="factory">11825</T>
+                      </U>
+                    </U>
+                  </L>
+                </U>
+              </V>
+            </V>
+          </U>
+          <U n="weight">
+            <T n="base_value">2</T>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <V n="animation_ref" t="enabled">
+              <U n="enabled">
+                <T n="factory">76359</T>
+                <U n="overrides">
+                  <V n="balloons" t="enabled">
+                    <L n="enabled">
+                      <U>
+                        <L n="balloon_choices">
+                          <U>
+                            <V n="item" t="balloon_category">
+                              <T n="balloon_category">12286</T>
+                            </V>
+                          </U>
+                        </L>
+                        <L n="balloon_target">
+                          <E>Actor</E>
+                        </L>
+                      </U>
+                    </L>
+                  </V>
+                </U>
+              </U>
+            </V>
+            <L n="loot_list">
+              <T>11042</T>
+              <T>26264</T>
+              <T>11029</T>
+              <T>102790</T>
+            </L>
+            <E n="outcome_result">FAILURE</E>
+            <V n="response" t="enabled">
+              <V n="enabled" t="individual">
+                <U n="individual">
+                  <L n="animations">
+                    <U>
+                      <E n="target">Actor</E>
+                      <U n="animation">
+                        <T n="factory">11815</T>
+                      </U>
+                    </U>
+                    <U>
+                      <E n="target">TargetSim</E>
+                      <U n="animation">
+                        <T n="factory">11807</T>
+                      </U>
+                    </U>
+                  </L>
+                </U>
+              </V>
+            </V>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">76358</T>
+                    <U n="overrides">
+                      <V n="balloons" t="enabled">
+                        <L n="enabled">
+                          <U>
+                            <L n="balloon_choices">
+                              <U>
+                                <V n="item" t="balloon_category">
+                                  <T n="balloon_category">38698</T>
+                                </V>
+                              </U>
+                            </L>
+                            <L n="balloon_target">
+                              <E>Actor</E>
+                            </L>
+                          </U>
+                        </L>
+                      </V>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>11029</T>
+                  <T>26262</T>
+                  <T>11036</T>
+                  <T>102790</T>
+                </L>
+                <V n="response" t="enabled">
+                  <V n="enabled" t="individual">
+                    <U n="individual">
+                      <L n="animations">
+                        <U>
+                          <E n="target">Actor</E>
+                          <U n="animation">
+                            <T n="factory">11830</T>
+                          </U>
+                        </U>
+                        <U>
+                          <E n="target">TargetSim</E>
+                          <U n="animation">
+                            <T n="factory">11825</T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+              </U>
+              <U n="weight">
+                <T n="base_value">5</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="test_based_score_threshold">
+                <U n="test_based_score_threshold">
+                  <T n="test_based_score">24570</T>
+                  <U n="threshold">
+                    <T n="value">8</T>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="posture_preferences">
+    <T n="apply_penalties">False</T>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <U n="skill_loot_data">
+    <V t="enabled" n="level_range">
+      <U n="enabled">
+        <T n="lower_bound">1</T>
+        <T n="upper_bound">10</T>
+      </U>
+    </V>
+    <T n="stat">16699</T>
+  </U>
+  <L n="social_context_preference">
+    <U>
+      <T n="key">111600</T>
+    </U>
+    <U>
+      <T n="key">111601</T>
+    </U>
+    <U>
+      <T n="key">111602</T>
+    </U>
+    <U>
+      <T n="key">24032</T>
+    </U>
+    <U>
+      <T n="key">24076</T>
+    </U>
+    <U>
+      <T n="key">24077</T>
+    </U>
+    <U>
+      <T n="key">24078</T>
+    </U>
+    <U>
+      <T n="key">24079</T>
+    </U>
+    <U>
+      <T n="key">24080</T>
+    </U>
+    <U>
+      <T n="key">24081</T>
+    </U>
+    <U>
+      <T n="key">24082</T>
+    </U>
+    <U>
+      <T n="key">24083</T>
+    </U>
+    <U>
+      <T n="key">24085</T>
+    </U>
+    <U>
+      <T n="key">24086</T>
+    </U>
+    <U>
+      <T n="key">24087</T>
+    </U>
+    <U>
+      <T n="key">24088</T>
+    </U>
+    <U>
+      <T n="key">24089</T>
+    </U>
+    <U>
+      <T n="key">24090</T>
+    </U>
+  </L>
+  <U n="sub_action">
+    <T n="base_weight">2</T>
+  </U>
+  <E n="target_type">TARGET</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>9602</T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>120201</T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>120201</T>
+          </L>
+          <E n="subject">TargetSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>99711</T>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="relationship">
+      <U n="relationship">
+        <U n="prohibited_relationship_bits">
+          <L n="match_all">
+            <T>15803</T>
+          </L>
+        </U>
+        <L n="target_sim">
+          <E>Listeners</E>
+        </L>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">100187</T>
+    </V>
+    <V t="user_running_interaction">
+      <U n="user_running_interaction">
+        <L n="affordances">
+          <T>106223</T>
+        </L>
+        <E n="participant">Actor</E>
+        <T n="test_for_not_running">True</T>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">116449</T>
+    </V>
+  </L>
+  <T n="visible">True</T>
+</I>

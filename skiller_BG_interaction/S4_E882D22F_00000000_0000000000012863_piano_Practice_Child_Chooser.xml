@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="piano_Practice_Child_Chooser" s="75875">
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">32434<!--StaticCommodity: staticCommodity_PlayMusicalInstrument--></T>
+    </U>
+  </L>
+  <L n="mood_preference">
+<U>
+<T n="key">14632</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14633</T>
+<T n="value">150</T>
+</U>
+<U>
+<T n="key">14634</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14635</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14636</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14637</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14638</T>
+<T n="value">-200</T>
+</U>
+<U>
+<T n="key">14639</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14640</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14641</T>
+<T n="value">200</T>
+</U>
+<U>
+<T n="key">14642</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14643</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14644</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14645</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14646</T>
+<T n="value">-100</T>
+</U>
+</L>
+  <T n="attention_cost">1</T>
+  <V t="one_shot" n="basic_content" />
+  <V t="enabled" n="canonical_animation">
+    <U n="enabled">
+      <T n="factory">11708<!--AnimationElement: Piano_Practice_Chords--></T>
+    </U>
+  </V>
+  <T n="display_name">0xC1024C4C<!--String: "Practice"--></T>
+  <V t="testable" n="display_name_overrides">
+    <U n="testable">
+      <L n="overrides">
+        <U>
+          <T n="new_display_name">0x947A069B<!--String: "Practice"--></T>
+          <V n="new_display_tooltip" t="enabled">
+            <T n="enabled">0x43D3781D<!--String: "Being Inspired improves piano playing!"--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14641<!--Mood: Mood_Inspired--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Skill_Piano</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <L n="mood_list">
+    <T>14641<!--Mood: Mood_Inspired--></T>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="continuation">
+              <U>
+                <T n="affordance">37969<!--PlayAudioSuperInteractionNonTieredMenu: piano_Practice_Child--></T>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="continuation">
+              <U>
+                <T n="affordance">75872<!--PlayAudioSuperInteractionNonTieredMenu: piano_Practice_Child_Scales--></T>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+      <T n="use_fallback_as_default">True</T>
+    </U>
+  </V>
+  <T n="pie_menu_priority">5</T>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V t="literal" n="super_affordance_compatibility">
+    <U n="literal">
+      <V n="default_inclusion" t="exclude_all" />
+    </U>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <V t="enabled" n="test_disallow_while_running">
+    <U n="enabled">
+      <T n="test_self">True</T>
+    </U>
+  </V>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages">
+          <L n="specified">
+            <E>CHILD</E>
+          </L>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
+    </V>
+  </L>
+  <T n="time_overhead">60</T>
+</I>

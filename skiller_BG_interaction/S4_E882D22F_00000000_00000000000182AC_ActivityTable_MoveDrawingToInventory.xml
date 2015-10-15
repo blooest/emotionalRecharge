@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="ActivityTable_MoveDrawingToInventory" s="98988">
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="posture">
+        <U n="posture">
+          <L n="posture_manifest_tuning">
+            <U>
+              <V t="enabled" n="posture_type">
+                <T n="enabled">15535<!--Posture: posture_Sit--></T>
+              </V>
+            </U>
+          </L>
+          <L n="slot_manifest_tuning">
+            <U>
+              <T n="slot">slot_ActivityTablePainting</T>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <E n="_constraints_actor">ObjectParent</E>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="_false_advertisements">
+    <V t="statistic_change">
+      <U n="statistic_change">
+        <T n="amount">1</T>
+        <T n="stat">28630<!--Commodity: commodity_Trait_Autonomy_Creative--></T>
+      </U>
+    </V>
+    <V t="statistic_change">
+      <U n="statistic_change">
+        <T n="amount">1</T>
+        <U n="chance">
+          <T n="base_chance">100</T>
+        </U>
+        <T n="stat">16655<!--Commodity: motive_Fun--></T>
+      </U>
+    </V>
+  </L>
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">16432<!--StaticCommodity: StaticCommodity_PlayWithToys--></T>
+    </U>
+  </L>
+  <T n="allow_autonomous">True</T>
+  <T n="allow_forward">True</T>
+  <T n="attention_cost">0.25</T>
+  <V t="one_shot" n="basic_content">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">11161<!--AnimationElement: ActivityTable_Draw_RemoveCraft--></T>
+      </U>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="send_to_inventory" />
+  </L>
+  <T n="display_name">0x56B9A604<!--String: "Put in Inventory"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+    <E>Interaction_Clean</E>
+  </L>
+  <V t="enabled" n="route_start_balloon">
+    <U n="enabled">
+      <U n="balloon">
+        <L n="balloon_choices">
+          <U>
+            <V n="item" t="balloon_icon">
+              <U n="balloon_icon">
+                <V t="participant" n="icon">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </L>
+        <L n="balloon_target">
+          <E>Actor</E>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <V t="enabled" n="test_disallow_while_running">
+    <U n="enabled">
+      <L n="affordances">
+        <T>12985<!--CraftingPhaseCreateObjectInSlotSuperInteraction: activityTable_CreatePicture--></T>
+        <T>12984<!--CraftingPhaseStagingSuperInteraction: activityTable_CraftPicture_Staging--></T>
+        <T>10147<!--CraftingPhaseStagingSuperInteraction: activityTable_Craft_to_Sim--></T>
+        <T>12992<!--StartCraftingSuperInteraction: activityTable_StartCraftPicture--></T>
+      </L>
+      <T n="test_self">True</T>
+    </U>
+  </V>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages">
+          <L n="specified">
+            <E>CHILD</E>
+          </L>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="state">
+        <U n="state">
+          <E n="operator">EQUAL</E>
+          <T n="value">30905<!--ObjectStateValue: CraftingResumeability_CanResume--></T>
+        </U>
+      </V>
+    </L>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="Buff_Near_Romance" s="32813">
+  <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_name">0xEFD78D9D</T>
+  <T p="InGame\UI\Icons\Debug\missing_image.png" n="icon">2f7d0004:00000000:30f0846c783606f9</T>
+  <T p="InGame\UI\Icons\Debug\missing_image.png" n="icon_highlight">2f7d0004:00000000:30f0846c783606f9</T>
+  <V n="proximity_detection_tests" t="proximity_tests">
+    <L n="proximity_tests">
+      <L>
+        <V t="relationship">
+          <U n="relationship">
+            <U n="prohibited_relationship_bits">
+              <L n="match_any">
+                <T>15825</T>
+                <T>15822</T>
+              </L>
+            </U>
+            <U n="relationship_score_interval">
+              <T n="lower_bound">15</T>
+            </U>
+            <T n="track">16651</T>
+          </U>
+        </V>
+      </L>
+    </L>
+  </V>
+  <U n="game_effect_modifiers">
+<L n="game_effect_modifiers">
+<V t="affordance_modifier">
+<U n="affordance_modifier">
+<L n="affordance_lists"/>
+<T n="content_score_bonus">80</T>
+<L n="interaction_category_tags">
+<E>Interaction_Kiss</E>
+<E>Social_Flirty</E>
+<E>Social_Woohoo</E>
+</L>
+</U>
+</V>
+</L>
+</U>
+  <T n="show_timeout">False</T>
+  <T n="visible">False</T>
+</I>

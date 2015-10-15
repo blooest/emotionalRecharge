@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="bed_Autonomous_DoubleBed_Nap" s="100071">
+  <T n="_affordance_key_override_for_autonomy">bed_nap</T>
+  <L n="_false_advertisements">
+    <V t="statistic_change">
+      <U n="statistic_change">
+        <T n="amount">0.25</T>
+        <T n="stat">16654<!--Commodity: motive_Energy--></T>
+      </U>
+    </V>
+  </L>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">106217<!--StaticCommodity: staticCommodity_SimRay_MindControl_Sleep--></T>
+    </U>
+  </L>
+  <T n="allow_user_directed">False</T>
+  <L n="appropriateness_tags">
+    <E>Appropriateness_Sleeping</E>
+  </L>
+  <T n="attention_cost">0.5</T>
+  <V t="enabled" n="autonomy_preference">
+    <V n="enabled" t="use_preference">
+      <U n="use_preference">
+        <U n="preference">
+          <E n="tag">BED</E>
+        </U>
+      </U>
+    </V>
+  </V>
+  <V t="one_shot" n="basic_content" />
+  <V t="disabled" n="basic_reserve_object" />
+  <V t="enabled" n="canonical_animation">
+    <U n="enabled">
+      <T n="factory">11278<!--AnimationElement: Bed_Nap_InteractionIdle_Idle--></T>
+    </U>
+  </V>
+  <T n="disable_transitions">True</T>
+  <T n="display_name">0x713F179<!--String: "Nap"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <L n="object_reservation_tests">
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">39304<!--TestSetInstance: testSet_ShareBed--></T>
+      </V>
+    </L>
+  </L>
+  <V t="single" n="outcome">
+    <U n="single">
+      <U n="actions">
+        <L n="continuation">
+          <U>
+            <T n="affordance">13091<!--SuperInteraction: bed_Nap--></T>
+          </U>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V t="literal" n="super_affordance_compatibility">
+    <U n="literal">
+      <V n="default_inclusion" t="include_all">
+        <U n="include_all">
+          <L n="exclude_affordances">
+            <T>13433<!--SuperInteraction: generic_consume_food--></T>
+            <T>75561<!--SuperInteraction: generic_consume_foodBall--></T>
+            <T>37313<!--SuperInteraction: rummaged_consume_food--></T>
+          </L>
+        </U>
+      </V>
+    </U>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>10362<!--Buff: buff_Nap--></T>
+            <T>28980<!--Buff: Buff_Trait_Lazy_Nap--></T>
+            <T>10367<!--Buff: buff_Bed_Nap_Sloshed--></T>
+          </L>
+        </U>
+      </V>
+      <V t="appropriateness" />
+      <V t="motive">
+        <U n="motive">
+          <L n="stats">
+            <T>16654<!--Commodity: motive_Energy--></T>
+          </L>
+          <U n="threshold">
+            <E n="comparison">LESS_OR_EQUAL</E>
+            <T n="value">0</T>
+          </U>
+        </U>
+      </V>
+    </L>
+    <L> <!-- Because if I want you to sleep, I want you to sleep, you fucks -->
+      <V t="buff">
+        <U n="buff">
+		  <V t="enabled" n="whitelist">
+			<L n="enabled">
+				<T>106219<!--Buff: buff_SimRay_MindControl_Sleep--></T>
+			</L>
+		  </V>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">120</T>
+  <T n="visible">True</T>
+</I>

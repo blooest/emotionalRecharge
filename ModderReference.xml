@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Reference><!--Putting this file in XML format because I can read it quickly, and NP++ supports collapsing the groups. You kinda need to be able to read XML to help me anyways...-->
+	<Interaction_Tags><!--Because we can push by tag, tagging interactions appropriately is important. They're mostly self-explanatory-->
+		<Emotions><!--What buffs associated with a particular emotion should push-->
+			<L n="FLIRTY">
+				<E>Social_Flirty</E><!--PTME-->
+				<E>Interaction_Kiss</E><!--PTME-->
+				<E>Social_Woohoo</E><!--PTME. This is used on the actual woohoo interaction and not the socials that trigger it; adding it to them would muck with the game in undesirable ways. Thus, pushing this does nothing.-->
+			</L>
+			<L n="ANGRY">
+				<E>Interaction_Mean</E><!--PTME-->
+				<E>Interaction_Mischievous</E><!--PTME-->
+				<E>Interaction_Prank</E><!--PTME-->
+			</L>
+			<L n="PLAYFUL">
+				<E>Interaction_Skill_Mischief</E><!--Use sparingly. Only pushes sims towards TrollTehForums and that's not a good constant-->
+				<E>Interaction_Funny</E><!--PTME-->
+				<E>Interaction_Jokes</E><!--PTME-->
+				<E>Interaction_Mischievous</E><!--PTME-->
+			</L>
+			<L n="INSPIRED">
+				<E>Interaction_Skill_Painting</E>
+				<E>Interaction_Skill_Violin</E>
+				<E>Interaction_Skill_Guitar</E>
+				<E>Interaction_Skill_Piano</E>
+				<E>Interaction_Skill_Handiness</E><!--Woodworking-->
+				<E>Interaction_Skill_Child_Creativity</E>
+				<E>Interaction_Skill_Writing</E>
+				<E>Interaction_Skill_Bartending</E>
+				<E>Interaction_Skill_HomestyleCooking</E>
+				<E>Interaction_Skill_GourmetCooking</E>
+				<E>Interaction_Skill_Photography</E><!--No autonomy enabled at present-->
+				<E>Interaction_PlayInstrument</E>
+			</L>
+			<L n="FOCUSED">
+				<E>Interaction_Skill_Logic</E>
+				<E>Interaction_Skill_Child_Mental</E>
+				<E>Interaction_Skill_Programming</E>
+				<E>Interaction_Skill_RocketScience</E>
+				<E>Interaction_Skill_Fishing</E>
+				<E>Interaction_Skill_Gardening</E>
+				<E>Interaction_Skill_Wellness</E>
+				<E>Interaction_Skill_VideoGaming</E><!--Promoting this in the buffs/etc is highly unnecessary, as they game too much anyway. But it is technically considered a Focused skill. Don't ask me.-->
+				<E>Interaction_Repair</E>
+				<E>Interaction_Upgrade</E>
+				<E>Interaction_Telescope</E>
+				<E>Interaction_Hack</E>
+				<E>Interaction_Programming</E>
+			</L>
+			<L n="CONFIDENT">
+				<E>Interaction_Skill_Charisma</E>
+				<E>Interaction_Skill_Child_Social</E>
+			</L>
+			<L n="ENERGIZED">
+				<E>Interaction_Skill_Fitness</E>
+				<E>Interaction_Skill_Child_Motor</E>
+				<E>Interaction_Workout</E>
+			</L>
+			<L n="MISCELLANEOUS"><!--Tags to be used incidentally as the situation suggests-->
+				<E>Computer_BrowseResearch</E><!--Use sparingly. Useful to escape HAPPY-->
+				<E>Interaction_Chat</E><!--Should hopefully push socialability.-->
+			</L>
+		</Emotions>
+		<Tag_List><!--From the tuning file, any tag that has to do with interactions.-->
+			<T ev="340">Social_Flirty</T>
+			<T ev="342">Interaction_Chat</T>
+			<T ev="350">Interaction_Kiss</T>
+			<T ev="353">Interaction_Treadmill</T>
+			<T ev="354">Interaction_WorkoutMachine</T>
+			<T ev="358">Interaction_Cook</T>
+			<T ev="364">Social_Woohoo</T><!--As I said. Woohoo interaction, not woohoo socials. Bit confusing there, Maxis.-->
+			<T ev="394">Interaction_Consume</T>
+			<T ev="396">Interaction_UseToilet</T>
+			<T ev="417">Interaction_InviteToStay</T>
+			<T ev="419">Interaction_LeaveMustRun</T>
+			<T ev="420">Interaction_Leave</T>
+			<T ev="425">Interaction_Death</T>
+			<T ev="426">Interaction_Voodoo</T>
+			<T ev="427">Interaction_Showoff</T>
+			<T ev="431">Interaction_Friendly</T>
+			<T ev="432">Interaction_Funny</T>
+			<T ev="433">Interaction_Mean</T>
+			<T ev="434">Interaction_Mischievous</T>
+			<T ev="435">Interaction_Hack</T>
+			<T ev="436">Interaction_Telescope</T>
+			<T ev="437">Interaction_Rocketship_Upgrade</T>
+			<T ev="438">Interaction_Rocketship_Launch</T>
+			<T ev="439">Interaction_Computer</T>
+			<T ev="449">Interaction_VisitLot</T>
+			<T ev="450">Interaction_WatchTV</T>
+			<T ev="451">Interaction_Sleep</T>
+			<T ev="452">Interaction_TryForBaby</T>
+			<T ev="453">Interaction_Greeting</T>
+			<T ev="454">Interaction_SocialSuper</T>
+			<T ev="455">Interaction_Mentor</T>
+			<T ev="460">Interaction_Super</T><!--Anything that involves objects.-->
+			<T ev="461">Interaction_Mixer</T><!--Sub-actions.-->
+			<T ev="462">Interaction_All</T>
+			<T ev="463">Interaction_Workout</T>
+			<T ev="464">Interaction_Repair</T>
+			<T ev="465">Interaction_Rocket</T>
+			<T ev="466">Interaction_TellStory</T>
+			<T ev="469">Interaction_PerformComedyRoutine</T>
+			<T ev="583">Interaction_Prank</T>
+			<T ev="591">Interaction_Nap</T>
+			<T ev="606">Interaction_PlayInstrumentOrComedyForTips</T>
+			<T ev="638">Interaction_StereoListen</T>
+			<T ev="639">Interaction_InstrumentListen</T>
+			<T ev="640">Interaction_PlayGame</T>
+			<T ev="654">Interaction_Drink</T>
+			<T ev="655">Interaction_VideoGameMoney</T>
+			<T ev="658">Interaction_Upgrade</T>
+			<T ev="660">Interaction_PublishBook</T>
+			<T ev="661">Interaction_SellArt</T>
+			<T ev="665">Interaction_WriteArticle</T>
+			<T ev="683">Interaction_MakeApp</T>
+			<T ev="685">Interaction_PlayVideoGames</T>
+			<T ev="686">Social_BlackAndWhite</T><!--Party hard-->
+			<T ev="687">Social_CostumeParty</T><!--Party hard-->
+			<T ev="689">Interaction_AskToLeaveLot</T>
+			<T ev="690">Interaction_PlayPiano</T>
+			<T ev="692">Interaction_PracticeWriting</T>
+			<T ev="693">Interaction_PracticeCoding</T>
+			<T ev="694">Interaction_Paint</T>
+			<T ev="695">Interaction_MentorMusic</T>
+			<T ev="696">Interaction_WriteJokes</T>
+			<T ev="746">Interaction_IntelligenceResearch</T>
+			<T ev="749">Interaction_Tournament</T>
+			<T ev="750">Interaction_Charity</T>
+			<T ev="751">Interaction_Programming</T>
+			<T ev="752">Interaction_PrankObject</T>
+			<T ev="757">Interaction_BrowseResearch</T>
+			<T ev="758">Interaction_ViewArt</T>
+			<T ev="781">Interaction_Clean</T>
+			<T ev="863">Interaction_BeReadTo</T>
+			<T ev="871">Interaction_Joke</T>
+			<T ev="876">Interaction_StereoDance</T>
+			<T ev="926">Interaction_GoJogging</T>
+			<T ev="931">Interaction_ReadtoChild</T>
+			<T ev="1024">Interaction_PlayGuitarForTips</T>
+			<T ev="1025">Interaction_PlayPianoforTips</T>
+			<T ev="1026">Interaction_PlayViolinForTips</T>
+			<T ev="1028">Interaction_MakeCoffeeOrTea</T>
+			<T ev="1171">Interaction_WorkoutPushTheLimits</T>
+			<T ev="1309">Interaction_Collect</T>
+			<T ev="1339">Interaction_PlayToy</T>
+			<T ev="1367">Interaction_Computer_Typing</T>
+			<T ev="1372">Interaction_PaintByReference</T>
+			<T ev="1436">Interaction_PhotoStudio_Left_Slot</T>
+			<T ev="1437">Interaction_PhotoStudio_Right_Slot</T>
+			<T ev="1447">Interaction_Shower</T>
+			<T ev="10244">Social_WeenieRoast</T><!--Party hard-->
+			<T ev="10248">Interaction_TransferFireleafRash</T>
+			<T ev="10261">Interaction_Tent_Sleep</T>
+			<T ev="10262">Interaction_Campfire</T>
+			<T ev="12337">Interaction_Doctor_TreatPatient</T>
+			<T ev="12346">Interaction_PhotoStudio_TakePicture</T>
+			<T ev="12368">Interaction_InventionConstructor_Upgrade</T>
+			<T ev="18439">Interaction_MassageTable</T>
+			<T ev="18461">Interaction_YogaClassMember</T>
+			<!--SKILLS-->
+			<T ev="834">Interaction_Skill_Gardening</T>
+			<T ev="835">Interaction_Skill_Bartending</T>
+			<T ev="836">Interaction_Skill_Fitness</T>
+			<T ev="837">Interaction_Skill_Charisma</T>
+			<T ev="838">Interaction_Skill_Comedy</T>
+			<T ev="839">Interaction_Skill_Fishing</T>
+			<T ev="840">Interaction_Skill_GourmetCooking</T>
+			<T ev="841">Interaction_Skill_Guitar</T>
+			<T ev="842">Interaction_Skill_Handiness</T>
+			<T ev="843">Interaction_Skill_HomestyleCooking</T>
+			<T ev="844">Interaction_Skill_Logic</T>
+			<T ev="845">Interaction_Skill_Mischief</T>
+			<T ev="846">Interaction_Skill_Painting</T>
+			<T ev="847">Interaction_Skill_Piano</T>
+			<T ev="848">Interaction_Skill_Programming</T>
+			<T ev="849">Interaction_Skill_RocketScience</T>
+			<T ev="850">Interaction_Skill_VideoGaming</T>
+			<T ev="851">Interaction_Skill_Violin</T>
+			<T ev="852">Interaction_Skill_Writing</T>
+			<T ev="853">Interaction_Skill_Child_Creativity</T>
+			<T ev="854">Interaction_Skill_Child_Mental</T>
+			<T ev="855">Interaction_Skill_Child_Motor</T>
+			<T ev="856">Interaction_Skill_Child_Social</T>
+			<T ev="12289">Interaction_Skill_Photography</T>
+			<T ev="18465">Interaction_Skill_Wellness</T>
+		</Tag_List>
+	</Interaction_Tags>
+	<Trait_References>
+		<Info>
+			Avoid pushing entire groups of interactions to certain traits. Add a push to the tag to their emotional hidden buff instead.
+			Add trait preferences when the interaction itself makes sense, not its grouping.
+			Example: Bookworms should like to talk about books. That doesn't have a tag to push from the trait side.
+			Counter-example: Don't push everything Social_Flirty to Romantics. That's already done by Buff_Trait_Romantic.
+		</Info>
+		<BG>
+			<T n="key">34316<!--Trait: trait_child--></T>
+			<T n="key">34317<!--Trait: trait_teen--></T>
+			<T n="key">34318<!--Trait: trait_youngAdult--></T>
+			<T n="key">34319<!--Trait: trait_adult--></T>
+			<T n="key">34320<!--Trait: trait_elder--></T>
+			<!--Personality-->
+			<T n="key">16823<!--Trait: trait_Ambitious--></T>
+			<T n="key">16824<!--Trait: trait_SelfAssured--></T>
+			<T n="key">16826<!--Trait: trait_Bro--></T>
+			<T n="key">16830<!--Trait: trait_Childish--></T>
+			<T n="key">16832<!--Trait: trait_Clumsy--></T>
+			<T n="key">16833<!--Trait: trait_CommitmentIssues--></T>
+			<T n="key">16836<!--Trait: trait_Evil--></T>
+			<T n="key">16838<!--Trait: trait_FamilyOriented--></T>
+			<T n="key">16841<!--Trait: trait_Geek--></T>
+			<T n="key">16843<!--Trait: trait_Glutton--></T>
+			<T n="key">16844<!--Trait: trait_HatesChildren--></T>
+			<T n="key">16845<!--Trait: trait_HotHeaded--></T>
+			<T n="key">16848<!--Trait: trait_Insane--></T>
+			<T n="key">16850<!--Trait: trait_Creative--></T>
+			<T n="key">16857<!--Trait: trait_Mean--></T>
+			<T n="key">16858<!--Trait: trait_Neat--></T>
+			<T n="key">16860<!--Trait: trait_Slob--></T>
+			<T n="key">27176<!--Trait: trait_Foodie--></T>
+			<T n="key">27419<!--Trait: trait_active--></T>
+			<T n="key">27454<!--Trait: Trait_Romantic--></T>
+			<T n="key">27913<!--Trait: trait_Materialistic--></T>
+			<T n="key">27914<!--Trait: trait_LovesOutdoors--></T>
+			<T n="key">27915<!--Trait: trait_Good--></T>
+			<T n="key">27916<!--Trait: trait_Bookworm--></T>
+			<T n="key">27917<!--Trait: trait_Genius--></T>
+			<T n="key">27918<!--Trait: trait_ArtLover--></T>
+			<T n="key">29571<!--Trait: trait_Outgoing--></T>
+			<T n="key">9322<!--Trait: trait_Cheerful--></T>
+			<T n="key">9332<!--Trait: trait_Gloomy--></T>
+			<T n="key">9337<!--Trait: trait_Goofball--></T>
+			<T n="key">9599<!--Trait: trait_Lazy--></T>
+			<T n="key">9602<!--Trait: trait_Loner--></T>
+			<T n="key">9604<!--Trait: trait_MusicLover--></T>
+			<T n="key">9617<!--Trait: trait_Perfectionist--></T>
+			<T n="key">9620<!--Trait: trait_Snob--></T>
+		</BG>
+		<Custom>
+			<T n="key">17253404250630617284<!--Trait: DrewShivers_Custom_Metalhead_Trait_Metalhead--></T>
+			<T n="key">15933216595270217960<!--Trait: Onion_Drama_Queen_Trait_Trait_Drama_Queen--></T>
+			<!--Head in the gutter...-->
+			<T n="key">10539292833124106882<!--Trait: Darkening_Demise_customtraitslut_Trait_Slut--></T>
+			<!--Especially so...-->
+			<T n="key">15278263270432539586<!--Trait: Darkening_Demise_customtraithorny_Trait_Horny--></T>
+			<T n="key">11243089899698813249<!--Trait: Darkening_Demise_Nymphomaniac_Trait_Nymphomaniac--></T>
+			<T n="key">14185198164085893725<!--Trait: Darkening_Demise_customtraitquickygetter_Trait_Quicky_Getter--></T>
+		</Custom>
+	</Trait_References>
+</Reference>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="CreateCarriedObjectSuperInteraction" i="interaction" m="interactions.base.create_object_interaction" n="microphone_PracticeRoutine" s="30175">
+  <V t="reference" n="_animation_actor_map">
+    <T n="reference">104044<!--AnimationActorMap: CreateAndPickupObject--></T>
+  </V>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="mood_preference">
+    <U>
+      <T n="key">14632</T>
+<T n="value">-100</T>
+    </U>
+    <U>
+      <T n="key">14633</T>
+<T n="value">-80</T>
+    </U>
+    <U>
+      <T n="key">14634</T>
+<T n="value">60</T>
+    </U>
+    <U>
+      <T n="key">14635</T>
+<T n="value">0</T>
+    </U>
+    <U>
+      <T n="key">14636</T>
+<T n="value">40</T>
+    </U>
+    <U>
+      <T n="key">14637</T>
+<T n="value">60</T>
+    </U>
+    <U>
+      <T n="key">14638</T>
+<T n="value">20</T>
+    </U>
+    <U>
+      <T n="key">14639</T>
+<T n="value">40</T>
+    </U>
+    <U>
+      <T n="key">14640</T>
+<T n="value">80</T>
+    </U>
+    <U>
+      <T n="key">14641</T>
+<T n="value">40</T>
+    </U>
+    <U>
+      <T n="key">14642</T>
+<T n="value">100</T>
+    </U>
+    <U>
+      <T n="key">14643</T>
+<T n="value">-80</T>
+    </U>
+    <U>
+      <T n="key">14644</T>
+<T n="value">-20</T>
+    </U>
+    <U>
+      <T n="key">14645</T>
+      <T n="value">0</T>
+    </U>
+    <U>
+      <T n="key">14646</T>
+<T n="value">-60</T>
+    </U>
+  </L>
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">32435<!--StaticCommodity: staticCommodity_PerformMicrophoneStandup--></T>
+    </U>
+  </L>
+  <T n="attention_cost">0.5</T>
+  <V t="one_shot" n="basic_content">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">11604<!--AnimationElement: Mic_PickUp_PutDown_PickUpMic--></T>
+      </U>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="state_change">
+      <U n="state_change">
+        <V n="new_value" t="single_value">
+          <U n="single_value">
+            <T n="new_value">30694<!--ObjectStateValue: MicrophoneStand_MicDetached--></T>
+          </U>
+        </V>
+        <V n="timing" t="on_xevt">
+          <U n="on_xevt">
+            <E n="criticality">OnCancel</E>
+            <T n="xevt_id">700</T>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <V t="enabled" n="basic_reserve_object" />
+  <L n="cancel_replacement_affordances">
+    <U>
+      <E n="key">CARRY</E>
+      <U n="value">
+        <T n="affordance">13580<!--SuperInteraction: microphone_PutBack--></T>
+        <V t="enabled" n="target" />
+      </U>
+    </U>
+  </L>
+  <T n="definition">4099</T>
+  <T n="display_name">0x90D06E5D<!--String: "Practice a Comedy Routine"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Skill_Comedy</E>
+    <E>Interaction_Funny</E>
+	<E>Interaction_Jokes</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="continuation">
+          <U>
+            <T n="affordance">30176<!--SocialSuperInteraction: microphone_PracticeRoutine_SocialGroup--></T>
+            <V t="enabled" n="carry_target">
+              <E n="enabled">CarriedObject</E>
+            </V>
+          </U>
+        </L>
+        <L n="loot_list">
+          <T>31626<!--LootActions: Loot_StartComedyRoutine--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <V t="enabled" n="test_disallow_while_running">
+    <U n="enabled">
+      <L n="affordances">
+        <T>13580<!--SuperInteraction: microphone_PutBack--></T>
+      </L>
+      <T n="test_self">True</T>
+    </U>
+  </V>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V t="has_object_with_tag" n="contents_check">
+            <U n="has_object_with_tag">
+              <L n="tag_set">
+                <E>Func_ComedyRoutine</E>
+              </L>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="skill_test">
+        <U n="skill_test">
+          <T n="skill">16698<!--Skill: statistic_Skill_AdultMajor_Comedy--></T>
+          <V t="interval" n="skill_range">
+            <U n="interval">
+              <U n="skill_interval">
+                <T n="lower_bound">5</T>
+              </U>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

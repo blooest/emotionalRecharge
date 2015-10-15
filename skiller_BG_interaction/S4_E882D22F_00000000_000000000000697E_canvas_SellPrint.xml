@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="canvas_SellPrint" s="27006">
+  <L n="_false_advertisements">
+    <V t="statistic_set_max">
+      <U n="statistic_set_max">
+        <T n="stat">28563<!--Commodity: commodity_Trait_Autonomy_ArtLover--></T>
+      </U>
+    </V>
+    <V t="statistic_set_max">
+      <U n="statistic_set_max">
+        <T n="stat">28630<!--Commodity: commodity_Trait_Autonomy_Creative--></T>
+      </U>
+    </V>
+	<V t="statistic_set_max">
+	  <U n="statistic_set_max">
+		<T n="stat">16467<!--Commodity: commodity_Emotion_Autonomy_Inspired--></T>
+	  </U>
+	</V>
+    <V t="statistic_set_max">
+      <U n="statistic_set_max">
+        <T n="stat">77336<!--Commodity: commodity_Trait_Autonomy_Ambitious--></T>
+      </U>
+    </V>
+  </L>
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="cone">
+        <U n="cone">
+          <T n="angle">135</T>
+          <T n="ideal_radius_max">0.8</T>
+          <T n="ideal_radius_min">0.2</T>
+          <T n="max_radius">2</T>
+          <T n="min_radius">0</T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V t="facing" n="constraint" />
+    </U>
+  </L>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <T n="allow_autonomous">True</T>
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">28350<!--StaticCommodity: StaticCommodity_Paint--></T>
+    </U>
+	<U>
+      <T n="static_commodity">3392579<!--GetToCollege--></T>
+    </U>
+  </L>
+  <T n="base_score">-50</T>
+  <T n="attention_cost">0.5</T>
+  <V t="one_shot" n="basic_content">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">23926<!--AnimationElement: Generic_PickUp--></T>
+      </U>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="destroy_object">
+      <U n="destroy_object">
+        <V t="enabled" n="award_value">
+          <U n="enabled">
+            <T n="multiplier">1</T>
+          </U>
+        </V>
+        <E n="objects_to_destroy">Object</E>
+        <V t="at_end" n="timing" />
+      </U>
+    </V>
+  </L>
+  <T n="display_name">0xBABDB151<!--String: "Sell to Collector"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Skill_Painting</E>
+    <E>Interaction_SellArt</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <T n="pie_menu_priority">1</T>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_autonomous">
+    <L>
+	  <V t="location">
+		<U n="location">
+		  <U n="location_tests">
+			<V n="is_in_slot" t="enabled">
+			  <U n="enabled">
+			    <T n="require_slotted">True</T>
+				<V n="slot_type" t="enabled">
+				  <T n="enabled">objectSet_Canvas</T>
+				</V>
+			  </U>
+			</V>
+		  </U>
+		  <E n="subject">Object</E>
+		</U>
+	  </V>
+    </L>
+  </L>  
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="simoleon_value">
+      <U n="simoleon_value">
+        <E n="context">CURRENT_VALUE</E>
+        <E n="subject">Object</E>
+        <U n="value_threshold">
+          <E n="comparison">NOTEQUAL</E>
+        </U>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">15247<!--ObjectStateValue: Masterwork_Masterwork--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <T n="value">15267<!--CommodityBasedObjectStateValue: PaintingProgress_Complete--></T>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="object_ownership">
+        <U n="object_ownership">
+          <T n="test_household_owner">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="lot_owner" />
+    </L>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

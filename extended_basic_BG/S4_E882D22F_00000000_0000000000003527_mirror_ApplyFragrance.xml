@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="mirror_ApplyFragrance" s="13607">
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="cone">
+        <U n="cone">
+          <T n="angle">20</T>
+          <T n="ideal_radius_max">1</T>
+          <T n="ideal_radius_min">0.5</T>
+          <T n="max_radius">2</T>
+          <T n="min_radius">0.7</T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="constraint" t="facing">
+        <U n="facing">
+          <T n="inner_radius">0.1</T>
+          <T n="range">30</T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="constraint" t="line_of_sight" />
+    </U>
+  </L>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="_static_commodities" />
+  <T n="allow_autonomous">True</T>
+  <T n="attention_cost">0.75</T>
+  <V t="one_shot" n="basic_content" />
+  <V t="tunable_focus" n="basic_focus" />
+  <V t="enabled" n="basic_reserve_object" />
+  <T n="display_name">0xD4908C53<!--String: "Apply Fragrance"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="force_exit_on_inertia">False</T>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="dual">
+    <U n="dual">
+      <U n="failure_actions">
+        <V n="animation_ref" t="enabled">
+          <U n="enabled">
+            <T n="factory">12027<!--AnimationElement: Soc_Romance_NT_SprayCologne_Fail_basic--></T>
+          </U>
+        </V>
+        <L n="loot_list">
+          <T>10792<!--LootActions: Loot_BodySpray--></T>
+        </L>
+      </U>
+      <U n="success_actions">
+        <V t="enabled" n="animation_ref">
+          <U n="enabled">
+            <T n="factory">12028<!--AnimationElement: Soc_Romance_NT_SprayCologne_Succeed_basic--></T>
+          </U>
+        </V>
+        <L n="loot_list">
+          <T>10792<!--LootActions: Loot_BodySpray--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <V t="enabled" n="route_start_balloon">
+    <U n="enabled">
+      <U n="balloon">
+        <L n="balloon_choices">
+          <U>
+            <V n="item" t="balloon_icon">
+              <U n="balloon_icon">
+                <V t="participant" n="icon">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </L>
+        <L n="balloon_target">
+          <E>Actor</E>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <U n="skill_loot_data">
+    <T n="stat">16699<!--Skill: statistic_Skill_AdultMajor_Charisma--></T>
+  </U>
+  <T n="subaction_selection_weight">3</T>
+  <V t="literal" n="super_affordance_compatibility">
+    <U n="literal">
+      <V n="default_inclusion" t="exclude_all" />
+    </U>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

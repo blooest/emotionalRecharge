@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SocialMixerInteraction" i="interaction" m="interactions.social.social_mixer_interaction" n="chess_practice" s="13152">
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>TargetSim</E>
+      </L>
+    </U>
+  </V>
+<L n="mood_preference">
+<U>
+<T n="key">14632</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14633</T>
+<T n="value">100</T>
+</U>
+<U>
+<T n="key">14634</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14635</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14636</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14637</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14638</T>
+<T n="value">-200</T>
+</U>
+<U>
+<T n="key">14639</T>
+<T n="value">200</T>
+</U>
+<U>
+<T n="key">14640</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14641</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14642</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14643</T>
+<T n="value">50</T>
+</U>
+<U>
+<T n="key">14644</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14645</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14646</T>
+<T n="value">-100</T>
+</U>
+</L>
+  <T n="allow_autonomous">True</T>
+  <T n="allow_user_directed">False</T>
+  <T n="base_score">1</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">11342<!--AnimationElement: Chess_Table_SingleplayerActions--></T>
+        <U n="overrides">
+          <V n="balloons" t="enabled">
+            <L n="enabled">
+              <U>
+                <T n="balloon_chance">25</T>
+                <L n="balloon_choices">
+                  <U>
+                    <V n="item" t="balloon_icon">
+                      <U n="balloon_icon">
+                        <V n="icon" t="resource_key">
+                          <U n="resource_key">
+                            <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_chesspawnblack.png">2f7d0004:00000000:e7a28f51aada82c3</T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                  <U>
+                    <V n="item" t="balloon_icon">
+                      <U n="balloon_icon">
+                        <V n="icon" t="resource_key">
+                          <U n="resource_key">
+                            <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_chesspawnwhite.png">2f7d0004:00000000:a0fce2bdd20a6ed9</T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                  <U>
+                    <V n="item" t="balloon_icon">
+                      <U n="balloon_icon">
+                        <V n="icon" t="resource_key">
+                          <U n="resource_key">
+                            <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_Geek.png">2f7d0004:00000000:a5fe1ed8bd1ea27c</T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                  <U>
+                    <V n="item" t="balloon_icon">
+                      <U n="balloon_icon">
+                        <V t="resource_key" n="icon">
+                          <U n="resource_key">
+                            <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_imaginative_v1.png">2f7d0004:00000000:9a104c73eef29666</T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                  <U>
+                    <V n="item" t="balloon_icon">
+                      <U n="balloon_icon">
+                        <V n="icon" t="resource_key">
+                          <U n="resource_key">
+                            <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_gears.png">2f7d0004:00000000:2d62d7495b01c1a8</T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                  <U>
+                    <V n="item" t="balloon_icon">
+                      <U n="balloon_icon">
+                        <V t="resource_key" n="icon">
+                          <U n="resource_key">
+                            <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_Curious.png">2f7d0004:00000000:74883bd1045f7136</T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                </L>
+                <L n="balloon_target">
+                  <E>Actor</E>
+                </L>
+              </U>
+            </L>
+          </V>
+        </U>
+      </U>
+    </U>
+  </V>
+  <T n="display_name">0x8774838A<!--String: "Practice Chess"--></T>
+  <T n="display_name_target">0x8C71C8F7<!--String: "Listen to {1.SimFirstName}'s Question"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+	<E>Interaction_Skill_Logic</E>
+    <E>Interaction_Mixer</E>
+    <E>Interaction_All</E>
+  </L>
+  <V t="single" n="outcome">
+    <U n="single">
+      <U n="actions">
+        <L n="loot_list">
+          <T>10870<!--LootActions: loot_Game_ScorePointsAndAdvanceTurn--></T>
+          <T>28279<!--LootActions: loot_Buff_Chess_Focused--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <U n="skill_loot_data">
+    <V t="enabled" n="level_range">
+      <U n="enabled">
+        <T n="lower_bound">1</T>
+        <T n="upper_bound">10</T>
+      </U>
+    </V>
+    <T n="stat">16706<!--Skill: statistic_Skill_AdultMajor_Logic--></T>
+  </U>
+  <U n="sub_action">
+    <T n="base_weight">100</T>
+  </U>
+  <E n="target_type">TARGET</E>
+  <L n="test_globals">
+    <V t="game_component">
+      <U n="game_component">
+        <V t="enabled" n="number_of_players">
+          <U n="enabled">
+            <T n="lower_bound">1</T>
+            <T n="upper_bound">1</T>
+          </U>
+        </V>
+        <V t="enabled" n="requires_setup">
+          <T n="enabled">False</T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="visible">False</T>
+</I>
