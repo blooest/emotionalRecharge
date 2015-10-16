@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Gardening_Weed_Planter_Continuation" s="97823">
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="circle">
+        <U n="circle">
+          <T n="ideal_radius">0.7</T>
+          <T n="radius">2</T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="constraint" t="facing">
+        <U n="facing">
+          <T n="inner_radius">0</T>
+          <T n="range">20</T>
+        </U>
+      </V>
+    </U>
+  </L>
+  <V t="resource_key" n="_icon">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueue\IconQueueWeedHarvestable.png">2f7d0004:00000000:7fe2a768c7444ce7</T>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">38541<!--StaticCommodity: StaticCommodity_WeedPlants--></T>
+    </U>
+  </L>
+  <T n="allow_user_directed">False</T>
+  <T n="attention_cost">0.75</T>
+  <T n="autonomy_can_overwrite_similar_affordance">True</T>
+  <V n="basic_content" t="flexible_length">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="list_reference">
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="stat_based">
+                <U n="stat_based">
+                  <T n="absolute">True</T>
+                  <T n="stat">16603<!--Commodity: commodity_Gardening_Weeds--></T>
+                  <U n="threshold">
+                    <E n="comparison">GREATER_OR_EQUAL</E>
+                    <T n="value">100</T>
+                  </U>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+            <L n="loot_actions" />
+            <E n="restrictions">NO_RESTRICTIONS</E>
+            <L n="tests" />
+          </U>
+        </V>
+        <V t="list_reference">
+          <T n="list_reference">40702<!--ExitConditionList: ExitConditionList_EmotionStressed--></T>
+        </V>
+        <V t="list_reference">
+          <T n="list_reference">40144<!--ExitConditionList: ExitConditionList_EmotionMiserable--></T>
+        </V>
+      </L>
+      <V t="looping_content" n="content">
+        <U n="looping_content">
+          <U n="animation_ref">
+            <T n="factory">97824<!--AnimationElement: Gardening_Weed_Planter--></T>
+          </U>
+        </U>
+      </V>
+      <V t="enabled" n="periodic_stat_change">
+        <U n="enabled">
+          <U n="operation_actions">
+            <L n="actions">
+              <T>108225<!--LootActions: loot_Career_Scientist_Breakthrough_Progress_Medium_Likely--></T>
+            </L>
+          </U>
+          <L n="operations">
+            <V t="dynamic_skill">
+              <U n="dynamic_skill">
+                <U n="skill_loot_data_override">
+                  <E n="effectiveness">VerySmallPeriodic</E>
+                  <T n="stat">16700<!--Skill: statistic_Skill_AdultMajor_Gardening--></T>
+                </U>
+              </U>
+            </V>
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="amount">-10</T>
+                <T n="stat">16616<!--Commodity: commodity_Motive_HygieneHands--></T>
+              </U>
+            </V>
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="advertise">False</T>
+                <T n="amount">5</T>
+                <T n="stat">16603<!--Commodity: commodity_Gardening_Weeds--></T>
+                <L n="subject">
+                  <E>Object</E>
+                </L>
+                <L n="tests">
+                  <L>
+                    <V t="mood">
+                      <U n="mood">
+                        <T n="disallow">True</T>
+                        <T n="mood">14636<!--Mood: Mood_Energized--></T>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </V>
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="advertise">False</T>
+                <T n="amount">7</T>
+                <T n="stat">16603<!--Commodity: commodity_Gardening_Weeds--></T>
+                <L n="subject">
+                  <E>Object</E>
+                </L>
+                <L n="tests">
+                  <L>
+                    <V t="mood">
+                      <U n="mood">
+                        <T n="mood">14636<!--Mood: Mood_Energized--></T>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </V>
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="amount">5</T>
+                <T n="stat">102856<!--Commodity: commodity_Autonomy_Trait_Ghost_Cowplant--></T>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="disabled" n="progressive_stat_change" />
+      <T n="start_autonomous_inertial">False</T>
+    </U>
+  </V>
+  <T n="display_name">0xE0F3076E<!--String: "Weeding"--></T>
+  <V t="testable" n="display_name_overrides">
+    <U n="testable">
+      <L n="overrides">
+        <U>
+          <T n="new_display_name">0xE0F3076E<!--String: "Weeding"--></T>
+          <T p="InGame\UI\Icons\Events\EventGoal_Inspired.png" n="new_pie_menu_icon">2f7d0004:00000000:b2edb9db21e6c47f</T>
+          <L n="test">
+            <L>
+              <V t="career_test">
+                <U n="career_test">
+                  <V n="test_type" t="career_reference">
+                    <U n="career_reference">
+                      <V t="specific_career" n="career">
+                        <T n="specific_career">107255<!--Career: career_Adult_Active_Scientist--></T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </V>
+              <V t="test_set_reference">
+                <T n="test_set_reference">115714<!--TestSetInstance: testSet_EP01_ScientistBreakthroughValidAtCareerLevel--></T>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Skill_Gardening</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V t="single" n="outcome">
+    <U n="single">
+      <U n="actions">
+        <L n="loot_list">
+          <T>76986<!--LootActions: loot_Gardening_Weed_objectRewards--></T>
+          <T>35510<!--LootActions: Loot_Gardening_SuperGreenThumb--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <T n="pie_menu_priority">7</T>
+  <U n="post_run_autonomy_commodities">
+    <L n="requests">
+      <U>
+        <T n="consider_same_target">False</T>
+        <T n="radius_to_consider">10</T>
+        <V t="enabled" n="randomization_override">
+          <E n="enabled">DISABLED</E>
+        </V>
+        <L n="static_commodities">
+          <T>38541<!--StaticCommodity: StaticCommodity_WeedPlants--></T>
+        </L>
+      </U>
+    </L>
+  </U>
+  <E n="scoring_priority">NORMAL</E>
+  <U n="skill_loot_data">
+    <E n="effectiveness">VerySmallPeriodic</E>
+    <V t="enabled" n="level_range">
+      <U n="enabled">
+        <T n="lower_bound">3</T>
+        <T n="upper_bound">8</T>
+      </U>
+    </V>
+    <T n="stat">16700<!--Skill: statistic_Skill_AdultMajor_Gardening--></T>
+  </U>
+  <T n="subaction_selection_weight">3</T>
+  <V t="literal" n="super_affordance_compatibility">
+    <U n="literal">
+      <V n="default_inclusion" t="include_all">
+        <U n="include_all">
+          <L n="exclude_lists">
+            <T>75763<!--AffordanceList: AffordanceList_Painting--></T>
+            <T>30816<!--AffordanceList: affordanceList_FoodConsume--></T>
+          </L>
+        </U>
+      </V>
+    </U>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <V t="enabled" n="test_disallow_while_running" />
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <V t="always_pass" n="fallback_behavior" />
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">32491<!--ObjectStateValue: Cowplant_GrowthState_Mature--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">39330<!--CommodityBasedObjectStateValue: PlantEvolution_0_Death--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">15211<!--ObjectStateValue: GardeningQuality_00_Wild--></T>
+      </U>
+    </V>
+    <V t="location">
+      <U n="location">
+        <U n="location_tests">
+          <V n="is_in_slot" t="enabled">
+            <U n="enabled">
+              <V t="enabled" n="slot_type">
+                <T n="enabled">slotSet_GardenPlantPotLarge</T>
+              </V>
+            </U>
+          </V>
+        </U>
+        <E n="subject">Object</E>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">LESS_OR_EQUAL</E>
+        <T n="value">15447<!--CommodityBasedObjectStateValue: Weeds_2_Weedable--></T>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
+    </V>
+  </L>
+  <T n="time_overhead">15</T>
+  <T n="visible">True</T>
+</I>

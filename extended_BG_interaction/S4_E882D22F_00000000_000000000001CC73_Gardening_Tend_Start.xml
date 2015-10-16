@@ -22,13 +22,8 @@
     <V t="statistic_change">
       <U n="statistic_change">
         <T n="amount">0.4</T>
-        <U n="chance">
-          <T n="base_chance">100</T>
-        </U>
         <T n="exclusive_to_owning_si">True</T>
         <T n="stat">16655<!--Commodity: motive_Fun--></T>
-        <L n="tests" />
-        <V t="use_default" n="text" />
       </U>
     </V>
   </L>

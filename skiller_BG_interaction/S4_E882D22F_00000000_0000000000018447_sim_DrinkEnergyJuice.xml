@@ -2,6 +2,29 @@
 <I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="sim_DrinkEnergyJuice" s="99399">
   <V t="participant" n="_icon" />
   <V t="enabled" n="_saveable" />
+  <L n="_false_advertisements">
+    <V t="statistic_set_max">
+      <U n="statistic_set_max">
+        <T n="stat">29105<!--Commodity: commodity_Trait_Autonomy_Active--></T>
+      </U>
+    </V>
+    <V t="statistic_set_max">
+      <U n="statistic_set_max">
+        <T n="stat">29124<!--Commodity: commodity_Trait_Autonomy_Bro--></T>
+      </U>
+    </V>
+	<V t="statistic_set_max">
+	  <U n="statistic_set_max">
+		<T n="stat">16463<!--Commodity: commodity_Emotion_Autonomy_Energized--></T>
+	  </U>
+	</V>
+	        <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="amount">30</T>
+                <T n="stat">16655<!--Commodity: motive_Fun--></T>
+              </U>
+            </V>
+  </L>
   <L n="mood_preference">
 <U>
 <T n="key">14632</T>

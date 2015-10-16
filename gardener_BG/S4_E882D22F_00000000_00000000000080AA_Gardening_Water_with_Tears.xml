@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="Gardening_Water_with_Tears" s="32938">
+  <L n="_constraints">
+    <U>
+      <V n="constraint" t="circle">
+        <U n="circle">
+          <T n="ideal_radius">0.5</T>
+          <T n="ideal_radius_width">0.25</T>
+          <T n="radius">1.5</T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="constraint" t="facing">
+        <U n="facing">
+          <T n="inner_radius">0</T>
+          <T n="range">20</T>
+        </U>
+      </V>
+    </U>
+  </L>
+  <V t="resource_key" n="_icon">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueue\IconQueueWaterPlants.png">2f7d0004:00000000:b88631dbb9682d3a</T>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <T n="allow_autonomous">True</T>
+  <T n="attention_cost">0.75</T>
+  <V n="basic_content" t="flexible_length">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="list_reference">
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="time_based">
+                <U n="time_based">
+                  <T n="max_time">30</T>
+                  <T n="min_time">10</T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="mood_based">
+                <U n="mood_based">
+                  <T n="invert">True</T>
+                  <T n="mood">14643<!--Mood: Mood_Sad--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="state_based">
+                <U n="state_based">
+                  <V n="state" t="on_trigger">
+                    <T n="on_trigger">15255<!--CommodityBasedObjectStateValue: Moisture_2_Waterable--></T>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+        <V t="list_reference">
+          <T n="list_reference">40702<!--ExitConditionList: ExitConditionList_EmotionStressed--></T>
+        </V>
+        <V t="list_reference">
+          <T n="list_reference">40144<!--ExitConditionList: ExitConditionList_EmotionMiserable--></T>
+        </V>
+      </L>
+      <V n="content" t="looping_content">
+        <U n="looping_content">
+          <U n="animation_ref">
+            <T n="factory">32941<!--AnimationElement: Gardening_WaterWithTears--></T>
+          </U>
+        </U>
+      </V>
+      <V t="enabled" n="periodic_stat_change">
+        <U n="enabled">
+          <L n="operations">
+            <V t="dynamic_skill">
+              <U n="dynamic_skill">
+                <U n="skill_loot_data_override">
+                  <E n="effectiveness">VerySmallPeriodic</E>
+                  <T n="stat">16700<!--Skill: statistic_Skill_AdultMajor_Gardening--></T>
+                </U>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="disabled" n="progressive_stat_change" />
+      <T n="start_autonomous_inertial">False</T>
+      <V t="enabled" n="statistic_reduction_by_category">
+        <U n="enabled">
+          <L n="categories">
+            <E>Sad_Buffs</E>
+          </L>
+          <T n="rate">5</T>
+        </U>
+      </V>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="create_object">
+      <U n="create_object">
+        <T n="cancel_on_destroy">False</T>
+        <V t="definition" n="creation_data">
+          <U n="definition">
+            <T n="definition">21124</T>
+          </U>
+        </V>
+        <U n="success_chance">
+          <T n="base_chance">50</T>
+        </U>
+        <V t="at_end" n="timing" />
+      </U>
+    </V>
+  </L>
+  <T n="display_name">0x99AF4EB5<!--String: "Water with Tears"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Skill_Gardening</E>
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <L n="mood_list">
+    <T>14643<!--Mood: Mood_Sad--></T>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="loot_list">
+          <T>26821<!--LootActions: loot_Gardening_PuddleChance--></T>
+          <T>75413<!--LootActions: loot_Gardening_Water--></T>
+          <T>35510<!--LootActions: Loot_Gardening_SuperGreenThumb--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <T n="pie_menu_priority">7</T>
+  <E n="scoring_priority">NORMAL</E>
+  <U n="skill_loot_data">
+    <E n="effectiveness">VerySmallPeriodic</E>
+    <V t="enabled" n="level_range">
+      <U n="enabled">
+        <T n="upper_bound">5</T>
+      </U>
+    </V>
+    <T n="stat">16700<!--Skill: statistic_Skill_AdultMajor_Gardening--></T>
+  </U>
+  <T n="subaction_selection_weight">3</T>
+  <V t="literal" n="super_affordance_compatibility">
+    <U n="literal">
+      <V n="default_inclusion" t="include_all">
+        <U n="include_all">
+          <L n="exclude_lists">
+            <T>75763<!--AffordanceList: AffordanceList_Painting--></T>
+            <T>30816<!--AffordanceList: affordanceList_FoodConsume--></T>
+          </L>
+        </U>
+      </V>
+    </U>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="state">
+        <U n="state">
+          <T n="value">15253<!--CommodityBasedObjectStateValue: Moisture_0_VeryDryRed--></T>
+        </U>
+      </V>
+    </L>
+  </L>
+  <V t="enabled" n="test_disallow_while_running" />
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <V t="always_pass" n="fallback_behavior" />
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">32491<!--ObjectStateValue: Cowplant_GrowthState_Mature--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">39330<!--CommodityBasedObjectStateValue: PlantEvolution_0_Death--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">NOTEQUAL</E>
+        <T n="value">15211<!--ObjectStateValue: GardeningQuality_00_Wild--></T>
+      </U>
+    </V>
+    <V t="skill_test">
+      <U n="skill_test">
+        <T n="skill">16700<!--Skill: statistic_Skill_AdultMajor_Gardening--></T>
+        <V t="interval" n="skill_range">
+          <U n="interval">
+            <U n="skill_interval">
+              <T n="lower_bound">2</T>
+            </U>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="mood">
+      <U n="mood">
+        <T n="mood">14643<!--Mood: Mood_Sad--></T>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <E n="operator">LESS_OR_EQUAL</E>
+        <T n="value">15255<!--CommodityBasedObjectStateValue: Moisture_2_Waterable--></T>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>
