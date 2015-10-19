@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<I c="CreateCarriedObjectSuperInteraction" i="interaction" m="interactions.base.create_object_interaction" n="bar_StartPracticeDrinks_CreateShaker" s="108957">
+  <V t="reference" n="_animation_actor_map">
+    <T n="reference">104044<!--AnimationActorMap: CreateAndPickupObject--></T>
+  </V>
+  <V t="participant" n="_icon">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <L n="_static_commodities">
+    <U>
+      <T n="desire">0.25</T>
+      <T n="static_commodity">27057<!--StaticCommodity: StaticCommodity_TendBar--></T>
+    </U>
+  </L>
+<T n="allow_autonomous">False</T><!-- TODO: Fix this interaction so it can only be fired at the home lot, or not by bartender roles. or something, instead of this.-->
+  <T n="attention_cost">0.5</T>
+  <V t="one_shot" n="basic_content">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">11241<!--AnimationElement: Bar_MakeDrink_StartStop_MakeDrink_basic--></T>
+      </U>
+    </U>
+  </V>
+  <V t="enabled" n="carry_track_override">
+    <E n="enabled">LEFT</E>
+  </V>
+  <T n="definition">6005</T>
+  <T n="display_name">0xF546E0A7<!--String: "Practice Making Drinks"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Actor</E>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <E n="participant">Object</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="continuation">
+          <U>
+            <T n="affordance">108956<!--SuperInteraction: bar_PracticeDrinkMaking--></T>
+            <V t="enabled" n="carry_target">
+              <E n="enabled">CarriedObject</E>
+            </V>
+          </U>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V t="enabled" n="npc" />
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
+        </L>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
+    </V>
+  </L>
+  <T n="time_overhead">3</T>
+</I>

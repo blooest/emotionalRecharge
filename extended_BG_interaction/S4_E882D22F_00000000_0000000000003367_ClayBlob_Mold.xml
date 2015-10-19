@@ -6,7 +6,7 @@
   <L n="_false_advertisements">
     <V t="statistic_change">
       <U n="statistic_change">
-        <T n="amount">0.29</T>
+        <T n="amount">0.09</T>
         <T n="stat">16655<!--Commodity: motive_Fun--></T>
       </U>
     </V>
@@ -19,6 +19,68 @@
     </U>
   </V>
   <V t="enabled" n="_saveable" />
+  <L n="mood_preference">
+<U>
+<T n="key">14632</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14633</T>
+<T n="value">125</T>
+</U>
+<U>
+<T n="key">14634</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14635</T>
+<T n="value">25</T>
+</U>
+<U>
+<T n="key">14636</T>
+<T n="value">-150</T>
+</U>
+<U>
+<T n="key">14637</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14638</T>
+<T n="value">-200</T>
+</U>
+<U>
+<T n="key">14639</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14640</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14641</T>
+<T n="value">125</T>
+</U>
+<U>
+<T n="key">14642</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14643</T>
+<T n="value">25</T>
+</U>
+<U>
+<T n="key">14644</T>
+<T n="value">-100</T>
+</U>
+<U>
+<T n="key">14645</T>
+<T n="value">-50</T>
+</U>
+<U>
+<T n="key">14646</T>
+<T n="value">-100</T>
+</U>
+</L>
   <T n="allow_autonomous">True</T>
   <T n="allow_from_sim_inventory">True</T>
   <T n="attention_cost">0.75</T>
@@ -86,15 +148,56 @@
                 <T n="stat">16655<!--Commodity: motive_Fun--></T>
               </U>
             </V>
-            <V t="statistic_set_max">
-              <U n="statistic_set_max">
+			<V t="statistic_change">
+			  <U n="statistic_change">
+				<T n="amount">5</T>
                 <T n="stat">16455<!--Commodity: commodity_Emotion_Autonomy_Angry--></T>
               </U>
             </V>
 			<V t="statistic_change">
 			  <U n="statistic_change">
-				<T n="amount">20</T>
+				<T n="amount">5</T>
                 <T n="stat">16467<!--Commodity: commodity_Emotion_Autonomy_Inspired--></T>
+              </U>
+            </V>
+            <V t="dynamic_skill">
+              <U n="dynamic_skill">
+                <U n="skill_loot_data_override">
+                  <E n="effectiveness">StandardPeriodic</E>
+                  <V t="enabled" n="level_range">
+                    <U n="enabled">
+                      <T n="lower_bound">1</T>
+                      <T n="upper_bound">10</T>
+                    </U>
+                  </V>
+                  <T n="stat">16718<!--Skill: statistic_Skill_Child_Creativity--></T>
+                </U>
+              </U>
+            </V>
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="amount">5</T>
+                <T n="stat">27162<!--Commodity: commodity_Trait_Creative_Creativity--></T>
+              </U>
+            </V>
+            <V t="statistic_change">
+              <U n="statistic_change">
+                <T n="advertise">False</T>
+                <T n="amount">-5</T>
+                <T n="stat">99719<!--Commodity: Commodity_Trait_Creative_TenseTimer--></T>
+                <L n="tests">
+                  <L>
+                    <V t="buff">
+                      <U n="buff">
+                        <V t="enabled" n="whitelist">
+                          <L n="enabled">
+                            <T>74668<!--Buff: Buff_Trait_Creative_Uncreative--></T>
+                          </L>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
               </U>
             </V>
           </L>
@@ -161,6 +264,7 @@
   </U>
   <T n="force_exit_on_inertia">False</T>
   <L n="interaction_category_tags">
+    <E>Interaction_Skill_Child_Creativity</E>
     <E>Interaction_Super</E>
     <E>Interaction_All</E>
   </L>

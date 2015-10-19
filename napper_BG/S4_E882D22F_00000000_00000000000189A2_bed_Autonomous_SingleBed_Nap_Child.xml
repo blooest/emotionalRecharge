@@ -81,7 +81,7 @@
       </U>
     </U>
   </V>
-  <E n="scoring_priority">HIGH</E>
+  <E n="scoring_priority">NORMAL</E>
   <T n="subaction_selection_weight">1</T>
   <V t="literal" n="super_affordance_compatibility">
     <U n="literal">

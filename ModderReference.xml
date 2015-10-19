@@ -188,7 +188,7 @@
 	</Interaction_Tags>
 	<Trait_References>
 		<Info>
-			Avoid pushing entire groups of interactions to certain traits. Add a push to the tag to their emotional hidden buff instead.
+			Avoid pushing entire groups of interactions to certain traits. Add a push to the tag to their hidden buff instead.
 			Add trait preferences when the interaction itself makes sense, not its grouping.
 			Example: Bookworms should like to talk about books. That doesn't have a tag to push from the trait side.
 			Counter-example: Don't push everything Social_Flirty to Romantics. That's already done by Buff_Trait_Romantic.

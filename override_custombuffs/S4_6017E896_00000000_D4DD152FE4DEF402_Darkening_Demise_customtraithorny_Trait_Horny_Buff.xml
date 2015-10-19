@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <I s="15338439201341240322" c="Buff" i="buff" m="buffs.buff" n="Darkening_Demise_customtraithorny_Trait_Horny_Buff">
+<!-- Demise's TS4 Custom Adult Traits http://sexysims.info/download.php?t=174994 -->
  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
  <U n="game_effect_modifiers">

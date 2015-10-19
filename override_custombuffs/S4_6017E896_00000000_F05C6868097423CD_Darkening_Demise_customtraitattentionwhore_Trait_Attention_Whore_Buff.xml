@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <I s="17319833063004578765" c="Buff" i="buff" m="buffs.buff" n="Darkening_Demise_customtraitattentionwhore_Trait_Attention_Whore_Buff">
+<!-- Demise's TS4 Custom Adult Traits http://sexysims.info/download.php?t=174994 -->
  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
  <T n="buff_description">0x1EBD5685</T>

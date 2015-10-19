@@ -22,6 +22,20 @@
       </L>
     </U>
   </V>
+  <L n="_false_advertisements">
+	<V t="statistic_change">
+	  <U n="statistic_change">
+		<T n="amount">1</T>
+		<T n="stat">16470<!--Commodity: commodity_Emotion_Autonomy_Dazed--></T>
+	  </U>
+	</V>
+	<V t="statistic_change">
+	  <U n="statistic_change">
+		<T n="amount">1</T>
+		<T n="stat">16468<!--Commodity: commodity_Emotion_Autonomy_Playful--></T>
+	  </U>
+	</V>  
+  </L>
   <V t="enabled" n="_saveable" />
 <L n="mood_preference">
 <U>
@@ -87,7 +101,7 @@
 </L>
   <L n="_static_commodities">
     <U>
-	  <T n="desire">0.05</T>
+	  <T n="desire">0.001</T>
       <T n="static_commodity">26281<!--StaticCommodity: StaticCommodity_Dance_Stereo--></T>
     </U>
   </L>
@@ -151,23 +165,25 @@
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
-                <T n="amount">25</T>
+                <T n="amount">20</T>
                 <T n="stat">28804<!--Commodity: commodity_Motive_Role_Smuggler--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
-                <T n="amount">3</T>
+                <T n="amount">1</T>
                 <T n="stat">74758<!--Commodity: commodity_Situation_DanceFever--></T>
               </U>
             </V>
             <V t="statistic_set_max">
               <U n="statistic_set_max">
+				<T n="advertise">False</T>
                 <T n="stat">16470<!--Commodity: commodity_Emotion_Autonomy_Dazed--></T>
               </U>
             </V>
             <V t="statistic_set_max">
               <U n="statistic_set_max">
+				<T n="advertise">False</T>
                 <T n="stat">16468<!--Commodity: commodity_Emotion_Autonomy_Playful--></T>
               </U>
             </V>

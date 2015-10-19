@@ -1,16 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
-<I s="10717059652606332183" c="Buff" i="buff" m="buffs.buff" n="Zerbu_Joker_Trait_Trait_Mixer_Buff">
-<!-- Zerbu Mixer trait http://zerbu.tumblr.com/post/100800702722/the-sims-4-mod-mixer-trait -->
+<I s="18152894401036245624" c="Buff" i="buff" m="buffs.buff" n="The_Grave_Thief_Alcoholic_Buff_Trait_Alcoholic_Buff">
+<!-- TheGraveThief Alcoholic trait http://modthesims.info/download.php?t=556553 -->
  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
  <U n="game_effect_modifiers">
   <L n="game_effect_modifiers">
    <V t="effective_skill_modifier">
     <U n="effective_skill_modifier">
+     <V t="skill_type" n="modifier_key">
+      <T n="skill_type">16695</T>
+     </V>
+     <T n="modifier_value">1</T>
+    </U>
+   </V>
+   <V t="effective_skill_modifier">
+    <U n="effective_skill_modifier">
      <V t="skill_tag" n="modifier_key">
       <E n="skill_tag">Skill_Creative</E>
      </V>
-     <T n="modifier_value">0</T>
+     <T n="modifier_value">1</T>
     </U>
    </V>
    <V t="effective_skill_modifier">
@@ -18,15 +26,7 @@
      <V t="skill_tag" n="modifier_key">
       <E n="skill_tag">Skill_Mental</E>
      </V>
-     <T n="modifier_value">0</T>
-    </U>
-   </V>
-   <V t="effective_skill_modifier">
-    <U n="effective_skill_modifier">
-     <V t="skill_tag" n="modifier_key">
-      <E n="skill_tag">Skill_Physical</E>
-     </V>
-     <T n="modifier_value">0</T>
+     <T n="modifier_value">-1</T>
     </U>
    </V>
    <V t="effective_skill_modifier">
@@ -34,15 +34,27 @@
      <V t="skill_tag" n="modifier_key">
       <E n="skill_tag">Skill_Social</E>
      </V>
-     <T n="modifier_value">1</T>
+     <T n="modifier_value">-1</T>
     </U>
    </V>
    <V t="autonomy_modifier">
     <U n="autonomy_modifier">
      <L n="commodities_to_add">
-      <T>29108</T>
-      <T>29110</T>
-      <T>29115</T>
+      <T>29084</T>
+      <T>16469</T>
+      <T>29111</T>
+     </L>
+    </U>
+   </V>
+   <V t="autonomy_modifier">
+    <U n="autonomy_modifier">
+     <L n="stat_use_multiplier">
+      <U>
+       <T n="key">16695</T>
+       <U n="value">
+        <T n="multiplier">1.25</T>
+       </U>
+      </U>
      </L>
     </U>
    </V>
@@ -51,7 +63,7 @@
      <L n="skill_tag_modifiers">
       <U>
        <E n="key">Skill_Creative</E>
-       <T n="value">0.9</T>
+       <T n="value">1.1</T>
       </U>
      </L>
     </U>
@@ -61,17 +73,7 @@
      <L n="skill_tag_modifiers">
       <U>
        <E n="key">Skill_Mental</E>
-       <T n="value">0.9</T>
-      </U>
-     </L>
-    </U>
-   </V>
-   <V t="autonomy_modifier">
-    <U n="autonomy_modifier">
-     <L n="skill_tag_modifiers">
-      <U>
-       <E n="key">Skill_Physical</E>
-       <T n="value">0.9</T>
+       <T n="value">0.85</T>
       </U>
      </L>
     </U>
@@ -81,7 +83,7 @@
      <L n="skill_tag_modifiers">
       <U>
        <E n="key">Skill_Social</E>
-       <T n="value">1.2</T>
+       <T n="value">0.85</T>
       </U>
      </L>
     </U>
@@ -90,16 +92,12 @@
     <U n="autonomy_modifier">
      <L n="decay_modifiers">
       <U>
+       <T n="key">16652</T>
+       <T n="value">1.05</T>
+      </U>
+      <U>
        <T n="key">16655</T>
-       <T n="value">1.2</T>
-      </U>
-      <U>
-       <T n="key">16658</T>
-       <T n="value">3</T>
-      </U>
-      <U>
-       <T n="key">16654</T>
-       <T n="value">0.9</T>
+       <T n="value">1.15</T>
       </U>
      </L>
     </U>
@@ -108,12 +106,88 @@
     <U n="autonomy_modifier">
      <L n="score_multipliers">
       <U>
-       <T n="key">29108</T>
-       <T n="value">2</T>
+       <T n="key">29102</T>
+       <T n="value">0.9</T>
       </U>
       <U>
-       <T n="key">16658</T>
-       <T n="value">3</T>
+       <T n="key">29126</T>
+       <T n="value">1.2</T>
+      </U>
+      <U>
+       <T n="key">77337</T>
+       <T n="value">1.2</T>
+      </U>
+      <U>
+       <T n="key">29084</T>
+       <T n="value">1.2</T>
+      </U>
+      <U>
+       <T n="key">29103</T>
+       <T n="value">1.2</T>
+      </U>
+      <U>
+       <T n="key">29120</T>
+       <T n="value">1.2</T>
+      </U>
+      <U>
+       <T n="key">29104</T>
+       <T n="value">1.2</T>
+      </U>
+      <U>
+       <T n="key">76587</T>
+       <T n="value">1.1</T>
+      </U>
+      <U>
+       <T n="key">29111</T>
+       <T n="value">1.2</T>
+      </U>
+      <U>
+       <T n="key">29112</T>
+       <T n="value">1.1</T>
+      </U>
+      <U>
+       <T n="key">29114</T>
+       <T n="value">0.9</T>
+      </U>
+      <U>
+       <T n="key">29108</T>
+       <T n="value">1.1</T>
+      </U>
+      <U>
+       <T n="key">29106</T>
+       <T n="value">1.1</T>
+      </U>
+      <U>
+       <T n="key">29123</T>
+       <T n="value">1.25</T>
+      </U>
+      <U>
+       <T n="key">16455</T>
+       <T n="value">1.25</T>
+      </U>
+      <U>
+       <T n="key">16457</T>
+       <T n="value">1.05</T>
+      </U>
+      <U>
+       <T n="key">16463</T>
+       <T n="value">1.1</T>
+      </U>
+      <U>
+       <T n="key">16466</T>
+       <T n="value">0.9</T>
+      </U>
+      <U>
+       <T n="key">16469</T>
+       <T n="value">1.25</T>
+      </U>
+      <U>
+       <T n="key">16652</T>
+       <T n="value">1.05</T>
+      </U>
+      <U>
+       <T n="key">16655</T>
+       <T n="value">1.15</T>
       </U>
      </L>
     </U>
@@ -125,55 +199,57 @@
        <T n="key">16650</T>
        <U n="value">
         <E n="apply_direction">INCREASE</E>
-        <T n="multiplier">1.2</T>
+        <T n="multiplier">0.8</T>
        </U>
       </U>
       <U>
        <T n="key">16650</T>
        <U n="value">
         <E n="apply_direction">DECREASE</E>
-        <T n="multiplier">0.8</T>
+        <T n="multiplier">1.25</T>
        </U>
       </U>
       <U>
        <T n="key">16651</T>
        <U n="value">
         <E n="apply_direction">INCREASE</E>
-        <T n="multiplier">1.2</T>
+        <T n="multiplier">0.75</T>
        </U>
       </U>
       <U>
        <T n="key">16651</T>
        <U n="value">
         <E n="apply_direction">DECREASE</E>
-        <T n="multiplier">0.8</T>
+        <T n="multiplier">1.3</T>
        </U>
       </U>
      </L>
     </U>
    </V>
-  	  <V t="affordance_modifier">
+   	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>
 		  <T n="content_score_bonus">20</T>
 		  <L n="interaction_category_tags">
-			<E>Interaction_Chat</E>
+			<E>Interaction_Skill_Bartending</E>
+			<E>Interaction_Drink</E>
 		  </L>
 		</U>
 	  </V>
+
   </L>
  </U>
- <T n="icon" p="Generated">2f7d0004:00000000:3d051ad66bd1b0ef</T>
- <T n="icon_highlight" p="Generated">2f7d0004:00000000:3d051ad66bd1b0ef</T>
+ <T n="icon" p="Generated">2f7d0004:00000000:5032ab7d71db50af</T>
+ <T n="icon_highlight" p="Generated">2f7d0004:00000000:5032ab7d71db50af</T>
  <V t="enabled" n="interactions">
   <U n="enabled">
    <L n="interaction_items">
-    <T>9607682395894384543</T>
+    <T>10245951447752842234</T>
    </L>
    <T n="weight">3</T>
   </U>
  </V>
- <T n="mood_type">14634</T>
+ <T n="mood_type">14643</T>
  <T n="mood_weight">1</T>
  <T n="refresh_on_add">True</T>
  <T n="show_timeout">False</T>
@@ -182,6 +258,3 @@
  <T n="visible">False</T>
  <V t="disabled" n="walkstyle"/>
 </I>
-
-
-

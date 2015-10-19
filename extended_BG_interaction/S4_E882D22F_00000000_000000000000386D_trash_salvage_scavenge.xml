@@ -70,19 +70,19 @@
             </V>
 			<V t="statistic_change">
 			  <U n="statistic_change">
-			    <T n="amount">20</T>
+			    <T n="amount">5</T>
 				<T n="stat">29114<!--Commodity: commodity_Trait_Autonomy_Neat--></T>
 			  </U>
 			</V>
 			<V t="statistic_change">
 			  <U n="statistic_change">
-			    <T n="amount">20</T>
+			    <T n="amount">5</T>
 				<T n="stat">29109<!--Commodity: commodity_Trait_Autonomy_Genius--></T>
 			  </U>
 			</V>
 			<V t="statistic_change">
 			  <U n="statistic_change">
-			    <T n="amount">20</T>
+			    <T n="amount">5</T>
 				<T n="stat">16465<!--Commodity: commodity_Emotion_Autonomy_Focused--></T>
 			  </U>
 			</V>
