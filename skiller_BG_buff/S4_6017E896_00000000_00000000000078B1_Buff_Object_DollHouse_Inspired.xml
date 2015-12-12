@@ -10,11 +10,10 @@
   <T n="buff_description">0xB2AD7036<!--String: "The creativity is strong with this one."--></T>
   <T n="buff_name">0xF4F14869<!--String: "Doll House Inspiration"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_dollhouse.png" n="icon">2f7d0004:00000000:2ad71684b3e720e1</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_dollhouse.png" n="icon_highlight">2f7d0004:00000000:2ad71684b3e720e1</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

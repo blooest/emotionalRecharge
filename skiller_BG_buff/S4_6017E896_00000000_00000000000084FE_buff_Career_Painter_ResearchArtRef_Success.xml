@@ -13,7 +13,7 @@
   <T n="buff_description">0xE91DACBC<!--String: "Taking inspiration from some reference, {0.SimFirstName} is ready to paint."--></T>
   <T n="buff_name">0x23E28A13<!--String: "Inspired by Reference"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="effective_skill_modifier">
         <U n="effective_skill_modifier">
           <V t="skill_type" n="modifier_key">
@@ -47,7 +47,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\Buffs_Painter.png" n="icon">2f7d0004:00000000:920acae331707635</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Painter.png" n="icon_highlight">2f7d0004:00000000:920acae331707635</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
 </I>

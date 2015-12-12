@@ -13,12 +13,11 @@
   <T n="buff_description">0x6A3346BC<!--String: "A well-played game of chess can make a Sim's mind laser-focused."--></T>
   <T n="buff_name">0xFC1C3813<!--String: "Masterful Maneuver"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_chess.png" n="icon">2f7d0004:00000000:3ef446c8cc0cecfc</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_chess.png" n="icon_highlight">2f7d0004:00000000:3ef446c8cc0cecfc</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">2</T>
   <T n="success_modifier">0</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

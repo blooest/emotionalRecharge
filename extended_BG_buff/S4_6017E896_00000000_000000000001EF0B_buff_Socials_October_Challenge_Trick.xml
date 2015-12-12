@@ -12,12 +12,11 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x7C95EBF7<!--String: "If there's anything more fun than sharing a joke with someone else, it's having fun at their expense!"--></T>
   <T n="buff_name">0xC1A3304E<!--String: "Spooky Time Shenanigans"--></T>
-  <T p="InGame\UI\Icons\Buffs\buffs_SpookyTime.png" n="icon">2f7d0004:00000000:04e0db4a806f2388</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_SpookyTime.png" n="icon_highlight">2f7d0004:00000000:04e0db4a806f2388</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\buffs_SpookyTime.png">2f7d0004:00000000:04e0db4a806f2388</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-	<L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

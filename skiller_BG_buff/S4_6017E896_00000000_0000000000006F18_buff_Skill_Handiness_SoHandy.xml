@@ -13,7 +13,7 @@
   <T n="buff_description">0xAB83085C<!--String: "Only a master of Handiness can have such amazing focus!"--></T>
   <T n="buff_name">0x3709DD33<!--String: "So Handy!"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="stat_use_multiplier">
@@ -41,7 +41,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\buffs_woodworkingtable.png" n="icon">2f7d0004:00000000:1cb73cd71ef478d8</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_woodworkingtable.png" n="icon_highlight">2f7d0004:00000000:1cb73cd71ef478d8</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">2</T>
 </I>

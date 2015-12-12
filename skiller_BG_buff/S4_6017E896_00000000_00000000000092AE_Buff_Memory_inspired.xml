@@ -13,12 +13,11 @@
   <T n="buff_description">0x88BE7222<!--String: "There are some extraordinary experiences that continue to drive us to bigger and better things."--></T>
   <T n="buff_name">0xADC82B9D<!--String: "Inspiring Memory"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_buzzed.png" n="icon">2f7d0004:00000000:e357d388eac45064</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_buzzed.png" n="icon_highlight">2f7d0004:00000000:e357d388eac45064</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <T n="refresh_on_add">False</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

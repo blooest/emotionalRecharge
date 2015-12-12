@@ -13,11 +13,10 @@
   <T n="buff_description">0xC702C55<!--String: "Practice makes perfect! Or, at least, better."--></T>
   <T n="buff_name">0x5D42370<!--String: "Improved Sounds"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Guitar.png" n="icon">2f7d0004:00000000:2a75190fd9465fca</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Guitar.png" n="icon_highlight">2f7d0004:00000000:2a75190fd9465fca</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

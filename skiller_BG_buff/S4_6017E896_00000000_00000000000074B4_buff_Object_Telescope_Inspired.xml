@@ -14,11 +14,10 @@
   <T n="buff_description">0xBBFB621<!--String: "The endless view of the universe can really get a Sim's mind feeling focused!"--></T>
   <T n="buff_name">0x4233DD4<!--String: "In Awe of the Cosmos"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_telescope.png" n="icon">2f7d0004:00000000:d64be837121cefe0</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_telescope.png" n="icon_highlight">2f7d0004:00000000:d64be837121cefe0</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

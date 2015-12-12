@@ -5,12 +5,11 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0xD76A8B6F<!--String: "The cloyingly sweet scent of peppermint hangs in the air, filling {0.SimFirstName} with a playful spirit.\n"--></T>
   <T n="buff_name">0xBF43F6B6<!--String: "Peppermint Aroma"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Peppermint.png" n="icon">2f7d0004:00000000:e20e31409e38a868</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Peppermint.png" n="icon_highlight">2f7d0004:00000000:e20e31409e38a868</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_Peppermint.png">2f7d0004:00000000:e20e31409e38a868</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-	<L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

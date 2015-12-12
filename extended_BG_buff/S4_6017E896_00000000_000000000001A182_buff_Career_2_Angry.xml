@@ -13,11 +13,10 @@
   <T n="buff_description">0xC3ABB11D<!--String: "The worst kind of bully is the one you can't retaliate against! Untouchable star players are the worst."--></T>
   <T n="buff_name">0xDD19608<!--String: "Bullied"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_fitness_neg.png" n="icon">2f7d0004:00000000:7cb736ac623315a7</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_fitness_neg.png" n="icon_highlight">2f7d0004:00000000:7cb736ac623315a7</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

@@ -13,8 +13,7 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x74E67FC0<!--String: "Active Sims often experience a wave of Energy. Up and at 'em!"--></T>
   <T n="buff_name">0xB330B88F<!--String: "Feeling Energized"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Active.png" n="icon">2f7d0004:00000000:f0c8cac57aab1212</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Active.png" n="icon_highlight">2f7d0004:00000000:f0c8cac57aab1212</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_Active.png">2f7d0004:00000000:f0c8cac57aab1212</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">1</T>
   <T n="refresh_on_add">True</T>
@@ -23,7 +22,7 @@
   <T n="visible">True</T>
   <V t="disabled" n="walkstyle" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

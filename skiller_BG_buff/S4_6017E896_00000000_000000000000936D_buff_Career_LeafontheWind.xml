@@ -13,11 +13,10 @@
   <T n="buff_description">0xAB73D6DF<!--String: "Such skill! Such finesse! Such piloting prowess!"--></T>
   <T n="buff_name">0xDFFDF386<!--String: "Leaf on the Breeze"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Astronaut.png" n="icon">2f7d0004:00000000:749f44c6b4632f39</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Astronaut_neg.png" n="icon_highlight">2f7d0004:00000000:dbcaa53144578e9e</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

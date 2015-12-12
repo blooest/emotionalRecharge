@@ -17,7 +17,6 @@
   <T n="buff_description">0xD322C173<!--String: "Creative Sims find that inspiration comes more easily than other Sims."--></T>
   <T n="buff_name">0x2778AA2<!--String: "Feeling Inspired"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Creative.png" n="icon">2f7d0004:00000000:e55b93a695852913</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Creative.png" n="icon_highlight">2f7d0004:00000000:e55b93a695852913</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <T n="refresh_on_add">True</T>
@@ -26,7 +25,7 @@
   <T n="visible">True</T>
   <V t="disabled" n="walkstyle" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

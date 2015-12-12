@@ -13,7 +13,7 @@
   <T n="buff_description">0x19AB7181<!--String: "When one is so stoked about working out, each rep counts for more!"--></T>
   <T n="buff_name">0x3FC301B4<!--String: "Workout Enthusiasm"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="skill_tag_modifiers">
@@ -37,8 +37,7 @@
       </V>
     </L>
   </U>
-  <T p="InGame\UI\Icons\Buffs\buffs_weightbench.png" n="icon">2f7d0004:00000000:c05f702f17fe956e</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_weightbench.png" n="icon_highlight">2f7d0004:00000000:c05f702f17fe956e</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\buffs_weightbench.png">2f7d0004:00000000:c05f702f17fe956e</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">2</T>
 </I>

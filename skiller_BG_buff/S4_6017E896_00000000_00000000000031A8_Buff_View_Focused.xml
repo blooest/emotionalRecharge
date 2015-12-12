@@ -13,11 +13,10 @@
   <T n="buff_description">0x22F2E1F7<!--String: "Stare at the right art long enough and anyone can find their center."--></T>
   <T n="buff_name">0x8D1C324E<!--String: "Centered by Art"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_viewartwork.png" n="icon">2f7d0004:00000000:3e015e471476219d</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_viewartwork.png" n="icon_highlight">2f7d0004:00000000:3e015e471476219d</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

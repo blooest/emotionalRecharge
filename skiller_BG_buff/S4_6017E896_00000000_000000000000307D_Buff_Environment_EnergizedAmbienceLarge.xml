@@ -5,12 +5,11 @@
   <T n="buff_description">0x6574A2EA<!--String: "A pleasing environment can put a Sim in the mood."--></T>
   <T n="buff_name">0x97E8D165<!--String: "Energizing Décor"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_environment.png" n="icon">2f7d0004:00000000:aa87227005ac11a7</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_environment.png" n="icon_highlight">2f7d0004:00000000:aa87227005ac11a7</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">3</T>
   <T n="show_timeout">False</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

@@ -15,7 +15,7 @@
   <T n="buff_description">0x4D256E57<!--String: "Heartfelt music can be a powerful aphrodisiac."--></T>
   <T n="buff_name">0x434D572E<!--String: "Sweet Serenade"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="decay_modifiers">
@@ -40,7 +40,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\Buffs_Serenade.png" n="icon">2f7d0004:00000000:462d723631c5641d</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Serenade.png" n="icon_highlight">2f7d0004:00000000:462d723631c5641d</T>
   <T n="mood_type">14638<!--Mood: Mood_Flirty--></T>
   <T n="mood_weight">2</T>
   <T n="refresh_on_add">False</T>

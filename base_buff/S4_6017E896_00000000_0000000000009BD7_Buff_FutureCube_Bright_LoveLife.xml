@@ -4,7 +4,7 @@
     <L n="tests_set">
       <L>
         <V t="test_set_reference">
-          <T n="test_set_reference">34093</T>
+          <T n="test_set_reference">34093<!--TestSetInstance: testSet_FlirtyBuff--></T>
         </V>
       </L>
     </L>
@@ -19,14 +19,13 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0xBD3D549C</T>
-  <T n="buff_name">0xF81C5173</T>
+  <T n="buff_description">0xBD3D549C<!--String: "Floating on the clouds from the Cube's warm predictions of everlasting love."--></T>
+  <T n="buff_name">0xF81C5173<!--String: "Bright Romantic Future"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_futurecube.png" n="icon">2f7d0004:00000000:70ee92d89354e79a</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_futurecube.png" n="icon_highlight">2f7d0004:00000000:70ee92d89354e79a</T>
-  <T n="mood_type">14638</T>
+  <T n="mood_type">14638<!--Mood: Mood_Flirty--></T>
   <T n="mood_weight">2</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

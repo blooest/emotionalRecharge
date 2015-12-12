@@ -5,11 +5,10 @@
   <T n="buff_description">0xAB86254F<!--String: "Oh you know, just going on aquatic adventures and saving the world."--></T>
   <T n="buff_name">0x310A016<!--String: "Bath Time is Best Time"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_bathtub.png" n="icon">2f7d0004:00000000:d90e6d275e35a0c8</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_bathtub.png" n="icon_highlight">2f7d0004:00000000:d90e6d275e35a0c8</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

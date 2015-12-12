@@ -4,7 +4,7 @@
     <L n="tests_set">
       <L>
         <V t="test_set_reference">
-          <T n="test_set_reference">34093</T>
+          <T n="test_set_reference">34093<!--TestSetInstance: testSet_FlirtyBuff--></T>
         </V>
       </L>
     </L>
@@ -19,15 +19,14 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0x735C48D6</T>
-  <T n="buff_name">0x24F7FC89</T>
+  <T n="buff_description">0x735C48D6<!--String: "A recollection that steamy should come with a censor grid, or at least some mood lighting and sax music."--></T>
+  <T n="buff_name">0x24F7FC89<!--String: "Romantic Memory"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_buzzed.png" n="icon">2f7d0004:00000000:e357d388eac45064</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_buzzed.png" n="icon_highlight">2f7d0004:00000000:e357d388eac45064</T>
-  <T n="mood_type">14638</T>
+  <T n="mood_type">14638<!--Mood: Mood_Flirty--></T>
   <T n="mood_weight">1</T>
   <T n="refresh_on_add">False</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

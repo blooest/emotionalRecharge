@@ -13,11 +13,10 @@
   <T n="buff_description">0xF580C4DE<!--String: "One can focus easily with clever play in a game of cards!"--></T>
   <T n="buff_name">0xB0D460E1<!--String: "Clever Play"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_cardgame.png" n="icon">2f7d0004:00000000:35a471adae44e5b8</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_cardgame.png" n="icon_highlight">2f7d0004:00000000:35a471adae44e5b8</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

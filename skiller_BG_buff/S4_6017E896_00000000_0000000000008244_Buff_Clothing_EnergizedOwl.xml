@@ -12,13 +12,12 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x283C4406<!--String: "Caffeine can be toxic to birds! Lucky owls don't fit that bill."--></T>
   <T n="buff_name">0x49075D99<!--String: "Energized Owl"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_EnergizedOwl.png" n="icon">2f7d0004:00000000:96592ab12e3d38a1</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_EnergizedOwl.png" n="icon_highlight">2f7d0004:00000000:96592ab12e3d38a1</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_EnergizedOwl.png">2f7d0004:00000000:96592ab12e3d38a1</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">1</T>
   <T n="removal_minutes">360</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

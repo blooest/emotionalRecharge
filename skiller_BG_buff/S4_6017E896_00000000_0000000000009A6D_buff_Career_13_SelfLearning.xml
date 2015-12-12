@@ -13,11 +13,10 @@
   <T n="buff_description">0xAE7564F2<!--String: "Pulling up one's sleeves to learn on the job is rewarding."--></T>
   <T n="buff_name">0x78EFD08D<!--String: "Figured It Out"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_TechGuru.png" n="icon">2f7d0004:00000000:8ed75991ac11fe07</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_TechGuru.png" n="icon_highlight">2f7d0004:00000000:8ed75991ac11fe07</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

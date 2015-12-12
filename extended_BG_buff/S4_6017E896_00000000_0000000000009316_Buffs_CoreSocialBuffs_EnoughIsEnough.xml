@@ -5,11 +5,10 @@
   <T n="buff_description">0x5DF098BA<!--String: "Why is everybody picking on me?"--></T>
   <T n="buff_name">0x36667E65<!--String: "Enough is Enough!"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_EnoughIsEnough_neg.png" n="icon">2f7d0004:00000000:7fed059415b478d7</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_EnoughIsEnough_neg.png" n="icon_highlight">2f7d0004:00000000:7fed059415b478d7</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

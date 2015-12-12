@@ -5,12 +5,11 @@
   <T n="buff_description">0x3C895EE3<!--String: "Being around an angry ghost will boil any Sim's blood!"--></T>
   <T n="buff_name">0xD1F698B2<!--String: "Ghostly Rage"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_Ghost.png" n="icon">2f7d0004:00000000:8885dea99825b171</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_Ghost.png" n="icon_highlight">2f7d0004:00000000:8885dea99825b171</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <V t="proximity_tests" n="proximity_detection_tests" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

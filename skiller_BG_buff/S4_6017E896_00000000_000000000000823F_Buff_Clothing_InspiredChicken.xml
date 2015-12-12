@@ -12,13 +12,12 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x4C1E95F8<!--String: "Wiggle that wattle! Preen those feathers and flap those wings!"--></T>
   <T n="buff_name">0x7B8F90F7<!--String: "Inspired Chicken"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_InspiredChicken.png" n="icon">2f7d0004:00000000:5ace63d7a9f58f9f</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_InspiredChicken.png" n="icon_highlight">2f7d0004:00000000:5ace63d7a9f58f9f</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_InspiredChicken.png">2f7d0004:00000000:5ace63d7a9f58f9f</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <T n="removal_minutes">360</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

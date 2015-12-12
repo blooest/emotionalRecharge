@@ -11,7 +11,7 @@
   <T n="buff_description">0xC76158DA<!--String: "{0.SimFirstName} is full of vim, vigor, and even a little fancy-free. Now is the time to engage in physical activity!"--></T>
   <T n="buff_name">0xE5C7FA05<!--String: "Vigorated"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="effective_skill_modifier">
         <U n="effective_skill_modifier">
           <V t="skill_tag" n="modifier_key">
@@ -65,7 +65,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\buffs_refreshingdrink.png" n="icon">2f7d0004:00000000:1982aca1e315f4bf</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_refreshingdrink.png" n="icon_highlight">2f7d0004:00000000:1982aca1e315f4bf</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">2</T>
 </I>

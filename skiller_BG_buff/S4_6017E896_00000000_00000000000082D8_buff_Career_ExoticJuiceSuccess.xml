@@ -13,11 +13,10 @@
   <T n="buff_description">0x38C94FBA<!--String: "Tasting that exotic brew brought a wave of inspiration!"--></T>
   <T n="buff_name">0x8954F365<!--String: "Juicy Business"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Culinary.png" n="icon">2f7d0004:00000000:dc3d363692bd59ed</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Culinary.png" n="icon_highlight">2f7d0004:00000000:dc3d363692bd59ed</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

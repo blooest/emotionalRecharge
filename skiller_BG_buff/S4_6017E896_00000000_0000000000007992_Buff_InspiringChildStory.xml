@@ -13,11 +13,10 @@
   <T n="buff_description">0x84EFEC24<!--String: "What an inspiring story! And from a child, no less!"--></T>
   <T n="buff_name">0xEDB592E8<!--String: "Inspiring Story"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Inspired.png" n="icon">2f7d0004:00000000:91b5a2a1a22acba6</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Inspired.png" n="icon_highlight">2f7d0004:00000000:91b5a2a1a22acba6</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

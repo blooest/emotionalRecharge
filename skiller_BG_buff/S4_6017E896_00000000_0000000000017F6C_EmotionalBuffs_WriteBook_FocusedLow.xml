@@ -13,11 +13,10 @@
   <T n="buff_description">0x40E67E3<!--String: "It all makes so much sense!"--></T>
   <T n="buff_name">0xE83563B2<!--String: "Logical Read"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_book.png" n="icon">2f7d0004:00000000:bd56dcf79e27f623</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_book.png" n="icon_highlight">2f7d0004:00000000:bd56dcf79e27f623</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

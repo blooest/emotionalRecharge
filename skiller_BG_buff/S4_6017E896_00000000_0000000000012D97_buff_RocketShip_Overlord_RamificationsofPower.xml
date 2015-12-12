@@ -13,11 +13,10 @@
   <T n="buff_description">0x8CC40500<!--String: "{0.SimFirstName} discovered today that even great power can diminish a sense of self if not exercised carefully."--></T>
   <T n="buff_name">0xD17B17EA<!--String: "Ramifications of Power"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_rocketship.png" n="icon">2f7d0004:00000000:9272f9ab577c5782</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_rocketship.png" n="icon_highlight">2f7d0004:00000000:9272f9ab577c5782</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

@@ -12,12 +12,11 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x94BAB155<!--String: "Is there anything more alluring to two teens than a romantic hot tub romp?\n"--></T>
   <T n="buff_name">0x3732A270<!--String: "Messed Around in the Hot Tub"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_HotTubKiss.png" n="icon">2f7d0004:00000000:9eb21a8708c024a4</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_HotTubKiss.png" n="icon_highlight">2f7d0004:00000000:9eb21a8708c024a4</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_HotTubKiss.png">2f7d0004:00000000:9eb21a8708c024a4</T>
   <T n="mood_type">14638<!--Mood: Mood_Flirty--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 	    <U n="affordance_modifier">
 		  <L n="affordance_lists"/>

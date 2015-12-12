@@ -13,11 +13,10 @@
   <T n="buff_description">0xD46A7D4E<!--String: "Why would someone yell at {0.SimFirstName} for trying to help? WHY?"--></T>
   <T n="buff_name">0x8F50D671<!--String: "Indignant"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_fitness_neg.png" n="icon">2f7d0004:00000000:7cb736ac623315a7</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_fitness_neg.png" n="icon_highlight">2f7d0004:00000000:7cb736ac623315a7</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

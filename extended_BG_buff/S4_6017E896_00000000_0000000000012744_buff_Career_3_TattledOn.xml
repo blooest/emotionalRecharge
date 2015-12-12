@@ -13,11 +13,10 @@
   <T n="buff_description">0x85205A54<!--String: "This isn't going to be a fun conversation with the principal."--></T>
   <T n="buff_name">0x9608283B<!--String: "Tattled On"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_School_neg.png" n="icon">2f7d0004:00000000:6a8f527b4f52c04b</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_School_neg.png" n="icon_highlight">2f7d0004:00000000:6a8f527b4f52c04b</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

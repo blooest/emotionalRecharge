@@ -13,12 +13,11 @@
   <T n="buff_description">0x46476B2B<!--String: "You cheated to get this Moodlet!"--></T>
   <T n="buff_name">0x8E700682<!--String: "Focused"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_YouCheated.png" n="icon">2f7d0004:00000000:407b07c626768825</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_YouCheated.png" n="icon_highlight">2f7d0004:00000000:407b07c626768825</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">500</T>
   <T n="visible">True</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

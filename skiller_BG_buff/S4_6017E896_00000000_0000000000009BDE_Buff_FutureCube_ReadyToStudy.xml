@@ -13,11 +13,10 @@
   <T n="buff_description">0x50AB5628<!--String: "Feeling optimistic and full of purpose, thanks to the Cube's prediction. The pursuit of scientific knowledge never looked more promising!"--></T>
   <T n="buff_name">0x19912047<!--String: "Ready to Study"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_futurecube.png" n="icon">2f7d0004:00000000:70ee92d89354e79a</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_futurecube.png" n="icon_highlight">2f7d0004:00000000:70ee92d89354e79a</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

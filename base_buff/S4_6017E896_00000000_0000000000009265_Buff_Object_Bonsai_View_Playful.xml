@@ -10,15 +10,14 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0x7EFBE9DE</T>
-  <T n="buff_name">0xAFA2BFE1</T>
+  <T n="buff_description">0x7EFBE9DE<!--String: "{0.SimFirstName} is delighted after seeing a cheerful Bonsai shape practically spring to life."--></T>
+  <T n="buff_name">0xAFA2BFE1<!--String: "Playful Pruning"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_bonsai.png" n="icon">2f7d0004:00000000:e8e3eb35b3f4e1f2</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_bonsai.png" n="icon_highlight">2f7d0004:00000000:e8e3eb35b3f4e1f2</T>
-  <T n="mood_type">14642</T>
+  <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">1</T>
   <T n="refresh_on_add">False</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

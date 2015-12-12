@@ -13,11 +13,10 @@
   <T n="buff_description">0xF4993C80<!--String: "It's the greatest dream of every sports fan: pulling out the perfect statistic to win that argument."--></T>
   <T n="buff_name">0xE8B5984F<!--String: "Statistical Fervor"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_fitness.png" n="icon">2f7d0004:00000000:f8924c01ed5d4ce4</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_fitness.png" n="icon_highlight">2f7d0004:00000000:f8924c01ed5d4ce4</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

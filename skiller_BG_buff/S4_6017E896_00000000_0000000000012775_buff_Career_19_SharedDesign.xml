@@ -13,11 +13,10 @@
   <T n="buff_description">0xC5609B91<!--String: "Great ideas are even better when the shared with others!"--></T>
   <T n="buff_name">0x8256BDE4<!--String: "Shared Design"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_School.png" n="icon">2f7d0004:00000000:9edcf168ca6d6b58</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_School.png" n="icon_highlight">2f7d0004:00000000:9edcf168ca6d6b58</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

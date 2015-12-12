@@ -13,11 +13,10 @@
   <T n="buff_description">0x2E449B07<!--String: "Something about the nice weather made studying more enjoyable and effective!"--></T>
   <T n="buff_name">0x403CEA72<!--String: "Future Focused"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_School.png" n="icon">2f7d0004:00000000:9edcf168ca6d6b58</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_School.png" n="icon_highlight">2f7d0004:00000000:9edcf168ca6d6b58</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

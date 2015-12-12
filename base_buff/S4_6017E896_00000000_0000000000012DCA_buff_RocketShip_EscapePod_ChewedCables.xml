@@ -10,14 +10,13 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0xF53A62E0</T>
-  <T n="buff_name">0xAA973F2F</T>
+  <T n="buff_description">0xF53A62E0<!--String: "It appears that the creature left a thick, rancid slime all over the rocketship power mains. {0.SimFirstName} will never look at yoghurt the same way again."--></T>
+  <T n="buff_name">0xAA973F2F<!--String: "Chewed Cables"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_rocketship_neg.png" n="icon">2f7d0004:00000000:95accc7eca662779</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_rocketship_neg.png" n="icon_highlight">2f7d0004:00000000:95accc7eca662779</T>
-  <T n="mood_type">14632</T>
+  <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">2</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

@@ -12,12 +12,11 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x4EA65CEE<!--String: "Clay has so much potential. All the possibilities are inspiring!"--></T>
   <T n="buff_name">0x6D6A9C20<!--String: "Inspiring Blob"--></T>
-  <T p="InGame\UI\Icons\Buffs\buffs_clayblob.png" n="icon">2f7d0004:00000000:14353d12adef6c1e</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_clayblob.png" n="icon_highlight">2f7d0004:00000000:14353d12adef6c1e</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\buffs_clayblob.png">2f7d0004:00000000:14353d12adef6c1e</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

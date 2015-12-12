@@ -13,12 +13,11 @@
   <T n="buff_description">0x41519714<!--String: "This Sim is feeling a sudden burst of inspiration!"--></T>
   <T n="buff_name">0x217A9DFB<!--String: "Burst of Inspiration"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Inspired.png" n="icon">2f7d0004:00000000:91b5a2a1a22acba6</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Inspired.png" n="icon_highlight">2f7d0004:00000000:91b5a2a1a22acba6</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">5</T>
   <T n="timeout_string">0x1302CB6C<!--String: "Inspired for: {0.Timespan}"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

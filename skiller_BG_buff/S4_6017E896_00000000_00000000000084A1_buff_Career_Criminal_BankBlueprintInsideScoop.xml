@@ -5,11 +5,10 @@
   <T n="buff_description">0x62CD65D6<!--String: "The blueprints for this bank will definitely help out the next time the crew pulls a caper at work. Just be sure to start the heist soon, before the bank increases their security."--></T>
   <T n="buff_name">0x7556C389<!--String: "Inside Scoop"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Criminal.png" n="icon">2f7d0004:00000000:1b6309853470b497</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Criminal.png" n="icon_highlight">2f7d0004:00000000:1b6309853470b497</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

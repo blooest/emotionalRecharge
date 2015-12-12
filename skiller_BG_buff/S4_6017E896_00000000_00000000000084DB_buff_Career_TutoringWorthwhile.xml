@@ -13,11 +13,10 @@
   <T n="buff_description">0xB9A8ED8A<!--String: "It's worth it to see a student's talent really come alive."--></T>
   <T n="buff_name">0x62BF3195<!--String: "Tutoring Worthwhile"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Painter.png" n="icon">2f7d0004:00000000:920acae331707635</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Painter.png" n="icon_highlight">2f7d0004:00000000:920acae331707635</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

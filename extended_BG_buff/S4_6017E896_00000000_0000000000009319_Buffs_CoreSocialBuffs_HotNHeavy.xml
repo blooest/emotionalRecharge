@@ -14,11 +14,10 @@
   <T n="buff_description">0xE4F28F06<!--String: "Ah, the sweet shared touch of another Sim!"--></T>
   <T n="buff_name">0x76324E99<!--String: "Hot 'N Heavy"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_HotNHeavy.png" n="icon">2f7d0004:00000000:dee02d02706a594a</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_HotNHeavy.png" n="icon_highlight">2f7d0004:00000000:dee02d02706a594a</T>
   <T n="mood_type">14638<!--Mood: Mood_Flirty--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

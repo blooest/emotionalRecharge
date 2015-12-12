@@ -5,12 +5,11 @@
   <T n="buff_description">0xF53843E6<!--String: "Amazing! One sip of that potion and the ideas just won't stop coming!"--></T>
   <T n="buff_name">0x45AA0DF9<!--String: "Inspired by Potion"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Potion.png" n="icon">2f7d0004:00000000:351f1fa8ab354ec1</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Potion.png" n="icon_highlight">2f7d0004:00000000:351f1fa8ab354ec1</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">100</T>
   <T n="visible">True</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

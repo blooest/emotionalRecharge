@@ -13,7 +13,6 @@
   <T n="buff_description">0x1B3B65D4<!--String: "Hell hath no fury like a scorned Jealous Sim."--></T>
   <T n="buff_name">0x33EC72BB<!--String: "Jealous Fury"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_jealous.png" n="icon">2f7d0004:00000000:aa4ae4050c913b93</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_jealous_neg.png" n="icon_highlight">2f7d0004:00000000:1359b8c28240fe54</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">3</T>
   <T n="refresh_on_add">True</T>
@@ -22,7 +21,7 @@
   <T n="visible">True</T>
   <V t="disabled" n="walkstyle" />
   <U n="game_effect_modifiers">
-	<L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

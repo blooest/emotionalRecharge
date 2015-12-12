@@ -5,11 +5,10 @@
   <T n="buff_description">0x563B0224<!--String: "Feeling angry after an unpleasant conversation."--></T>
   <T n="buff_name">0x57C7506B<!--String: "Aggravating Conversation"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_nemesis_neg.png" n="icon">2f7d0004:00000000:0552c9cd56b5e3db</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_nemesis_neg.png" n="icon_highlight">2f7d0004:00000000:0552c9cd56b5e3db</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

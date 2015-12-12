@@ -13,11 +13,10 @@
   <T n="buff_description">0x374F53AC<!--String: "A quick shower can be super refreshing!"--></T>
   <T n="buff_name">0x8F36D3E3<!--String: "Brisk Shower"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_shower.png" n="icon">2f7d0004:00000000:4373529f55f6764a</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_shower.png" n="icon_highlight">2f7d0004:00000000:4373529f55f6764a</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

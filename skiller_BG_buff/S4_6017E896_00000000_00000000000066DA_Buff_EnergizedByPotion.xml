@@ -5,12 +5,11 @@
   <T n="buff_description">0xA8F6C28B<!--String: "Wow! Talk about an energizing drink!"--></T>
   <T n="buff_name">0xB8ED2A0A<!--String: "Energized by Potion"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Potion.png" n="icon">2f7d0004:00000000:351f1fa8ab354ec1</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Potion.png" n="icon_highlight">2f7d0004:00000000:351f1fa8ab354ec1</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">100</T>
   <T n="visible">True</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

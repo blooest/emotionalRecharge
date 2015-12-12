@@ -13,11 +13,10 @@
   <T n="buff_description">0x78037F0<!--String: "{0.SimFirstName} understands not only the mechanical process, but also the art of bringing a stunning dish to the table."--></T>
   <T n="buff_name">0x5420459F<!--String: "Gourmand"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Culinary.png" n="icon">2f7d0004:00000000:dc3d363692bd59ed</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Culinary.png" n="icon_highlight">2f7d0004:00000000:dc3d363692bd59ed</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

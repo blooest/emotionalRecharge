@@ -5,7 +5,6 @@
   <T n="buff_description">0x428AD4E4<!--String: "Some Sims just cannot stand to be around children!"--></T>
   <T n="buff_name">0x3FE01A2B<!--String: "Ugh! Children!"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_hateschildren_neg.png" n="icon">2f7d0004:00000000:8cfa2e8a2a2d5695</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_hateschildren_neg.png" n="icon_highlight">2f7d0004:00000000:8cfa2e8a2a2d5695</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <T n="refresh_on_add">True</T>
@@ -15,7 +14,7 @@
   <T n="visible">True</T>
   <V t="disabled" n="walkstyle" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

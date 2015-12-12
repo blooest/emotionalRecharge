@@ -5,12 +5,11 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x9EB0C9E<!--String: "The sharp citrus scent of lemon hangs in the air, invigorating {0.SimFirstName} with energy.\n"--></T>
   <T n="buff_name">0xF98E8CA1<!--String: "Lemon Aroma"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Lemon.png" n="icon">2f7d0004:00000000:19cb95d387a1c5bd</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Lemon.png" n="icon_highlight">2f7d0004:00000000:19cb95d387a1c5bd</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_Lemon.png">2f7d0004:00000000:19cb95d387a1c5bd</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

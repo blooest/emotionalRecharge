@@ -13,11 +13,10 @@
   <T n="buff_description">0x24C8A99<!--String: "With enough focus, one can be unstoppable."--></T>
   <T n="buff_name">0x342BAD1C<!--String: "In the Gamer Zone"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_TechGuru.png" n="icon">2f7d0004:00000000:8ed75991ac11fe07</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_TechGuru.png" n="icon_highlight">2f7d0004:00000000:8ed75991ac11fe07</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

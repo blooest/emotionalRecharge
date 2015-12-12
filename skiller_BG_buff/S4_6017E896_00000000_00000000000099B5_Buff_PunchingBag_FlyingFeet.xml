@@ -13,12 +13,11 @@
   <T n="buff_description">0x66D532DA<!--String: "Anyone can punch a Punching Bag, but kicking it - that's thinking outside the "Box.""--></T>
   <T n="buff_name">0x2486805<!--String: "Flying Feet"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_punchingbag.png" n="icon">2f7d0004:00000000:7292fd27efd20cbe</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_punchingbag.png" n="icon_highlight">2f7d0004:00000000:7292fd27efd20cbe</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">1</T>
   <T n="show_timeout">True</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

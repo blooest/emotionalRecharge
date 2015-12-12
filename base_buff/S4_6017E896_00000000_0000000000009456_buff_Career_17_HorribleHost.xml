@@ -10,14 +10,13 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0xA8B41E27</T>
-  <T n="buff_name">0x10391C5E</T>
+  <T n="buff_description">0xA8B41E27<!--String: "That was 20 miserable minutes, and no good press even came out of it."--></T>
+  <T n="buff_name">0x10391C5E<!--String: "Horrible Host"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Writer_neg.png" n="icon">2f7d0004:00000000:017d86d9d7a23656</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Writer_neg.png" n="icon_highlight">2f7d0004:00000000:017d86d9d7a23656</T>
-  <T n="mood_type">14632</T>
+  <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

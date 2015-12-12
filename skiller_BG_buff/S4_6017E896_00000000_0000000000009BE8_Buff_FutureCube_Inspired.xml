@@ -13,11 +13,10 @@
   <T n="buff_description">0x4A59B28F<!--String: "The Cube predicted you'd be inspired soon, and the Cube was right! Creative juices are flowing!"--></T>
   <T n="buff_name">0xB82BA156<!--String: "Creatively Inspired"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_futurecube.png" n="icon">2f7d0004:00000000:70ee92d89354e79a</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_futurecube.png" n="icon_highlight">2f7d0004:00000000:70ee92d89354e79a</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

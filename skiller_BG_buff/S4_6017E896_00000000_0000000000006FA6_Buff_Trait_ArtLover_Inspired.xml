@@ -12,8 +12,7 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0x5F548FDD<!--String: "Art is a constant source of inspiration, especially for Sims who are Art Lovers."--></T>
   <T n="buff_name">0x79D531C8<!--String: "Inspiring Art"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ArtLover.png" n="icon">2f7d0004:00000000:8dd32dd3e8876907</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ArtLover.png" n="icon_highlight">2f7d0004:00000000:8dd32dd3e8876907</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_ArtLover.png">2f7d0004:00000000:8dd32dd3e8876907</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
   <T n="refresh_on_add">True</T>
@@ -22,7 +21,7 @@
   <T n="visible">True</T>
   <V t="disabled" n="walkstyle" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

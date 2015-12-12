@@ -13,7 +13,7 @@
   <T n="buff_description">0x8DB1FB21<!--String: "Sometimes, reading can help your writing just as much as writing can!"--></T>
   <T n="buff_name">0x8E6CFCD4<!--String: "Literary Example"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="effective_skill_modifier">
         <U n="effective_skill_modifier">
           <V t="skill_type" n="modifier_key">
@@ -52,7 +52,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\buffs_book.png" n="icon">2f7d0004:00000000:bd56dcf79e27f623</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_book.png" n="icon_highlight">2f7d0004:00000000:bd56dcf79e27f623</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
 </I>

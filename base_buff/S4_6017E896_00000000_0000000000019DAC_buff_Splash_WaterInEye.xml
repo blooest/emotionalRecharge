@@ -10,14 +10,13 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0x3A971D4F</T>
-  <T n="buff_name">0xBF020816</T>
+  <T n="buff_description">0x3A971D4F<!--String: "Ouch! What thoughtless monster would splash chlorinated water in someone's face?"--></T>
+  <T n="buff_name">0xBF020816<!--String: "Water in Eye"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Angry_neg.png" n="icon">2f7d0004:00000000:cda91ab2fff94c94</T>
-  <T p="InGame\UI\Icons\Debug\missing_image.png" n="icon_highlight">2f7d0004:00000000:30f0846c783606f9</T>
-  <T n="mood_type">14632</T>
+  <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">2</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

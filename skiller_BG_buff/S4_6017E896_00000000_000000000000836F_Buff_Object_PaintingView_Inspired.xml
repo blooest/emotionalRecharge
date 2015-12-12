@@ -13,11 +13,10 @@
   <T n="buff_description">0x2E5E520E<!--String: "Good art is hard to come by these days. It is indeed inspiring when one stumbles upon some."--></T>
   <T n="buff_name">0xA3521F31<!--String: "Appreciating Art"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_viewartwork.png" n="icon">2f7d0004:00000000:3e015e471476219d</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_viewartwork.png" n="icon_highlight">2f7d0004:00000000:3e015e471476219d</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

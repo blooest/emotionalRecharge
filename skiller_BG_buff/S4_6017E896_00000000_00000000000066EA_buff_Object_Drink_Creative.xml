@@ -11,7 +11,7 @@
   <T n="buff_description">0x4E69B086<!--String: "{0.SimFirstName}'s creative juices are flowing.  Time to do some writing or painting!"--></T>
   <T n="buff_name">0x5222FB19<!--String: "Creative Juices Flowing"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="effective_skill_modifier">
         <U n="effective_skill_modifier">
           <V t="skill_type" n="modifier_key">
@@ -61,7 +61,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\buffs_refreshingdrink.png" n="icon">2f7d0004:00000000:1982aca1e315f4bf</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_refreshingdrink.png" n="icon_highlight">2f7d0004:00000000:1982aca1e315f4bf</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
 </I>

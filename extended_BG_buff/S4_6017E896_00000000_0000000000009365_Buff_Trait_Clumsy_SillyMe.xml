@@ -5,8 +5,7 @@
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
   <T n="buff_description">0xB5F0A450<!--String: "Clumsy Sims try not to take themselves too seriously."--></T>
   <T n="buff_name">0xEF10297F<!--String: "Silly Me!"--></T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Clumsy.png" n="icon">2f7d0004:00000000:162e530fffab523b</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Clumsy.png" n="icon_highlight">2f7d0004:00000000:162e530fffab523b</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_Clumsy.png">2f7d0004:00000000:162e530fffab523b</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">1</T>
   <T n="refresh_on_add">True</T>
@@ -16,7 +15,7 @@
   <T n="visible">True</T>
   <V t="disabled" n="walkstyle" />
   <U n="game_effect_modifiers">
-	<L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

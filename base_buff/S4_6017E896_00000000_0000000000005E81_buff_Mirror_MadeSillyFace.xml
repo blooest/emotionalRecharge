@@ -13,12 +13,11 @@
   <T n="buff_description">0x5377395<!--String: "A funny face is always funny, even when it's your own!"--></T>
   <T n="buff_name">0x352E1B0<!--String: "What a Silly Face!"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_mirror.png" n="icon">2f7d0004:00000000:e374400e0eb33bfd</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_mirror.png" n="icon_highlight">2f7d0004:00000000:e374400e0eb33bfd</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">1</T>
   <T n="visible">True</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

@@ -13,11 +13,10 @@
   <T n="buff_description">0xDF01F8BD<!--String: "The beautiful moon rock will forever be an inspiring souvenir. "--></T>
   <T n="buff_name">0xE4929828<!--String: "Moon Rock"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Astronaut.png" n="icon">2f7d0004:00000000:749f44c6b4632f39</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Astronaut_neg.png" n="icon_highlight">2f7d0004:00000000:dbcaa53144578e9e</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

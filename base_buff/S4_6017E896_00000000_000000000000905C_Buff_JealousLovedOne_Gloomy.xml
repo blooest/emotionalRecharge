@@ -11,10 +11,10 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0xF10AF7BD</T>
-  <T n="buff_name">0x19207076</T>
+  <T n="buff_description">0xF10AF7BD<!--String: "Despondent over the sight of a loved one being unfaithful!"--></T>
+  <T n="buff_name">0x19207076<!--String: "Heartbroken by Betrayal"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <T n="content_score_bonus">80</T>
@@ -26,7 +26,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\buffs_jealous_neg.png" n="icon">2f7d0004:00000000:1359b8c28240fe54</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_jealous_neg.png" n="icon_highlight">2f7d0004:00000000:1359b8c28240fe54</T>
-  <T n="mood_type">14643</T>
+  <T n="mood_type">14643<!--Mood: Mood_Sad--></T>
   <T n="mood_weight">3</T>
 </I>

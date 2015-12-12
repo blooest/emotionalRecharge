@@ -13,7 +13,7 @@
   <T n="buff_description">0xFD293B40<!--String: "Researching those cooking techniques on the internet is really paying off."--></T>
   <T n="buff_name">0x469D130F<!--String: "Advanced Cooking Technique"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="skill_tag_modifiers">
@@ -36,8 +36,7 @@
       </V>
     </L>
   </U>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ResearchCooking.png" n="icon">2f7d0004:00000000:270b6061c00b60c1</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ResearchCooking.png" n="icon_highlight">2f7d0004:00000000:270b6061c00b60c1</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_ResearchCooking.png">2f7d0004:00000000:270b6061c00b60c1</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
 </I>

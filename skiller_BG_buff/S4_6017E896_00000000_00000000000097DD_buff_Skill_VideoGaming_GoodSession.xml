@@ -5,11 +5,10 @@
   <T n="buff_description">0x71CEAB8D<!--String: "Nothing like a decent bit of gaming to focus the mind."--></T>
   <T n="buff_name">0x821F59D8<!--String: "Good Gaming Session"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_computer.png" n="icon">2f7d0004:00000000:ea5fdef6f479feef</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_computer.png" n="icon_highlight">2f7d0004:00000000:ea5fdef6f479feef</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

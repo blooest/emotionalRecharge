@@ -13,7 +13,7 @@
   <T n="buff_description">0x7B0932D5<!--String: "With the research fresh in mind, now is a good time to play the Violin!"--></T>
   <T n="buff_name">0xD14B6EF0<!--String: "Researched Violin"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="stat_use_multiplier">
@@ -38,8 +38,7 @@
       </V>
     </L>
   </U>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ResearchViolin.png" n="icon">2f7d0004:00000000:325c874abfde592c</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ResearchViolin.png" n="icon_highlight">2f7d0004:00000000:325c874abfde592c</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_ResearchViolin.png">2f7d0004:00000000:325c874abfde592c</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
 </I>

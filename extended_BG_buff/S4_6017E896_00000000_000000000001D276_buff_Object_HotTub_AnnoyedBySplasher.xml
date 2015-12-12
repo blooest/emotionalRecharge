@@ -13,11 +13,10 @@
   <T n="buff_description">0x2832EC97<!--String: "There’s nothing worse than a Sim who thinks they’re being funny, when they’re just being annoying.\n"--></T>
   <T n="buff_name">0x7E2C016E<!--String: "Annoyed By Splasher"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Annoyed_neg.png" n="icon">2f7d0004:00000000:9cc836077d78217d</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Annoyed_neg.png" n="icon_highlight">2f7d0004:00000000:9cc836077d78217d</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
 	  <V t="affordance_modifier">
 		<U n="affordance_modifier">
 		  <L n="affordance_lists"/>

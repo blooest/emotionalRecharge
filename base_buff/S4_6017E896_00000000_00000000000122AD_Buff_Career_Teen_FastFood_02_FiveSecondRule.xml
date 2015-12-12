@@ -10,14 +10,13 @@
   </V>
   <T p="InGame\Audio\Stings\sting_buff_gain.propx" n="audio_sting_on_add">39b2aa4a:00000000:8af8b916cf64c646</T>
   <T p="InGame\Audio\Stings\sting_buff_loss.propx" n="audio_sting_on_remove">39b2aa4a:00000000:3bf33216a25546ea</T>
-  <T n="buff_description">0x80EB7512</T>
-  <T n="buff_name">0x1040A42D</T>
+  <T n="buff_description">0x80EB7512<!--String: "Until it's been on the floor for five seconds, it's not really floor food, right?"--></T>
+  <T n="buff_name">0x1040A42D<!--String: "Five Second Rule"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_FastFood.png" n="icon">2f7d0004:00000000:ae52518f425b8a56</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_FastFood.png" n="icon_highlight">2f7d0004:00000000:ae52518f425b8a56</T>
-  <T n="mood_type">14642</T>
+  <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

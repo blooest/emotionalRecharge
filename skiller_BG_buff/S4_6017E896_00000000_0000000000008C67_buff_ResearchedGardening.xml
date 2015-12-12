@@ -13,7 +13,7 @@
   <T n="buff_description">0x355EF7FD<!--String: "With {0.SimFirstName}'s newly discovered gardening techniques, practice will only improve {M0.his}{F0.her} results!"--></T>
   <T n="buff_name">0x44996B68<!--String: "Researched Gardening"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="stat_use_multiplier">
@@ -38,8 +38,7 @@
       </V>
     </L>
   </U>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ResearchGardening.png" n="icon">2f7d0004:00000000:82f2e603dcf81860</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_ResearchGardening.png" n="icon_highlight">2f7d0004:00000000:82f2e603dcf81860</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_ResearchGardening.png">2f7d0004:00000000:82f2e603dcf81860</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">2</T>
 </I>

@@ -13,11 +13,10 @@
   <T n="buff_description">0x74ECA5AB<!--String: "A little caffeine can help a Sim focus."--></T>
   <T n="buff_name">0xC0A478AA<!--String: "Pitch Black"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_drinktea.png" n="icon">2f7d0004:00000000:460354e4cd864208</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_drinktea.png" n="icon_highlight">2f7d0004:00000000:460354e4cd864208</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

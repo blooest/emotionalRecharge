@@ -5,7 +5,7 @@
   <T n="buff_description">0x2C2D0BA0<!--String: "{0.SimFirstName}'s child's creativity inspires {M0.him}{F0.her}."--></T>
   <T n="buff_name">0x7FB89A89<!--String: "Vicarious"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="skill_tag_modifiers">
@@ -42,7 +42,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\Buffs_LivingVicariously.png" n="icon">2f7d0004:00000000:aa44738ae932c24b</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_LivingVicariously.png" n="icon_highlight">2f7d0004:00000000:aa44738ae932c24b</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <V t="proximity_add_reason" n="proximity_buff_added_reason">

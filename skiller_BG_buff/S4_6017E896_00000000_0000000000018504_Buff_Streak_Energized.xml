@@ -14,11 +14,10 @@
   <T n="buff_description">0x2C529630<!--String: "Few experiences equal the thrill of a jog around the block unrestricted by clothing."--></T>
   <T n="buff_name">0xA96A2DDF<!--String: "Uninhibited Thrill!"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Mischief.png" n="icon">2f7d0004:00000000:d3470518515865e0</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Mischief.png" n="icon_highlight">2f7d0004:00000000:d3470518515865e0</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

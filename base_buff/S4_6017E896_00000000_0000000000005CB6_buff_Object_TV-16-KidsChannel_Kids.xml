@@ -14,11 +14,10 @@
   <T n="buff_description">0x55ADD967<!--String: "Exploring time with everyone's favorite wacky cartoon crew!"--></T>
   <T n="buff_name">0xFC58F59E<!--String: "Pirates and Pineapples!"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_television.png" n="icon">2f7d0004:00000000:8851e004971ced3c</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_television.png" n="icon_highlight">2f7d0004:00000000:8851e004971ced3c</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">1</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

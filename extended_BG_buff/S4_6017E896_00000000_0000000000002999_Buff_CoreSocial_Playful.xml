@@ -5,11 +5,10 @@
   <T n="buff_description">0x6F76BA6C<!--String: "Jokes, smiles, and silliness abound."--></T>
   <T n="buff_name">0xB18685A3<!--String: "Funny Conversation"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_besties.png" n="icon">2f7d0004:00000000:3d051ad66bd1b0ef</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_besties.png" n="icon_highlight">2f7d0004:00000000:3d051ad66bd1b0ef</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

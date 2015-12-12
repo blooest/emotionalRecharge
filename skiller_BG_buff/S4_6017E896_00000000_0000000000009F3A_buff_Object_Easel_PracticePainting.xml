@@ -13,14 +13,13 @@
   <T n="buff_description">0xBFB7FB6E<!--String: "Practice practice practice and the perfect piece of art will not elude one for long."--></T>
   <T n="buff_name">0x8B00F611<!--String: "Muse Unleashed!"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_easel.png" n="icon">2f7d0004:00000000:5bc20f97d4dcaef2</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_easel.png" n="icon_highlight">2f7d0004:00000000:5bc20f97d4dcaef2</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <L n="topics">
     <T>10371<!--Topic: topic_simPainting--></T>
   </L>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

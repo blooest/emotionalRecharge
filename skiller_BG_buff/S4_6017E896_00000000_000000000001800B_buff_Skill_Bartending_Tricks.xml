@@ -13,11 +13,10 @@
   <T n="buff_description">0xFFC0D3C1<!--String: "A little bartending experimentation can really get a Sim inspired!"--></T>
   <T n="buff_name">0x521949F4<!--String: "Inspired to Mix"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_Bartending.png" n="icon">2f7d0004:00000000:b7a8429215094e84</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Bartending.png" n="icon_highlight">2f7d0004:00000000:b7a8429215094e84</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

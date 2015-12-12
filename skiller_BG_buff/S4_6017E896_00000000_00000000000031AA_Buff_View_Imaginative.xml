@@ -13,11 +13,10 @@
   <T n="buff_description">0xEF716842<!--String: "What is more inspirational that looking at great works of art?"--></T>
   <T n="buff_name">0xE9AA1B3D<!--String: "Inspired by Art"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_viewartwork.png" n="icon">2f7d0004:00000000:3e015e471476219d</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_viewartwork.png" n="icon_highlight">2f7d0004:00000000:3e015e471476219d</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

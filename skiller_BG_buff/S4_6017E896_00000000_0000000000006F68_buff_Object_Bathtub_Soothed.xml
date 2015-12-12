@@ -13,11 +13,10 @@
   <T n="buff_description">0x82042631<!--String: "Clam jets have energized {0.SimFirstName}'s muscles while {M0.he}{F0.she} napped."--></T>
   <T n="buff_name">0x7642EF04<!--String: "Soothed"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_bathtub.png" n="icon">2f7d0004:00000000:d90e6d275e35a0c8</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_bathtub.png" n="icon_highlight">2f7d0004:00000000:d90e6d275e35a0c8</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">2</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

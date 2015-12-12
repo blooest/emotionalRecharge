@@ -10,7 +10,7 @@
   <T n="buff_description">0x6B73D00B<!--String: "Not only does protein fill you up, but it helps you build muscle!"--></T>
   <T n="buff_name">0xC6F3DA8A<!--String: "Protein Powered"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="stat_use_multiplier">
@@ -38,7 +38,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\Buffs_Energized.png" n="icon">2f7d0004:00000000:7662f28605db26ed</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Energized.png" n="icon_highlight">2f7d0004:00000000:7662f28605db26ed</T>
   <T n="mood_type">14636<!--Mood: Mood_Energized--></T>
   <T n="mood_weight">2</T>
 </I>

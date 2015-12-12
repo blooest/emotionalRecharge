@@ -5,12 +5,11 @@
   <T n="buff_description">0x1825B83<!--String: "A mischievous ghost can tickle any Sim's funny bone."--></T>
   <T n="buff_name">0x8A08ADD2<!--String: "The Ghostly Giggles"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_Ghost.png" n="icon">2f7d0004:00000000:8885dea99825b171</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_Ghost.png" n="icon_highlight">2f7d0004:00000000:8885dea99825b171</T>
   <T n="mood_type">14642<!--Mood: Mood_Playful--></T>
   <T n="mood_weight">1</T>
   <V t="proximity_tests" n="proximity_detection_tests" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

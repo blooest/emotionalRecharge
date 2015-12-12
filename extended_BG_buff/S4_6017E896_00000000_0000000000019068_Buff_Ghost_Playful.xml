@@ -8,7 +8,6 @@
   <T n="buff_description">0xB0A9EBEF<!--String: "Even the afterlife has its share of funny moments."--></T>
   <T n="buff_name">0x854B3036<!--String: "Ghostly Laughter"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_Ghost.png" n="icon">2f7d0004:00000000:8885dea99825b171</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_Ghost.png" n="icon_highlight">2f7d0004:00000000:8885dea99825b171</T>
   <V n="interactions" t="enabled">
     <U n="enabled">
       <L n="interaction_items">
@@ -21,7 +20,7 @@
   <T n="mood_weight">2</T>
   <V t="proximity_tests" n="proximity_detection_tests" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

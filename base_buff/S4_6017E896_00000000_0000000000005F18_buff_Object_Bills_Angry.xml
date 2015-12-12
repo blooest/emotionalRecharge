@@ -13,11 +13,10 @@
   <T n="buff_description">0x5845D086<!--String: "How dare the government demand you pay bills! That's your hard earned money!"--></T>
   <T n="buff_name">0xA4675F80<!--String: "Burdensome Bills"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_bills_neg.png" n="icon">2f7d0004:00000000:b1266b3d31f91039</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_bills_neg.png" n="icon_highlight">2f7d0004:00000000:b1266b3d31f91039</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
 <U n="game_effect_modifiers">
-<L n="game_effect_modifiers">
+<L n="_game_effect_modifiers">
 <V t="affordance_modifier">
 <U n="affordance_modifier">
 <L n="affordance_lists"/>

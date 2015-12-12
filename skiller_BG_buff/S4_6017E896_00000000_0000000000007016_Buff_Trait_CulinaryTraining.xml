@@ -13,7 +13,7 @@
   <T n="buff_description">0xEB04D85E<!--String: "Aspiring Chefs can learn a great deal from watching Cooking TV!"--></T>
   <T n="buff_name">0x41154361<!--String: "Culinary Training"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="effective_skill_modifier">
         <U n="effective_skill_modifier">
           <V t="skill_type" n="modifier_key">
@@ -34,7 +34,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\Buffs_Culinary.png" n="icon">2f7d0004:00000000:dc3d363692bd59ed</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_Culinary.png" n="icon_highlight">2f7d0004:00000000:dc3d363692bd59ed</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
   <T n="refresh_on_add">True</T>

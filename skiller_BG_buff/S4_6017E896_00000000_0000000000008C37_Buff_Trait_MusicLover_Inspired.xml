@@ -5,7 +5,6 @@
   <T n="buff_description">0x722260FB<!--String: "As a Music Lover, listening deeply to the music allows for new possibilities of musical genius."--></T>
   <T n="buff_name">0x30A6A25A<!--String: "Inspired by the Music"--></T>
   <T p="InGame\UI\Icons\Buffs\Buffs_MusicLover.png" n="icon">2f7d0004:00000000:3789d4f3ce00cb49</T>
-  <T p="InGame\UI\Icons\Buffs\Buffs_MusicLover.png" n="icon_highlight">2f7d0004:00000000:3789d4f3ce00cb49</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">2</T>
   <T n="refresh_on_add">True</T>
@@ -14,7 +13,7 @@
   <T n="visible">True</T>
   <V t="disabled" n="walkstyle" />
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

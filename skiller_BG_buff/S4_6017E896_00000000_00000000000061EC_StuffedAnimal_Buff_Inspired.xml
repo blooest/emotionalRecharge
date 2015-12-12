@@ -13,11 +13,10 @@
   <T n="buff_description">0x2883B4E7<!--String: "Magical moments with their stuffed buddies leave Sims feeling inspired."--></T>
   <T n="buff_name">0x2F2411A6<!--String: "Big Best Friend"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_teddybear.png" n="icon">2f7d0004:00000000:58e108d7b1aa1978</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_teddybear.png" n="icon_highlight">2f7d0004:00000000:58e108d7b1aa1978</T>
   <T n="mood_type">14641<!--Mood: Mood_Inspired--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>

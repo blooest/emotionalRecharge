@@ -13,7 +13,7 @@
   <T n="buff_description">0x22FAC0BC<!--String: "Sudden insight into the minds of surrounding Sims makes one feel like a superior social being."--></T>
   <T n="buff_name">0x5F058613<!--String: "Mind Melding"--></T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="autonomy_modifier">
         <U n="autonomy_modifier">
           <L n="decay_modifiers">
@@ -77,7 +77,6 @@
     </L>
   </U>
   <T p="InGame\UI\Icons\Buffs\buffs_refreshingdrink.png" n="icon">2f7d0004:00000000:1982aca1e315f4bf</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_refreshingdrink.png" n="icon_highlight">2f7d0004:00000000:1982aca1e315f4bf</T>
   <T n="mood_type">14639<!--Mood: Mood_Focused--></T>
   <T n="mood_weight">1</T>
 </I>

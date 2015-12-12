@@ -5,11 +5,10 @@
   <T n="buff_description">0xB528E29B<!--String: "Outraged from reading an opinionated article."--></T>
   <T n="buff_name">0xCFCDE07A<!--String: "Upsetting Read"--></T>
   <T p="InGame\UI\Icons\Buffs\buffs_book_neg.png" n="icon">2f7d0004:00000000:0f20d8720e9dccc4</T>
-  <T p="InGame\UI\Icons\Buffs\buffs_book_neg.png" n="icon_highlight">2f7d0004:00000000:0f20d8720e9dccc4</T>
   <T n="mood_type">14632<!--Mood: Mood_Angry--></T>
   <T n="mood_weight">1</T>
   <U n="game_effect_modifiers">
-    <L n="game_effect_modifiers">
+    <L n="_game_effect_modifiers">
       <V t="affordance_modifier">
         <U n="affordance_modifier">
           <L n="affordance_lists"/>
