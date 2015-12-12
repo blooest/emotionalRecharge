@@ -29,6 +29,9 @@
       <T n="buff_type">27370<!--Buff: buff_AutonomyMod_CleanGlasses--></T>
     </U>
     <U>
+      <T n="buff_type">128325<!--Buff: buff_AutonomyMod_Bartender--></T>
+    </U>
+    <U>
       <T n="buff_type">35391<!--Buff_Role_Appropriateness_NoStereo--></T>
     </U>
   </L>

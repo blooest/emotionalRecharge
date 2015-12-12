@@ -113,6 +113,30 @@
     <U>
       <T n="affordance">13053<!--StartCraftingOrderAutonomouslySuperInteraction: bar_PushOrderDrink_Autonomous--></T>
     </U>
+    <U>
+      <T n="affordance">122205<!--StartCraftingOrderSuperInteraction: bar_pushOrderFood--></T>
+    </U>
+    <U>
+      <T n="affordance">123642<!--StartCraftingOrderSuperInteraction: bar_PushOrderDrink_FavoriteDrink--></T>
+    </U>
+    <U>
+      <T n="affordance">123811<!--SimPickerInteraction: bar_SimPicker_OrderDrinkFor--></T>
+    </U>
+    <U>
+      <T n="affordance">123983<!--StartCraftingOrderSuperInteraction: bar_PushOrderDrink_FavoriteDrink_for_party--></T>
+    </U>
+    <U>
+      <T n="affordance">124245<!--StartCraftingOrderSuperInteraction: bar_PushOrderHappyHourDrink--></T>
+    </U>
+    <U>
+      <T n="affordance">124246<!--StartCraftingOrderSuperInteraction: bar_PushOrderPromotionDrink--></T>
+    </U>
+    <U>
+      <T n="affordance">127078<!--StartCraftingOrderSuperInteraction: bar_PushOrderBearDrink--></T>
+    </U>
+    <U>
+      <T n="affordance">130316<!--StartCraftingOrderSuperInteraction: bar_PushOrderKnightDrink--></T>
+    </U>
   </L>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">
@@ -199,7 +223,7 @@
     <V t="statistic">
       <U n="statistic">
         <T n="stat">16656<!--Commodity: motive_Hunger--></T>
-        <V t="value_threshold" n="threshold">
+        <V n="threshold" t="value_threshold">
           <U n="value_threshold">
             <T n="value">-70</T>
           </U>

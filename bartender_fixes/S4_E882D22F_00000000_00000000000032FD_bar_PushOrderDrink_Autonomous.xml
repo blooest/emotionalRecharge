@@ -57,6 +57,21 @@
     <U>
       <T n="static_commodity">27031<!--StaticCommodity: StaticCommodity_OrderDrink--></T>
     </U>
+    <U>
+      <T n="desire">2</T>
+      <T n="static_commodity">123412<!--StaticCommodity: staticCommodity_SituationRole_ClubGoDancing_PartyGoer--></T>
+    </U>
+    <U>
+      <T n="desire">2</T>
+      <T n="static_commodity">123012<!--StaticCommodity: staticCommodity_SituationRole_ClubGoDancing_DJAudience--></T>
+    </U>
+    <U>
+      <T n="static_commodity">123143<!--StaticCommodity: staticCommodity_SituationRole_ClubGoDancing_Dancer--></T>
+    </U>
+    <U>
+      <T n="desire">4</T>
+      <T n="static_commodity">126288<!--StaticCommodity: staticCommodity_SituationRole_ClubGoDancing_PartyPooper--></T>
+    </U>
   </L>
   <T n="allow_forward">True</T>
   <T n="attention_cost">0.5</T>
@@ -111,11 +126,11 @@
     </U>
   </V>
   <L n="recipes">
-    <T>15657<!--recipe_Drink_Bar_MumAndCola--></T>
     <T>15659<!--Recipe: recipe_Drink_Bar_ScootsAndSoda--></T>
-    <T>15654<!--recipe_Drink_Bar_TartAndTonic--></T>
-    <T>15660<!--recipe_Drink_Bar_Wrench--></T>
-    <T>15651<!--recipe_Drink_Bar_Bridgeport--></T>
+    <T>15660<!--Recipe: recipe_Drink_Bar_Wrench--></T>
+    <T>15651<!--Recipe: recipe_Drink_Bar_Bridgeport--></T>
+    <T>15654<!--Recipe: recipe_Drink_Bar_TartAndTonic--></T>
+    <T>15657<!--recipe_Drink_Bar_MumAndCola--></T>
     <T>15653<!--recipe_Drink_Bar_DarkAndStormy--></T>
     <T>15658<!--recipe_Drink_Bar_SaltyLlama--></T>
     <T>15661<!--recipe_Drink_Bar_SeaSplash--></T>
