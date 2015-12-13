@@ -179,7 +179,7 @@
     </L>
   </U>
   <V t="enabled" n="display_tooltip">
-    <T n="enabled">0xBDFC0B48<!--String: "Reduces how often the TV will break"--></T>
+    <T n="enabled">0xBDFC0B48<!--String: "Reduces how often the screen will break."--></T>
   </V>
   <L n="interaction_category_tags">
     <E>Interaction_Upgrade</E>

@@ -213,6 +213,24 @@
         </V>
       </U>
     </V>
+    <V t="broadcaster">
+      <U n="broadcaster">
+        <L n="broadcaster_types">
+          <U>
+            <T n="item">130035<!--Broadcaster: broadcaster_GainRelWithOthersUsingObject_SimTube--></T>
+            <L n="test">
+              <L>
+                <V t="sim_info">
+                  <U n="sim_info">
+                    <V t="enabled" n="npc" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
   </L>
   <V t="enabled" n="canonical_animation">
     <U n="enabled">
@@ -267,11 +285,24 @@
       <U n="actions">
         <L n="loot_list">
           <T>37221<!--LootActions: loot_Buff_Computer_WatchSimTube--></T>
+          <T>127030<!--LootActions: rel_Gain_Small_OtherInteractingSims--></T>
         </L>
       </U>
     </U>
   </V>
   <T n="pie_menu_priority">3</T>
+  <L n="rallyable">
+    <U>
+      <V n="behavior" t="push_affordance">
+        <U n="push_affordance">
+          <T n="affordance">127568<!--SuperInteraction: rallyables_GoThenWatchOtherSimTube--></T>
+        </U>
+      </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+    </U>
+  </L>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">
       <U n="balloon">

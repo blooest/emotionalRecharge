@@ -505,6 +505,22 @@
       <V t="test_set_reference">
         <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
       </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>27915<!--Trait: trait_Good--></T>
+          </L>
+          <E n="subject">Actor</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
     </L>
   </L>
   <L n="test_globals">

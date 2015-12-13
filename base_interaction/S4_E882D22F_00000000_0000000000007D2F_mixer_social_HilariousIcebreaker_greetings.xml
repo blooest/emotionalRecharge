@@ -24,6 +24,7 @@
       </V>
     </L>
   </U>
+  <T n="ignores_greetings">True</T>
   <L n="interaction_category_tags">
     <E>Interaction_Greeting</E>
     <E>Interaction_Chat</E>
@@ -100,12 +101,20 @@
             <T n="factory">12038<!--AnimationElement: Soc_Romance_T_Flirt_WhisperNothings_Succeed_basic--></T>
           </U>
         </V>
+        <L n="continuation">
+          <U>
+            <E n="actor">SocialGroupSims</E>
+            <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+            <E n="target">Actor</E>
+          </U>
+        </L>
         <L n="loot_list">
           <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
           <T>26263<!--LootActions: Loot_SocialConetxt_Fun_Gain_setHilarious--></T>
           <T>11032<!--LootActions: Rel_Gain_Medium--></T>
           <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
           <T>32631<!--LootActions: Loot_KnowTrait_Random_3_Observant--></T>
+          <T>130172<!--LootActions: loot_Listeners_Greeting_Group--></T>
           <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
         </L>
         <V n="response" t="enabled">
@@ -131,7 +140,7 @@
       </U>
     </U>
   </V>
-  <T p="InGame\UI\Icons\CAS\Traits\AspirationTraits\traitAspiration_Hilarious.png" n="pie_menu_icon">2f7d0004:00000000:b5126cd3726699c8</T>
+  <T p="InGame\UI\Icons\PieMenu\Traits\traitAspiration_Hilarious_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:2b0362550b8be46e</T>
   <U n="posture_preferences">
     <T n="apply_penalties">False</T>
   </U>
@@ -279,105 +288,12 @@
   </L>
   <L n="trait_preference">
     <U>
-      <T n="key">16823<!--Trait: trait_Ambitious--></T>
-    </U>
-    <U>
-      <T n="key">16824<!--Trait: trait_SelfAssured--></T>
-    </U>
-    <U>
-      <T n="key">16826<!--Trait: trait_Bro--></T>
-    </U>
-    <U>
-      <T n="key">16830<!--Trait: trait_Childish--></T>
-    </U>
-    <U>
-      <T n="key">16832<!--Trait: trait_Clumsy--></T>
-    </U>
-    <U>
-      <T n="key">16833<!--Trait: trait_CommitmentIssues--></T>
-    </U>
-    <U>
       <T n="key">16836<!--Trait: trait_Evil--></T>
       <T n="value">-4</T>
     </U>
     <U>
-      <T n="key">16838<!--Trait: trait_FamilyOriented--></T>
-    </U>
-    <U>
-      <T n="key">16841<!--Trait: trait_Geek--></T>
-    </U>
-    <U>
-      <T n="key">16843<!--Trait: trait_Glutton--></T>
-    </U>
-    <U>
-      <T n="key">16844<!--Trait: trait_HatesChildren--></T>
-    </U>
-    <U>
-      <T n="key">16845<!--Trait: trait_HotHeaded--></T>
-    </U>
-    <U>
-      <T n="key">16848<!--Trait: trait_Insane--></T>
-    </U>
-    <U>
-      <T n="key">16850<!--Trait: trait_Creative--></T>
-    </U>
-    <U>
       <T n="key">16857<!--Trait: trait_Mean--></T>
       <T n="value">-4</T>
-    </U>
-    <U>
-      <T n="key">16858<!--Trait: trait_Neat--></T>
-    </U>
-    <U>
-      <T n="key">16860<!--Trait: trait_Slob--></T>
-    </U>
-    <U>
-      <T n="key">27176<!--Trait: trait_Foodie--></T>
-    </U>
-    <U>
-      <T n="key">27419<!--Trait: trait_active--></T>
-    </U>
-    <U>
-      <T n="key">27454<!--Trait: Trait_Romantic--></T>
-    </U>
-    <U>
-      <T n="key">27913<!--Trait: trait_Materialistic--></T>
-    </U>
-    <U>
-      <T n="key">27914<!--Trait: trait_LovesOutdoors--></T>
-    </U>
-    <U>
-      <T n="key">27915<!--Trait: trait_Good--></T>
-    </U>
-    <U>
-      <T n="key">27916<!--Trait: trait_Bookworm--></T>
-    </U>
-    <U>
-      <T n="key">27917<!--Trait: trait_Genius--></T>
-    </U>
-    <U>
-      <T n="key">27918<!--Trait: trait_ArtLover--></T>
-    </U>
-    <U>
-      <T n="key">29571<!--Trait: trait_Outgoing--></T>
-    </U>
-    <U>
-      <T n="key">34316<!--Trait: trait_child--></T>
-    </U>
-    <U>
-      <T n="key">34317<!--Trait: trait_teen--></T>
-    </U>
-    <U>
-      <T n="key">34318<!--Trait: trait_youngAdult--></T>
-    </U>
-    <U>
-      <T n="key">34319<!--Trait: trait_adult--></T>
-    </U>
-    <U>
-      <T n="key">34320<!--Trait: trait_elder--></T>
-    </U>
-    <U>
-      <T n="key">9322<!--Trait: trait_Cheerful--></T>
     </U>
     <U>
       <T n="key">9332<!--Trait: trait_Gloomy--></T>
@@ -386,21 +302,6 @@
     <U>
       <T n="key">9337<!--Trait: trait_Goofball--></T>
       <T n="value">15</T>
-    </U>
-    <U>
-      <T n="key">9599<!--Trait: trait_Lazy--></T>
-    </U>
-    <U>
-      <T n="key">9602<!--Trait: trait_Loner--></T>
-    </U>
-    <U>
-      <T n="key">9604<!--Trait: trait_MusicLover--></T>
-    </U>
-    <U>
-      <T n="key">9617<!--Trait: trait_Perfectionist--></T>
-    </U>
-    <U>
-      <T n="key">9620<!--Trait: trait_Snob--></T>
     </U>
   </L>
   <T n="visible">True</T>

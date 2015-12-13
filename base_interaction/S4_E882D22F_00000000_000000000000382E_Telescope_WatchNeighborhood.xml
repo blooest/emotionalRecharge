@@ -241,7 +241,7 @@
     <E>Interaction_Super</E>
     <E>Interaction_All</E>
   </L>
-  <T p="InGame\UI\Icons\Skills\skill_mischief.png" n="pie_menu_icon">2f7d0004:00000000:5528b7a5835474e3</T>
+  <T n="pie_menu_icon" p="InGame\UI\Icons\PieMenu\Skills\skill_mischief_piemenu.png">2f7d0004:00000000:ba68e86ff12ed975</T>
   <U n="progress_bar_enabled">
     <T n="bar_enabled">False</T>
   </U>

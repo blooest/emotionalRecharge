@@ -41,6 +41,18 @@
         <V t="list_reference">
           <T n="list_reference">33040<!--ExitConditionList: ExitConditionList_FunExit--></T>
         </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">130305<!--Buff: buff_Reaction_Exit_WatchTV--></T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
         <V t="list_reference">
           <T n="list_reference">39200<!--ExitConditionList: ExitConditionList_StateBrokenObject--></T>
         </V>
@@ -253,10 +265,13 @@
       <L n="my_scoring">
         <U>
           <V t="relationship_based" n="affinity_strategy" />
+          <T n="negate_tag">True</T>
+          <E n="running_interaction_tag">Sleeping</E>
         </U>
       </L>
       <L n="my_tags">
         <E>Loud</E>
+        <E>Watch_TV</E>
       </L>
     </U>
   </V>

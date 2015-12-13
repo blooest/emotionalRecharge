@@ -99,6 +99,11 @@
     </U>
   </L>
   <T n="_social_group_type">74849<!--JigGroup: group_Platonic--></T>
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">123949<!--StaticCommodity: StaticCommodity_TwinRoses--></T>
+    </U>
+  </L>
   <V t="push_self_or_none" n="affordance_to_push_on_target">
     <T n="push_self_or_none">False</T>
   </V>
@@ -112,6 +117,36 @@
       </U>
     </U>
   </V>
+  <L n="basic_extras">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x9C09275F<!--String: "(From being in a social group with at least 3 Sims)"--></T>
+          </V>
+          <T n="buff_type">125555<!--Buff: buff_Trait_WithMyFriends--></T>
+        </U>
+        <L n="subject">
+          <E>Actor</E>
+          <E>SocialGroupSims</E>
+          <E>TargetSim</E>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="social_group">
+              <U n="social_group">
+                <V t="enabled" n="threshold">
+                  <U n="enabled">
+                    <T n="value">3</T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
   <V t="disabled" n="basic_reserve_object" />
   <T n="category">15504<!--PieMenuCategory: sim_BeFriendly--></T>
   <T n="display_name">0x29F06A0<!--String: "Hug"--></T>
@@ -169,9 +204,14 @@
           <T n="negate_tag">True</T>
           <E n="running_interaction_tag">Sleeping</E>
         </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
       </L>
       <L n="my_tags">
         <E>Loud</E>
+        <E>Chat</E>
       </L>
     </U>
   </V>

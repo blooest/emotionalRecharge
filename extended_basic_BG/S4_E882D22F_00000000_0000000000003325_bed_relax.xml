@@ -70,7 +70,7 @@
   <T n="pie_menu_priority">3</T>
   <L n="rallyable">
     <U>
-      <V n="behavior" t="push_affordance" />
+      <V t="push_affordance" n="behavior" />
     </U>
   </L>
   <V t="enabled" n="route_start_balloon">

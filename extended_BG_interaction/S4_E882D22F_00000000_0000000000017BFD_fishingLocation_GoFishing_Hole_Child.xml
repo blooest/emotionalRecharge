@@ -339,6 +339,24 @@
         </L>
       </U>
     </V>
+    <V t="broadcaster">
+      <U n="broadcaster">
+        <L n="broadcaster_types">
+          <U>
+            <T n="item">130031<!--Broadcaster: broadcaster_GainRelWithOthersUsingObject_Fishing--></T>
+            <L n="test">
+              <L>
+                <V t="sim_info">
+                  <U n="sim_info">
+                    <V t="enabled" n="npc" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
   </L>
   <T n="display_name">0x5AA293E9<!--String: "Go Fishing"--></T>
   <V t="testable" n="display_name_overrides">

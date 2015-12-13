@@ -149,7 +149,7 @@
     <E>Interaction_All</E>
   </L>
   <V t="single" n="outcome" />
-  <T p="InGame\UI\Icons\CAS\Traits\AspirationTraits\traitAspiration_WebMaster.png" n="pie_menu_icon">2f7d0004:00000000:2606bb10b9c8523a</T>
+  <T p="InGame\UI\Icons\PieMenu\Traits\traitAspiration_WebMaster_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:90faae8653172b50</T>
   <T n="pie_menu_priority">3</T>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">

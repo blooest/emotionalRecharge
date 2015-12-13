@@ -87,7 +87,7 @@
           <T n="list_reference">39954<!--ExitConditionList: ExitConditionList_SocialExit--></T>
         </V>
       </L>
-      <V n="content" t="staging_content">
+      <V t="staging_content" n="content">
         <U n="staging_content">
           <U n="content_set">
             <L n="affordance_links">
@@ -179,7 +179,7 @@
     <E>Interaction_Super</E>
     <E>Interaction_All</E>
   </L>
-  <V n="outcome" t="single">
+  <V t="single" n="outcome">
     <U n="single">
       <U n="actions">
         <L n="loot_list">

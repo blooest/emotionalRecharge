@@ -12,7 +12,10 @@
     <U>
       <T n="static_commodity">32434<!--StaticCommodity: staticCommodity_PlayMusicalInstrument--></T>
     </U>
-	<U>
+    <U>
+      <T n="static_commodity">37260<!--StaticCommodity: staticCommodity_PlayPiano--></T>
+    </U>
+    <U>
       <T n="static_commodity">810366<!--GetToCollege--></T>
     </U>
   </L>

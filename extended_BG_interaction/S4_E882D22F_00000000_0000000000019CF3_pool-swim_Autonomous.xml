@@ -84,6 +84,9 @@
       <T n="desire">0.5</T>
       <T n="static_commodity">16427<!--StaticCommodity: StaticCommodity_Excercise--></T>
     </U>
+    <U>
+      <T n="static_commodity">124808<!--StaticCommodity: staticCommodity_Swim--></T>
+    </U>
   </L>
   <L n="appropriateness_tags">
     <E>Appropriateness_NotDuringWork</E>

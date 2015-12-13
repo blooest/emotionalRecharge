@@ -18,14 +18,18 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          <U>
+            <T n="item">125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          </U>
         </L>
       </U>
     </V>
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          <U>
+            <T n="item">125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          </U>
         </L>
         <E n="participant">TargetSim</E>
       </U>
@@ -505,6 +509,14 @@
     <L>
       <V t="test_set_reference">
         <T n="test_set_reference">31094<!--TestSetInstance: testSet_FriendlySocialsAutonomous--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
       </V>
       <V t="test_set_reference">
         <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>

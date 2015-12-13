@@ -227,9 +227,6 @@
     <V t="test_set_reference">
       <T n="test_set_reference">100852<!--TestSetInstance: testSet_ChildORTeenANDAtSchool--></T>
     </V>
-    <V t="test_set_reference">
-      <T n="test_set_reference">100853<!--TestSetInstance: testSet_NPCANDDistanceGreaterThan20--></T>
-    </V>
     <V t="location">
       <U n="location">
         <U n="location_tests">
@@ -244,6 +241,9 @@
           <T n="enabled">0x3DC110C6<!--String: "It seems there is no phone service in the area."--></T>
         </V>
       </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">100853<!--TestSetInstance: testSet_NPCANDDistanceGreaterThan20--></T>
     </V>
   </L>
   <T n="time_overhead">10</T>

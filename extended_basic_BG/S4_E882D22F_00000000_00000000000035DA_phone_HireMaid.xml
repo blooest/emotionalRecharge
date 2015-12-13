@@ -94,7 +94,7 @@
   <L n="basic_extras">
     <V t="service_npc_request">
       <U n="service_npc_request">
-        <V n="notification" t="enabled">
+        <V t="enabled" n="notification">
           <U n="enabled">
             <V n="dialog" t="single">
               <V n="single" t="literal">
@@ -156,7 +156,7 @@
             <L n="basic_extras">
               <V t="service_npc_request">
                 <U n="service_npc_request">
-                  <V n="notification" t="enabled">
+                  <V t="enabled" n="notification">
                     <U n="enabled">
                       <V n="dialog" t="single">
                         <V n="single" t="literal">

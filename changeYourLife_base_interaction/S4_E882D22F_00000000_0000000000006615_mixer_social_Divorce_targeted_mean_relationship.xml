@@ -7,6 +7,7 @@
   </V>
   <L n="_static_commodities">
     <U>
+      <T n="desire">2</T>
       <T n="static_commodity">123949<!--StaticCommodity: StaticCommodity_TwinRoses--></T>
     </U>
   </L>
@@ -55,15 +56,21 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>97674<!--Broadcaster: broadcaster_Divorce--></T>
-          <T>125322<!--Broadcaster: broadcaster_Generic_Reactions_Sad--></T>
+          <U>
+            <T n="item">97674<!--Broadcaster: broadcaster_Divorce--></T>
+          </U>
+          <U>
+            <T n="item">125322<!--Broadcaster: broadcaster_Generic_Reactions_Sad--></T>
+          </U>
         </L>
       </U>
     </V>
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>125322<!--Broadcaster: broadcaster_Generic_Reactions_Sad--></T>
+          <U>
+            <T n="item">125322<!--Broadcaster: broadcaster_Generic_Reactions_Sad--></T>
+          </U>
         </L>
         <E n="participant">TargetSim</E>
       </U>
@@ -742,6 +749,14 @@
           </L>
           <E n="subject">Actor</E>
         </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
       </V>
     </L>
   </L>

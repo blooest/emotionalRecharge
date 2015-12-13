@@ -35,8 +35,38 @@
   <T n="allow_autonomous">True</T>
   <T n="attention_cost">0</T>
   <V t="one_shot" n="basic_content" />
+  <L n="basic_extras">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x9C09275F<!--String: "(From being in a social group with at least 3 Sims)"--></T>
+          </V>
+          <T n="buff_type">125555<!--Buff: buff_Trait_WithMyFriends--></T>
+        </U>
+        <L n="subject">
+          <E>Actor</E>
+          <E>SocialGroupSims</E>
+          <E>TargetSim</E>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="social_group">
+              <U n="social_group">
+                <V t="enabled" n="threshold">
+                  <U n="enabled">
+                    <T n="value">3</T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
   <V t="disabled" n="basic_reserve_object" />
-  <T n="display_name">0xA0428415<!--String: "Yell at Death"--></T>
+  <T n="display_name">0xA0428415<!--String: "Yell at the Grim Reaper"--></T>
   <V t="testable" n="display_name_overrides">
     <U n="testable">
       <L n="overrides">
@@ -119,19 +149,35 @@
           <T n="negate_tag">True</T>
           <E n="running_interaction_tag">Sleeping</E>
         </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
       </L>
       <L n="my_tags">
         <E>Loud</E>
+        <E>Chat</E>
       </L>
     </U>
   </V>
   <T n="subaction_selection_weight">1</T>
-  <E n="target_type">TARGET</E>
-  <V t="enabled" n="test_disallow_while_running">
-    <U n="enabled">
-      <T n="test_self">True</T>
-    </U>
+  <V t="enabled" n="super_affordance_klobberers">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="default_inclusion" t="exclude_all">
+          <U n="exclude_all">
+            <L n="include_affordances">
+              <T>13864<!--SuperInteraction: reaction_DeathFriend--></T>
+              <T>13865<!--SuperInteraction: reaction_DeathLovedOne--></T>
+              <T>13866<!--SuperInteraction: reaction_DeathNemesis--></T>
+              <T>13867<!--SuperInteraction: reaction_DeathNeutral--></T>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
   </V>
+  <E n="target_type">TARGET</E>
   <L n="test_globals">
     <V t="buff">
       <U n="buff">

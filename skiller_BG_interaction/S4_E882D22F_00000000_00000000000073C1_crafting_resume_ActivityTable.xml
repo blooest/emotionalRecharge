@@ -135,6 +135,7 @@
           <L n="exclude_affordances">
             <T>102325<!--StandSuperInteraction: sim-swim--></T>
             <T>103790<!--GoHereSuperInteraction: terrain-Swimhere--></T>
+            <T>129587<!--GoHereSuperInteraction: terrain-Swim_andChatHere--></T>
           </L>
           <L n="exclude_lists">
             <T>30816<!--AffordanceList: affordanceList_FoodConsume--></T>

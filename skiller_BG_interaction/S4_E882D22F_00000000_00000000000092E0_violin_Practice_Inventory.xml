@@ -27,6 +27,9 @@
     <U>
       <T n="static_commodity">32434<!--StaticCommodity: staticCommodity_PlayMusicalInstrument--></T>
     </U>
+    <U>
+      <T n="static_commodity">123675<!--StaticCommodity: StaticCommodity_PlayViolin--></T>
+    </U>
   </L>
   <L n="mood_preference">
 <U>
@@ -456,7 +459,9 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>77543<!--Broadcaster: broadcaster_Reaction_LoudNoises_PlayedInstruments--></T>
+          <U>
+            <T n="item">77543<!--Broadcaster: broadcaster_Reaction_LoudNoises_PlayedInstruments--></T>
+          </U>
         </L>
       </U>
     </V>
@@ -626,6 +631,20 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Loud</E>
+        <E>Very_Loud</E>
+      </L>
+    </U>
+  </V>
   <U n="skill_loot_data">
     <V t="enabled" n="level_range">
       <U n="enabled">
@@ -661,6 +680,11 @@
           <T n="disallow">True</T>
           <T n="mood">14642<!--Mood: Mood_Playful--></T>
         </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
       </V>
     </L>
   </L>

@@ -78,7 +78,7 @@
       <T n="desire">2</T>
       <T n="static_commodity">40383<!--StaticCommodity: StaticCommodity_OpenStreet_workout--></T>
     </U>
-	 <U>
+    <U>
       <T n="static_commodity">16427<!--StaticCommodity: StaticCommodity_Excercise--></T>
     </U>
   </L>
@@ -280,6 +280,28 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Workout</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Chat</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Workout</E>
+        <E>Loud</E>
+      </L>
+    </U>
+  </V>
   <U n="skill_loot_data">
     <V t="enabled" n="level_range">
       <U n="enabled">

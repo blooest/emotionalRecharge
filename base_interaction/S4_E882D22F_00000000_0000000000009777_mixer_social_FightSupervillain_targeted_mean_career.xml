@@ -8,6 +8,7 @@
   </V>
   <L n="_static_commodities">
     <U>
+      <T n="desire">2</T>
       <T n="static_commodity">123949<!--StaticCommodity: StaticCommodity_TwinRoses--></T>
     </U>
   </L>
@@ -40,7 +41,9 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>99258<!--Broadcaster: broadcaster_AdultFight--></T>
+          <U>
+            <T n="item">99258<!--Broadcaster: broadcaster_AdultFight--></T>
+          </U>
         </L>
       </U>
     </V>
@@ -327,7 +330,7 @@
       <T n="use_fallback_as_default">True</T>
     </U>
   </V>
-  <T p="InGame\UI\Icons\Career\Career_SecretAgent_Main.png" n="pie_menu_icon">2f7d0004:00000000:3414ad50774cf2ef</T>
+  <T p="InGame\UI\Icons\PieMenu\Careers\Career_SecretAgent_Main_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:107c89e5e566e421</T>
   <U n="posture_preferences">
     <T n="apply_penalties">False</T>
   </U>
@@ -596,6 +599,14 @@
           </L>
           <E n="subject">Actor</E>
         </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
       </V>
     </L>
   </L>

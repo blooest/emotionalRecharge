@@ -76,7 +76,7 @@
     <U n="flexible_length">
       <L n="conditional_actions">
         <V t="list_reference">
-          <T n="list_reference">40705</T>
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
         </V>
         <V t="literal">
           <U n="literal">
@@ -84,7 +84,7 @@
               <V t="state_based">
                 <U n="state_based">
                   <V n="state" t="on_trigger">
-                    <T n="on_trigger">15080</T>
+                    <T n="on_trigger">15080<!--ObjectStateValue: BrokenState_Broken--></T>
                   </V>
                 </U>
               </V>
@@ -107,17 +107,17 @@
           </U>
         </V>
         <V t="list_reference">
-          <T n="list_reference">40144</T>
+          <T n="list_reference">40144<!--ExitConditionList: ExitConditionList_EmotionMiserable--></T>
         </V>
         <V t="list_reference">
-          <T n="list_reference">40702</T>
+          <T n="list_reference">40702<!--ExitConditionList: ExitConditionList_EmotionStressed--></T>
         </V>
       </L>
       <V n="content" t="staging_content">
         <U n="staging_content">
           <V t="enabled" n="animation_ref">
             <U n="enabled">
-              <T n="factory">23875</T>
+              <T n="factory">23875<!--AnimationElement: Telescope_Start_Stop--></T>
               <U n="overrides">
                 <V n="balloons" t="enabled">
                   <L n="enabled">
@@ -125,7 +125,7 @@
                       <L n="balloon_choices">
                         <U>
                           <V n="item" t="balloon_category">
-                            <T n="balloon_category">31135</T>
+                            <T n="balloon_category">31135<!--BalloonCategory: balloonCategory_SetSpace_Thought--></T>
                           </V>
                         </U>
                       </L>
@@ -140,8 +140,8 @@
           </V>
           <U n="content_set">
             <L n="affordance_links">
-              <T>14385</T>
-              <T>14386</T>
+              <T>14385<!--MixerInteraction: Telescope_WatchSky_Active--></T>
+              <T>14386<!--MixerInteraction: Telescope_WatchSky_Passive--></T>
             </L>
           </U>
         </U>
@@ -150,8 +150,8 @@
         <U n="enabled">
           <U n="operation_actions">
             <L n="actions">
-              <T>77874</T>
-              <T>108221</T>
+              <T>77874<!--LootActions: loot_Statistic_Breakage_Telescope--></T>
+              <T>108221<!--LootActions: loot_Career_Scientist_Breakthrough_Progress_Medium--></T>
             </L>
             <T n="alarm_interval">10</T>
           </U>
@@ -159,7 +159,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.39</T>
-                <T n="stat">16655</T>
+                <T n="stat">16655<!--Commodity: motive_Fun--></T>
               </U>
             </V>
             <V t="dynamic_skill">
@@ -180,7 +180,7 @@
               <U n="dynamic_skill">
                 <U n="skill_loot_data_override">
                   <E n="effectiveness">StandardPeriodic</E>
-                  <T n="stat">16719</T>
+                  <T n="stat">16719<!--Skill: statistic_Skill_Child_Mental--></T>
                 </U>
               </U>
             </V>
@@ -188,18 +188,18 @@
               <U n="statistic_change">
                 <T n="advertise">False</T>
                 <T n="amount">5</T>
-                <T n="stat">28786</T>
+                <T n="stat">28786<!--Commodity: commodity_Trait_Genius_MentalStimulation--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.16</T>
-                <T n="stat">24170</T>
+                <T n="stat">24170<!--Statistic: statistic_Career_Performance_Astronaut--></T>
               </U>
             </V>
             <V t="statistic_set_max">
               <U n="statistic_set_max">
-                <T n="stat">29109</T>
+                <T n="stat">29109<!--Commodity: commodity_Trait_Autonomy_Genius--></T>
               </U>
             </V>
           </L>
@@ -220,7 +220,7 @@
     <V t="buff">
       <U n="buff">
         <U n="buff_type">
-          <T n="buff_type">24732</T>
+          <T n="buff_type">24732<!--Buff: buff_Suppress_All_Interaction--></T>
         </U>
       </U>
     </V>
@@ -230,7 +230,7 @@
       <V t="all" n="reserve_type" />
     </U>
   </V>
-  <T n="display_name">0x301C1622</T>
+  <T n="display_name">0x301C1622<!--String: "Track Satellite"--></T>
   <U n="display_name_text_tokens">
     <L n="tokens">
       <V t="participant_type">
@@ -251,7 +251,7 @@
     <E>Interaction_Super</E>
     <E>Interaction_All</E>
   </L>
-  <T p="InGame\UI\Icons\Career\Career_Astronaut_Main.png" n="pie_menu_icon">2f7d0004:00000000:9d4fa16db95c0ae5</T>
+  <T p="InGame\UI\Icons\PieMenu\Careers\Career_Astronaut_Main_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:b2c60d6fcfefe08f</T>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">
       <U n="balloon">
@@ -284,7 +284,7 @@
         <T n="upper_bound">8</T>
       </U>
     </V>
-    <T n="stat">16706</T>
+    <T n="stat">16706<!--Skill: statistic_Skill_AdultMajor_Logic--></T>
   </U>
   <T n="subaction_selection_weight">1</T>
   <E n="target_type">OBJECT</E>
@@ -292,7 +292,7 @@
     <V t="buff">
       <U n="buff">
         <L n="blacklist">
-          <T>26171</T>
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
         </L>
       </U>
     </V>
@@ -307,7 +307,7 @@
         <V n="test_type" t="career_reference">
           <U n="career_reference">
             <V t="specific_career" n="career">
-              <T n="specific_career">12893</T>
+              <T n="specific_career">12893<!--Career: career_Adult_Astronaut--></T>
             </V>
             <V t="enabled" n="user_level">
               <U n="enabled">
@@ -321,14 +321,14 @@
     <V t="state">
       <U n="state">
         <E n="operator">NOTEQUAL</E>
-        <T n="value">15080</T>
+        <T n="value">15080<!--ObjectStateValue: BrokenState_Broken--></T>
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">28305</T>
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">28176</T>
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
     </V>
   </L>
   <T n="time_overhead">60</T>

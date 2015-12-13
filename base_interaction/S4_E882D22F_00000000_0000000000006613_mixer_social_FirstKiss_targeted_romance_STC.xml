@@ -204,17 +204,129 @@
               <V t="broadcaster">
                 <U n="broadcaster">
                   <L n="broadcaster_types">
-                    <T>125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
-                    <T>127017<!--Broadcaster: broadcaster_Reaction_Kids_AdultKiss--></T>
+                    <U>
+                      <T n="item">125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
+                      <L n="test">
+                        <L>
+                          <V t="test_set_reference">
+                            <T n="test_set_reference">128340<!--TestSetInstance: testSet_WooHoo_Reactions_AllowedByClubRules--></T>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                    <U>
+                      <T n="item">127017<!--Broadcaster: broadcaster_Reaction_Kids_AdultKiss--></T>
+                    </U>
+                    <U>
+                      <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+                      <L n="test">
+                        <L>
+                          <V t="test_set_reference">
+                            <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
                   </L>
                 </U>
               </V>
               <V t="broadcaster">
                 <U n="broadcaster">
                   <L n="broadcaster_types">
-                    <T>125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
+                    <U>
+                      <T n="item">125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
+                      <L n="test">
+                        <L>
+                          <V t="club_test">
+                            <U n="club_test">
+                              <V t="enabled" n="affordance_rule">
+                                <V n="enabled" t="is_not_encouraged" />
+                              </V>
+                              <V t="use_any_club" n="club" />
+                              <E n="subject">TargetSim</E>
+                            </U>
+                          </V>
+                        </L>
+                        <L>
+                          <V t="club_test">
+                            <U n="club_test">
+                              <V t="use_any_club" n="club" />
+                              <V t="enabled" n="club_status">
+                                <V n="enabled" t="Not Member" />
+                              </V>
+                              <E n="subject">TargetSim</E>
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                    <U>
+                      <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+                      <L n="test">
+                        <L>
+                          <V t="club_test">
+                            <U n="club_test">
+                              <V t="enabled" n="affordance_rule">
+                                <V n="enabled" t="is_encouraged" />
+                              </V>
+                              <V t="use_any_club" n="club" />
+                              <E n="subject">TargetSim</E>
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
                   </L>
                   <E n="participant">TargetSim</E>
+                </U>
+              </V>
+              <V t="buff">
+                <U n="buff">
+                  <U n="buff_type">
+                    <T n="buff_type">129283<!--Buff: Buff_Jealousy_Cheater--></T>
+                  </U>
+                  <L n="tests">
+                    <L>
+                      <V t="relationship">
+                        <U n="relationship">
+                          <U n="prohibited_relationship_bits">
+                            <L n="match_any">
+                              <T>15822<!--RelationshipBit: romantic-Married--></T>
+                              <T>15825<!--RelationshipBit: romantic-Significant_Other--></T>
+                              <T>15816<!--RelationshipBit: romantic-Engaged--></T>
+                              <T>15818<!--RelationshipBit: romantic-GettingMarried--></T>
+                            </L>
+                          </U>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </V>
+              <V t="buff">
+                <U n="buff">
+                  <U n="buff_type">
+                    <T n="buff_type">129283<!--Buff: Buff_Jealousy_Cheater--></T>
+                  </U>
+                  <L n="subject">
+                    <E>TargetSim</E>
+                  </L>
+                  <L n="tests">
+                    <L>
+                      <V t="relationship">
+                        <U n="relationship">
+                          <U n="prohibited_relationship_bits">
+                            <L n="match_any">
+                              <T>15822<!--RelationshipBit: romantic-Married--></T>
+                              <T>15825<!--RelationshipBit: romantic-Significant_Other--></T>
+                              <T>15816<!--RelationshipBit: romantic-Engaged--></T>
+                              <T>15818<!--RelationshipBit: romantic-GettingMarried--></T>
+                            </L>
+                          </U>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
                 </U>
               </V>
             </L>
@@ -357,17 +469,127 @@
                   <V t="broadcaster">
                     <U n="broadcaster">
                       <L n="broadcaster_types">
-                        <T>125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
-                        <T>127017<!--Broadcaster: broadcaster_Reaction_Kids_AdultKiss--></T>
+                        <U>
+                          <T n="item">125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
+                          <L n="test">
+                            <L>
+                              <V t="test_set_reference">
+                                <T n="test_set_reference">128340<!--TestSetInstance: testSet_WooHoo_Reactions_AllowedByClubRules--></T>
+                              </V>
+                            </L>
+                          </L>
+                        </U>
+                        <U>
+                          <T n="item">127017<!--Broadcaster: broadcaster_Reaction_Kids_AdultKiss--></T>
+                        </U>
+                        <U>
+                          <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+                          <L n="test">
+                            <L>
+                              <V t="test_set_reference">
+                                <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+                              </V>
+                            </L>
+                          </L>
+                        </U>
                       </L>
                     </U>
                   </V>
                   <V t="broadcaster">
                     <U n="broadcaster">
                       <L n="broadcaster_types">
-                        <T>125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
+                        <U>
+                          <T n="item">125246<!--Broadcaster: broadcaster_Jealousy_Kiss--></T>
+                          <L n="test">
+                            <L>
+                              <V t="club_test">
+                                <U n="club_test">
+                                  <V t="enabled" n="affordance_rule">
+                                    <V n="enabled" t="is_not_encouraged" />
+                                  </V>
+                                  <V t="use_any_club" n="club" />
+                                  <E n="subject">TargetSim</E>
+                                </U>
+                              </V>
+                              <V t="club_test">
+                                <U n="club_test">
+                                  <V t="use_any_club" n="club" />
+                                  <V t="enabled" n="club_status">
+                                    <V n="enabled" t="Not Member" />
+                                  </V>
+                                  <E n="subject">TargetSim</E>
+                                </U>
+                              </V>
+                            </L>
+                          </L>
+                        </U>
+                        <U>
+                          <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+                          <L n="test">
+                            <L>
+                              <V t="club_test">
+                                <U n="club_test">
+                                  <V t="enabled" n="affordance_rule">
+                                    <V n="enabled" t="is_encouraged" />
+                                  </V>
+                                  <V t="use_any_club" n="club" />
+                                  <E n="subject">TargetSim</E>
+                                </U>
+                              </V>
+                            </L>
+                          </L>
+                        </U>
                       </L>
                       <E n="participant">TargetSim</E>
+                    </U>
+                  </V>
+                  <V t="buff">
+                    <U n="buff">
+                      <U n="buff_type">
+                        <T n="buff_type">129283<!--Buff: Buff_Jealousy_Cheater--></T>
+                      </U>
+                      <L n="tests">
+                        <L>
+                          <V t="relationship">
+                            <U n="relationship">
+                              <U n="prohibited_relationship_bits">
+                                <L n="match_any">
+                                  <T>15822<!--RelationshipBit: romantic-Married--></T>
+                                  <T>15825<!--RelationshipBit: romantic-Significant_Other--></T>
+                                  <T>15816<!--RelationshipBit: romantic-Engaged--></T>
+                                  <T>15818<!--RelationshipBit: romantic-GettingMarried--></T>
+                                </L>
+                              </U>
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="buff">
+                    <U n="buff">
+                      <U n="buff_type">
+                        <T n="buff_type">129283<!--Buff: Buff_Jealousy_Cheater--></T>
+                      </U>
+                      <L n="subject">
+                        <E>TargetSim</E>
+                      </L>
+                      <L n="tests">
+                        <L>
+                          <V t="relationship">
+                            <U n="relationship">
+                              <U n="prohibited_relationship_bits">
+                                <L n="match_any">
+                                  <T>15822<!--RelationshipBit: romantic-Married--></T>
+                                  <T>15825<!--RelationshipBit: romantic-Significant_Other--></T>
+                                  <T>15816<!--RelationshipBit: romantic-Engaged--></T>
+                                  <T>15818<!--RelationshipBit: romantic-GettingMarried--></T>
+                                </L>
+                              </U>
+                            </U>
+                          </V>
+                        </L>
+                      </L>
                     </U>
                   </V>
                 </L>
@@ -587,7 +809,7 @@
       </L>
     </U>
   </V>
-  <T p="InGame\UI\Icons\PieMenu_Category\icon_piemenu_category_romantic.png" n="pie_menu_icon">2f7d0004:00000000:a842549b22a79623</T>
+  <T p="InGame\UI\Icons\PieMenu\Category\icon_piemenu_category_romantic.png" n="pie_menu_icon">2f7d0004:00000000:a842549b22a79623</T>
   <U n="posture_preferences">
     <T n="apply_penalties">False</T>
   </U>
@@ -856,6 +1078,25 @@
       </V>
       <V t="gender_preference">
         <U n="gender_preference">
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+          <L n="target_sim">
+            <E>Listeners</E>
+          </L>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
+      <V t="gender_preference">
+        <U n="gender_preference">
+          <T n="fallback_if_no_perference_is_set">True</T>
           <L n="subject">
             <E>Actor</E>
           </L>

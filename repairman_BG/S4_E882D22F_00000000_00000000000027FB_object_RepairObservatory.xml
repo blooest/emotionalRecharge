@@ -319,6 +319,24 @@
                       <E n="location_target">Object</E>
                     </U>
                   </V>
+                  <U n="success_chance">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="situation_job_test">
+                              <U n="situation_job_test">
+                                <L n="situation_jobs">
+                                  <T>129478<!--SituationJob: job_Repair--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
                   <V t="at_end" n="timing">
                     <U n="at_end">
                       <E n="criticality">NotCritical</E>

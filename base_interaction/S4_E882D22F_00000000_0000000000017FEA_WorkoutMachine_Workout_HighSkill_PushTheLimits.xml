@@ -73,13 +73,13 @@
   <L n="_static_commodities">
     <U>
       <T n="desire">0.5</T>
-      <T n="static_commodity">16427</T>
+      <T n="static_commodity">16427<!--StaticCommodity: StaticCommodity_Excercise--></T>
     </U>
   </L>
   <T n="allow_autonomous">True</T>
   <V t="enabled" n="animation_stat">
     <U n="enabled">
-      <T n="stat">16659</T>
+      <T n="stat">16659<!--Skill: skill_Fitness--></T>
     </U>
   </V>
   <L n="appropriateness_tags">
@@ -90,17 +90,17 @@
     <U n="flexible_length">
       <L n="conditional_actions">
         <V t="list_reference">
-          <T n="list_reference">40705</T>
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
         </V>
         <V t="literal" />
         <V t="list_reference">
-          <T n="list_reference">97354</T>
+          <T n="list_reference">97354<!--ExitConditionList: ExitConditionList_Fatigued--></T>
         </V>
         <V t="list_reference">
-          <T n="list_reference">97352</T>
+          <T n="list_reference">97352<!--ExitConditionList: ExitConditionList_PulledMuscle--></T>
         </V>
         <V t="list_reference">
-          <T n="list_reference">40144</T>
+          <T n="list_reference">40144<!--ExitConditionList: ExitConditionList_EmotionMiserable--></T>
         </V>
         <V t="literal">
           <U n="literal">
@@ -121,10 +121,10 @@
         <U n="staging_content">
           <U n="content_set">
             <L n="affordance_links">
-              <T>14621</T>
-              <T>14623</T>
-              <T>14624</T>
-              <T>14622</T>
+              <T>14621<!--MixerInteraction: WorkoutMachine_flys--></T>
+              <T>14623<!--MixerInteraction: WorkoutMachine_legLifts--></T>
+              <T>14624<!--MixerInteraction: WorkoutMachine_pullDowns--></T>
+              <T>14622<!--MixerInteraction: WorkoutMachine_idle--></T>
             </L>
           </U>
         </U>
@@ -133,11 +133,11 @@
         <U n="enabled">
           <U n="operation_actions">
             <L n="actions">
-              <T>9317</T>
-              <T>39350</T>
-              <T>97349</T>
-              <T>97350</T>
-              <T>104297</T>
+              <T>9317<!--LootActions: loot_Death_ElderExhaustion_Periodic--></T>
+              <T>39350<!--LootActions: Loot_Commodity_Fitness_FatigueGain--></T>
+              <T>97349<!--LootActions: Loot_Commodity_Fitness_GoodWorkout--></T>
+              <T>97350<!--LootActions: Loot_Commodity_Fitness_PulledMuscle--></T>
+              <T>104297<!--LootActions: loot_Commodity_Fireleaf_ElixirOfBurning--></T>
             </L>
           </U>
           <L n="operations">
@@ -145,7 +145,7 @@
               <U n="statistic_change">
                 <T n="advertise">False</T>
                 <T n="amount">-0.329166666666667</T>
-                <T n="stat">16657</T>
+                <T n="stat">16657<!--Commodity: motive_Hygiene--></T>
                 <L n="subject">
                   <E>Actor</E>
                 </L>
@@ -154,7 +154,7 @@
                     <V t="trait">
                       <U n="trait">
                         <L n="blacklist_traits">
-                          <T>26427</T>
+                          <T>26427<!--Trait: trait_GymRat--></T>
                         </L>
                       </U>
                     </V>
@@ -166,40 +166,40 @@
               <U n="dynamic_skill">
                 <U n="skill_loot_data_override">
                   <E n="effectiveness">StandardPeriodic</E>
-                  <T n="stat">16659</T>
+                  <T n="stat">16659<!--Skill: skill_Fitness--></T>
                 </U>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.15</T>
-                <T n="stat">16590</T>
+                <T n="stat">16590<!--Commodity: commodity_Fitness_Fit--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0</T>
-                <T n="stat">16589</T>
+                <T n="stat">16589<!--Commodity: commodity_Fitness_Fat--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">1</T>
-                <T n="stat">29124</T>
+                <T n="stat">29124<!--Commodity: commodity_Trait_Autonomy_Bro--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="advertise">False</T>
                 <T n="amount">0.39</T>
-                <T n="stat">16655</T>
+                <T n="stat">16655<!--Commodity: motive_Fun--></T>
                 <L n="tests">
                   <L>
                     <V t="trait">
                       <U n="trait">
                         <L n="whitelist_traits">
-                          <T>26427</T>
-                          <T>27419</T>
+                          <T>26427<!--Trait: trait_GymRat--></T>
+                          <T>27419<!--Trait: trait_active--></T>
                         </L>
                       </U>
                     </V>
@@ -210,18 +210,18 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">20</T>
-                <T n="stat">29105</T>
+                <T n="stat">29105<!--Commodity: commodity_Trait_Autonomy_Active--></T>
               </U>
             </V>
             <V t="statistic_set_max">
               <U n="statistic_set_max">
-                <T n="stat">16463</T>
+                <T n="stat">16463<!--Commodity: commodity_Emotion_Autonomy_Energized--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">1</T>
-                <T n="stat">76227</T>
+                <T n="stat">76227<!--Commodity: commodity_CareerBenefit_Astronaut--></T>
                 <L n="tests">
                   <L>
                     <V t="career_test">
@@ -229,7 +229,7 @@
                         <V n="test_type" t="career_reference">
                           <U n="career_reference">
                             <V t="specific_career" n="career">
-                              <T n="specific_career">12893</T>
+                              <T n="specific_career">12893<!--Career: career_Adult_Astronaut--></T>
                             </V>
                             <V t="enabled" n="user_level">
                               <U n="enabled">
@@ -248,7 +248,7 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">1</T>
-                <T n="stat">106738</T>
+                <T n="stat">106738<!--Commodity: commodity_CareerBenefit_Athlete--></T>
                 <L n="tests">
                   <L>
                     <V t="career_test">
@@ -256,7 +256,7 @@
                         <V t="career_reference" n="test_type">
                           <U n="career_reference">
                             <V t="specific_career" n="career">
-                              <T n="specific_career">106458</T>
+                              <T n="specific_career">106458<!--Career: career_Adult_Athletic--></T>
                             </V>
                             <V t="enabled" n="user_level">
                               <U n="enabled">
@@ -274,13 +274,13 @@
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">-10</T>
-                <T n="stat">38437</T>
+                <T n="stat">38437<!--Commodity: Commodity_Age_Elder--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">10</T>
-                <T n="stat">38440</T>
+                <T n="stat">38440<!--Commodity: Commodity_Age_Teen--></T>
               </U>
             </V>
           </L>
@@ -305,7 +305,7 @@
       <U n="state_change">
         <V n="new_value" t="single_value">
           <U n="single_value">
-            <T n="new_value">15450</T>
+            <T n="new_value">15450<!--ObjectStateValue: WeightState_Heavy--></T>
           </U>
         </V>
         <V t="immediately" n="timing" />
@@ -314,24 +314,24 @@
   </L>
   <V t="enabled" n="canonical_animation">
     <U n="enabled">
-      <T n="factory">12174</T>
+      <T n="factory">12174<!--AnimationElement: workout_flys--></T>
     </U>
   </V>
-  <T n="display_name">0xA3BF8E6C</T>
+  <T n="display_name">0xA3BF8E6C<!--String: "Workout"--></T>
   <V t="testable" n="display_name_overrides">
     <U n="testable">
       <L n="overrides">
         <U>
-          <T n="new_display_name">0xBF1BB45</T>
+          <T n="new_display_name">0xBF1BB45<!--String: "Workout (Push the Limits)"--></T>
           <L n="test">
             <L>
               <V t="buff">
                 <U n="buff">
                   <V n="whitelist" t="enabled">
                     <L n="enabled">
-                      <T>31361</T>
-                      <T>12543</T>
-                      <T>28907</T>
+                      <T>31361<!--Buff: buff_Object_Fitness_GoodWorkout--></T>
+                      <T>12543<!--Buff: buff_Object_Fitness-Fatigued--></T>
+                      <T>28907<!--Buff: buff_Object_Fitness-Fatigued_Lazy--></T>
                     </L>
                   </V>
                 </U>
@@ -340,37 +340,37 @@
           </L>
         </U>
         <U>
-          <T n="new_display_name">0xDFB32078</T>
+          <T n="new_display_name">0xDFB32078<!--String: "Energized Workout"--></T>
           <L n="test">
             <L>
               <V t="mood">
                 <U n="mood">
-                  <T n="mood">14636</T>
+                  <T n="mood">14636<!--Mood: Mood_Energized--></T>
                 </U>
               </V>
             </L>
           </L>
         </U>
         <U>
-          <T n="new_display_name">0xF3E3C558</T>
+          <T n="new_display_name">0xF3E3C558<!--String: "Enraged Reps"--></T>
           <L n="test">
             <L>
               <V t="mood">
                 <U n="mood">
-                  <T n="mood">14632</T>
+                  <T n="mood">14632<!--Mood: Mood_Angry--></T>
                 </U>
               </V>
             </L>
           </L>
         </U>
         <U>
-          <T n="new_display_name">0x5836B5A9</T>
+          <T n="new_display_name">0x5836B5A9<!--String: "Evil Workout"--></T>
           <L n="test">
             <L>
               <V t="trait">
                 <U n="trait">
                   <L n="whitelist_traits">
-                    <T>16836</T>
+                    <T>16836<!--Trait: trait_Evil--></T>
                   </L>
                 </U>
               </V>
@@ -409,7 +409,7 @@
       <V t="commodity_search" n="join_affordance">
         <U n="commodity_search">
           <U n="value">
-            <T n="commodity">16427</T>
+            <T n="commodity">16427<!--StaticCommodity: StaticCommodity_Excercise--></T>
             <T n="radius">10</T>
           </U>
         </U>
@@ -420,21 +420,21 @@
       <V t="enabled" n="invite_available">
         <U n="enabled">
           <V n="loc_custom_invite_name" t="enabled">
-            <T n="enabled">0x2898B0EE</T>
+            <T n="enabled">0x2898B0EE<!--String: "Ask {1.SimFirstName} To {0.String}"--></T>
           </V>
         </U>
       </V>
       <V n="join_affordance" t="affordance">
         <U n="affordance">
           <V n="value" t="custom">
-            <T n="custom">9099</T>
+            <T n="custom">9099<!--SuperInteraction: mentor_WorkoutMachine--></T>
           </V>
         </U>
       </V>
       <V t="enabled" n="join_available">
         <U n="enabled">
           <V n="loc_custom_join_name" t="enabled">
-            <T n="enabled">0xF80506D0</T>
+            <T n="enabled">0xF80506D0<!--String: "{0.String}"--></T>
           </V>
         </U>
       </V>
@@ -445,14 +445,14 @@
       <V n="join_affordance" t="affordance">
         <U n="affordance">
           <V n="value" t="custom">
-            <T n="custom">13333</T>
+            <T n="custom">13333<!--SuperInteraction: discourage_Treadmill--></T>
           </V>
         </U>
       </V>
       <V t="enabled" n="join_available">
         <U n="enabled">
           <V n="loc_custom_join_name" t="enabled">
-            <T n="enabled">0xF80506D0</T>
+            <T n="enabled">0xF80506D0<!--String: "{0.String}"--></T>
           </V>
         </U>
       </V>
@@ -461,8 +461,8 @@
     </U>
   </L>
   <L n="mood_list">
-    <T>14636</T>
-    <T>14632</T>
+    <T>14636<!--Mood: Mood_Energized--></T>
+    <T>14632<!--Mood: Mood_Angry--></T>
   </L>
   <V t="test_based" n="outcome">
     <U n="test_based">
@@ -470,8 +470,8 @@
         <U>
           <U n="outcome">
             <L n="loot_list">
-              <T>23988</T>
-              <T>100293</T>
+              <T>23988<!--LootActions: loot_Buff_PotentiallySore--></T>
+              <T>100293<!--LootActions: loot_Workout_PuddleChance_Slob--></T>
             </L>
           </U>
         </U>
@@ -482,8 +482,8 @@
             <U>
               <U n="outcome">
                 <L n="loot_list">
-                  <T>23988</T>
-                  <T>28323</T>
+                  <T>23988<!--LootActions: loot_Buff_PotentiallySore--></T>
+                  <T>28323<!--LootActions: loot_SpreadPuddle_Small_Sometimes_Slob--></T>
                 </L>
               </U>
             </U>
@@ -492,7 +492,7 @@
             <L>
               <V t="mood">
                 <U n="mood">
-                  <T n="mood">14632</T>
+                  <T n="mood">14632<!--Mood: Mood_Angry--></T>
                 </U>
               </V>
             </L>
@@ -530,6 +530,28 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Chat</E>
+        </U>
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Workout</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Workout</E>
+        <E>Loud</E>
+      </L>
+    </U>
+  </V>
   <U n="skill_loot_data">
     <E n="effectiveness">StandardPeriodic</E>
     <V t="enabled" n="level_range">
@@ -538,7 +560,7 @@
         <T n="upper_bound">10</T>
       </U>
     </V>
-    <T n="stat">16659</T>
+    <T n="stat">16659<!--Skill: skill_Fitness--></T>
   </U>
   <T n="subaction_selection_weight">6</T>
   <V t="literal" n="super_affordance_compatibility" />
@@ -552,7 +574,7 @@
     <V t="buff">
       <U n="buff">
         <L n="blacklist">
-          <T>26171</T>
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
         </L>
       </U>
     </V>
@@ -560,17 +582,17 @@
       <U n="buff">
         <V n="whitelist" t="enabled">
           <L n="enabled">
-            <T>31362</T>
-            <T>12543</T>
-            <T>28907</T>
-            <T>31361</T>
+            <T>31362<!--Buff: buff_Object_Fitness_VeryFatigued--></T>
+            <T>12543<!--Buff: buff_Object_Fitness-Fatigued--></T>
+            <T>28907<!--Buff: buff_Object_Fitness-Fatigued_Lazy--></T>
+            <T>31361<!--Buff: buff_Object_Fitness_GoodWorkout--></T>
           </L>
         </V>
       </U>
     </V>
     <V t="skill_test">
       <U n="skill_test">
-        <T n="skill">16659</T>
+        <T n="skill">16659<!--Skill: skill_Fitness--></T>
         <V t="interval" n="skill_range">
           <U n="interval">
             <U n="skill_interval">
@@ -587,16 +609,16 @@
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">97269</T>
+      <T n="test_set_reference">97269<!--TestSetInstance: testSet_PregnantDisallow_3rdTrimester--></T>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">28305</T>
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">97371</T>
+      <T n="test_set_reference">97371<!--TestSetInstance: testSet_Fitness_PulledMuscle--></T>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">99339</T>
+      <T n="test_set_reference">99339<!--TestSetInstance: testSet_Fitness_PushTheLimits_Fatigued--></T>
     </V>
   </L>
   <L n="tests" />

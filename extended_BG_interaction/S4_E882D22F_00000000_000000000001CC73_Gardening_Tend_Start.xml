@@ -22,8 +22,13 @@
     <V t="statistic_change">
       <U n="statistic_change">
         <T n="amount">0.4</T>
+        <U n="chance">
+          <T n="base_chance">100</T>
+        </U>
         <T n="exclusive_to_owning_si">True</T>
         <T n="stat">16655<!--Commodity: motive_Fun--></T>
+        <L n="tests" />
+        <V t="use_default" n="text" />
       </U>
     </V>
   </L>
@@ -136,6 +141,19 @@
   <U n="progress_bar_enabled">
     <T n="bar_enabled">False</T>
   </U>
+  <L n="rallyable">
+    <U>
+      <V n="behavior" t="push_affordance">
+        <U n="push_affordance">
+          <T n="affordance">126026<!--SuperInteraction: rallyables_GoThenGarden--></T>
+        </U>
+      </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+      <T n="skip_interaction_test">True</T>
+    </U>
+  </L>
   <E n="scoring_priority">NORMAL</E>
   <U n="skill_loot_data">
     <E n="effectiveness">Tiny</E>

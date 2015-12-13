@@ -208,8 +208,42 @@
         </U>
       </U>
     </V>
+    <V t="broadcaster">
+      <U n="broadcaster">
+        <L n="broadcaster_types">
+          <U>
+            <T n="item">130029<!--Broadcaster: broadcaster_GainRelWithOthersUsingObject_Homework--></T>
+            <L n="test">
+              <L>
+                <V t="sim_info">
+                  <U n="sim_info">
+                    <V t="enabled" n="npc" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
   </L>
   <V t="do_not_change_focus" n="basic_focus" />
+  <L n="cancel_replacement_affordances">
+    <U>
+      <E n="key">BODY</E>
+      <U n="value">
+        <T n="affordance">131317<!--SuperInteraction: cancelReplacements_ReadtoCarry_fromSurface--></T>
+        <V t="enabled" n="target" />
+      </U>
+    </U>
+    <U>
+      <E n="key">CARRY</E>
+      <U n="value">
+        <T n="affordance">122714<!--SuperInteraction: cancelReplacements_ReadtoCarry--></T>
+        <V t="enabled" n="target" />
+      </U>
+    </U>
+  </L>
   <V t="enabled" n="canonical_animation">
     <U n="enabled">
       <T n="factory">11319<!--AnimationElementSet: Book_Teen_Homework_Active_Set--></T>
@@ -383,6 +417,22 @@
       </U>
     </L>
   </V>
+  <L n="rallyable">
+    <U>
+      <V n="behavior" t="push_affordance">
+        <U n="push_affordance">
+          <T n="affordance">128591<!--SuperInteraction: rallyables_GoThenDoHomework--></T>
+          <V t="participant_type" n="affordance_target">
+            <E n="participant_type">Actor</E>
+          </V>
+        </U>
+      </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+      <T n="skip_interaction_test">True</T>
+    </U>
+  </L>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">
       <U n="balloon">
@@ -420,9 +470,18 @@
           <T n="negate_tag">True</T>
           <E n="running_interaction_tag">Loud</E>
         </U>
+        <U>
+          <V n="affinity_strategy" t="attract" />
+          <E n="running_interaction_tag">Reading</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
       </L>
       <L n="my_tags">
         <E>Quiet</E>
+        <E>Reading</E>
       </L>
     </U>
   </V>

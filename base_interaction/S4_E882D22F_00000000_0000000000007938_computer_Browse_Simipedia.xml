@@ -11,7 +11,7 @@
   <V t="enabled" n="_saveable" />
   <L n="_static_commodities">
     <U>
-      <T n="static_commodity">27767</T>
+      <T n="static_commodity">27767<!--StaticCommodity: StaticCommodity_UseComputer--></T>
     </U>
   </L>
 <L n="mood_preference">
@@ -95,26 +95,26 @@
     <U n="flexible_length">
       <L n="conditional_actions">
         <V t="list_reference">
-          <T n="list_reference">40705</T>
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
         </V>
         <V t="list_reference">
-          <T n="list_reference">39200</T>
+          <T n="list_reference">39200<!--ExitConditionList: ExitConditionList_StateBrokenObject--></T>
         </V>
         <V t="list_reference">
-          <T n="list_reference">40702</T>
+          <T n="list_reference">40702<!--ExitConditionList: ExitConditionList_EmotionStressed--></T>
         </V>
         <V t="list_reference">
-          <T n="list_reference">40144</T>
+          <T n="list_reference">40144<!--ExitConditionList: ExitConditionList_EmotionMiserable--></T>
         </V>
       </L>
       <V t="staging_content" n="content">
         <U n="staging_content">
           <U n="content_set">
             <L n="affordance_links">
-              <T>99858</T>
-              <T>13189</T>
-              <T>13188</T>
-              <T>31663</T>
+              <T>99858<!--MixerInteraction: Computer_Use_React--></T>
+              <T>13189<!--MixerInteraction: Computer_Browse_Mouse--></T>
+              <T>13188<!--MixerInteraction: Computer_Browse_Keyboard--></T>
+              <T>31663<!--MixerInteraction: Computer_Use_React_Negative--></T>
             </L>
           </U>
         </U>
@@ -123,48 +123,48 @@
         <U n="enabled">
           <U n="operation_actions">
             <L n="actions">
-              <T>31120</T>
-              <T>31669</T>
-              <T>104297</T>
-              <T>108526</T>
+              <T>31120<!--LootActions: loot_Buff_Computer_FocusedResearch--></T>
+              <T>31669<!--LootActions: loot_Computer_MotorSkill--></T>
+              <T>104297<!--LootActions: loot_Commodity_Fireleaf_ElixirOfBurning--></T>
+              <T>108526<!--LootActions: loot_Career_Scientist_Breakthrough_Progress_Medium_Periodic_Likely--></T>
             </L>
           </U>
           <L n="operations">
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">0.39</T>
-                <T n="stat">16655</T>
+                <T n="stat">16655<!--Commodity: motive_Fun--></T>
               </U>
             </V>
             <V t="statistic_set_max">
               <U n="statistic_set_max">
-                <T n="stat">29109</T>
+                <T n="stat">29109<!--Commodity: commodity_Trait_Autonomy_Genius--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">1</T>
-                <T n="stat">29107</T>
+                <T n="stat">29107<!--Commodity: commodity_Trait_Autonomy_Geek--></T>
               </U>
             </V>
             <V t="dynamic_skill">
               <U n="dynamic_skill">
                 <U n="skill_loot_data_override">
                   <E n="effectiveness">SmallPeriodic</E>
-                  <T n="stat">16719</T>
+                  <T n="stat">16719<!--Skill: statistic_Skill_Child_Mental--></T>
                 </U>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">-10</T>
-                <T n="stat">38437</T>
+                <T n="stat">38437<!--Commodity: Commodity_Age_Elder--></T>
               </U>
             </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">10</T>
-                <T n="stat">38440</T>
+                <T n="stat">38440<!--Commodity: Commodity_Age_Teen--></T>
               </U>
             </V>
           </L>
@@ -178,7 +178,7 @@
       <U n="state_change">
         <V n="new_value" t="single_value">
           <U n="single_value">
-            <T n="new_value">15103</T>
+            <T n="new_value">15103<!--VideoChannel: Computer_Browse--></T>
           </U>
         </V>
         <V t="immediately" n="timing" />
@@ -188,7 +188,7 @@
       <U n="state_change">
         <V t="single_value" n="new_value">
           <U n="single_value">
-            <T n="new_value">15106</T>
+            <T n="new_value">15106<!--VideoChannel: Computer_Off--></T>
           </U>
         </V>
         <V t="at_end" n="timing">
@@ -201,12 +201,12 @@
   </L>
   <V t="enabled" n="canonical_animation">
     <U n="enabled">
-      <T n="factory">31395</T>
+      <T n="factory">31395<!--AnimationElement: Computer_Use_Type--></T>
     </U>
   </V>
   <T o="true" n="category" />
   <T n="disallow_as_mixer_target">True</T>
-  <T n="display_name">0x29902574</T>
+  <T n="display_name">0x29902574<!--String: "Research On Simpedia"--></T>
   <U n="display_name_text_tokens">
     <L n="tokens">
       <V t="participant_type">
@@ -222,7 +222,7 @@
     </L>
   </U>
   <V t="enabled" n="display_tooltip">
-    <T n="enabled">0x447068E5</T>
+    <T n="enabled">0x447068E5<!--String: "Learning all the things has a way of focusing the mind"--></T>
   </V>
   <L n="interaction_category_tags">
     <E>Interaction_Computer</E>
@@ -263,7 +263,7 @@
   <E n="scoring_priority">NORMAL</E>
   <T n="subaction_selection_weight">3</T>
   <V t="reference" n="super_affordance_compatibility">
-    <T n="reference">77330</T>
+    <T n="reference">77330<!--AffordanceFilter: af_ComputerCompatability--></T>
   </V>
   <E n="target_type">OBJECT</E>
   <L n="test_autonomous">
@@ -275,7 +275,7 @@
     <V t="buff">
       <U n="buff">
         <L n="blacklist">
-          <T>26171</T>
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
         </L>
       </U>
     </V>
@@ -292,27 +292,27 @@
     <V t="state">
       <U n="state">
         <V t="always_pass" n="fallback_behavior" />
-        <T n="value">110121</T>
+        <T n="value">110121<!--ObjectStateValue: frontDesk_Slotted_0_No--></T>
       </U>
     </V>
     <V t="state">
       <U n="state">
         <E n="operator">NOTEQUAL</E>
-        <T n="value">15080</T>
+        <T n="value">15080<!--ObjectStateValue: BrokenState_Broken--></T>
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">28176</T>
+      <T n="test_set_reference">28176<!--TestSetInstance: testSet_EmotionNotStressed--></T>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">28305</T>
+      <T n="test_set_reference">28305<!--TestSetInstance: testSet_EmotionNotMiserable--></T>
     </V>
   </L>
   <L n="tests">
     <L>
       <V t="skill_test">
         <U n="skill_test">
-          <T n="skill">16719</T>
+          <T n="skill">16719<!--Skill: statistic_Skill_Child_Mental--></T>
           <V t="interval" n="skill_range">
             <U n="interval">
               <U n="skill_interval">

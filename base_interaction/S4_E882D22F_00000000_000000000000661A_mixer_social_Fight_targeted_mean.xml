@@ -8,6 +8,7 @@
   </V>
   <L n="_static_commodities">
     <U>
+      <T n="desire">2</T>
       <T n="static_commodity">123949<!--StaticCommodity: StaticCommodity_TwinRoses--></T>
     </U>
   </L>
@@ -295,8 +296,12 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>97583<!--Broadcaster: broadcaster_ChildFight--></T>
-          <T>99258<!--Broadcaster: broadcaster_AdultFight--></T>
+          <U>
+            <T n="item">97583<!--Broadcaster: broadcaster_ChildFight--></T>
+          </U>
+          <U>
+            <T n="item">99258<!--Broadcaster: broadcaster_AdultFight--></T>
+          </U>
         </L>
       </U>
     </V>
@@ -361,7 +366,9 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>99258<!--Broadcaster: broadcaster_AdultFight--></T>
+          <U>
+            <T n="item">99258<!--Broadcaster: broadcaster_AdultFight--></T>
+          </U>
         </L>
         <E n="participant">TargetSim</E>
       </U>
@@ -502,6 +509,79 @@
             <T n="base_value">2</T>
           </U>
         </U>
+        <U>
+          <U n="outcome">
+            <V n="animation_ref" t="enabled">
+              <U n="enabled">
+                <T n="factory">11972<!--AnimationElement: Soc_Mischief_T_Fisticuffs_success_basic--></T>
+                <U n="overrides">
+                  <V t="disabled" n="balloons" />
+                  <L n="manifests" />
+                  <L n="params" />
+                  <L n="prop_state_values" />
+                  <L n="props" />
+                  <V t="disabled" n="reactionlet" />
+                  <L n="required_slots" />
+                  <L n="sounds" />
+                  <L n="vfx" />
+                </U>
+              </U>
+            </V>
+            <L n="loot_list">
+              <T>28445<!--LootActions: Loot_Buff_SocialBuffRemoval--></T>
+              <T>27896<!--LootActions: Loot_Buff_Social_Happy_MeanMischief--></T>
+              <T>36121<!--LootActions: Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
+              <T>26086<!--LootActions: Loot_SocialContext_Friendship_Loss_cappedDistasteful--></T>
+              <T>77582<!--LootActions: Loot_LTR_Romance_Medium_Loss_Conditional--></T>
+              <T>11044<!--LootActions: Rel_Loss_TankRel--></T>
+              <T>23791<!--LootActions: Loot_AngrySocialCommodity_20_Target--></T>
+              <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
+              <T>99498<!--LootActions: Rel_Loss_Medium_ActorChild_TargetHatesChildren--></T>
+              <T>10894<!--LootActions: Loot_LostFight_Target--></T>
+              <T>11022<!--LootActions: Loot_WonFight--></T>
+              <T>76173<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Boss--></T>
+              <T>76190<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Villain--></T>
+              <T>33957<!--LootActions: Loot_KnowTrait_Mean_Actor--></T>
+              <T>33531<!--LootActions: Loot_KnowTrait_Evil_Actor--></T>
+              <T>99553<!--LootActions: loot_Commodity_Motive_Fun_MeanEvilTrait--></T>
+              <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+              <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+              <T>112684<!--LootActions: loot_Commodity_Retail_Employee_SatisfactionDecrease_Small--></T>
+              <T>103012<!--LootActions: loot_Buff_Trait_Squeamish_Nauseous_Fighting--></T>
+              <T>102716<!--LootActions: loot_Buff_Trait_Squeamish_Nauseous_TargetFight--></T>
+            </L>
+          </U>
+          <U n="weight">
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">8</T>
+                <L n="tests">
+                  <L>
+                    <V t="relative_statistic">
+                      <U n="relative_statistic">
+                        <E n="comparison">GREATER</E>
+                        <T n="stat">16659<!--Skill: skill_Fitness--></T>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+              <U>
+                <T n="multiplier">0</T>
+                <L n="tests">
+                  <L>
+                    <V t="relative_statistic">
+                      <U n="relative_statistic">
+                        <E n="comparison">LESS</E>
+                        <T n="stat">16659<!--Skill: skill_Fitness--></T>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
       </L>
       <L n="tested_outcomes">
         <U>
@@ -510,19 +590,38 @@
               <U n="outcome">
                 <V t="enabled" n="animation_ref">
                   <U n="enabled">
+                    <T n="factory">11970<!--AnimationElement: Soc_Mischief_T_Fisticuffs_fail_basic--></T>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>27896<!--LootActions: Loot_Buff_Social_Happy_MeanMischief--></T>
+                  <T>36121<!--LootActions: Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
+                  <T>11023<!--LootActions: Loot_WonFight_Target--></T>
+                  <T>10893<!--LootActions: Loot_LostFight--></T>
+                  <T>76173<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Boss--></T>
+                  <T>76190<!--LootActions: Loot_Commodity_CareerBenefit_Agent_Villain--></T>
+                  <T>33957<!--LootActions: Loot_KnowTrait_Mean_Actor--></T>
+                  <T>33531<!--LootActions: Loot_KnowTrait_Evil_Actor--></T>
+                  <T>99553<!--LootActions: loot_Commodity_Motive_Fun_MeanEvilTrait--></T>
+                  <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
+                  <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
+                  <T>112684<!--LootActions: loot_Commodity_Retail_Employee_SatisfactionDecrease_Small--></T>
+                  <T>103012<!--LootActions: loot_Buff_Trait_Squeamish_Nauseous_Fighting--></T>
+                  <T>102716<!--LootActions: loot_Buff_Trait_Squeamish_Nauseous_TargetFight--></T>
+                </L>
+                <E n="outcome_result">FAILURE</E>
+              </U>
+            </U>
+            <U>
+              <U n="outcome">
+                <V t="enabled" n="animation_ref">
+                  <U n="enabled">
                     <T n="factory">11972<!--AnimationElement: Soc_Mischief_T_Fisticuffs_success_basic--></T>
                   </U>
                 </V>
                 <L n="loot_list">
-                  <T>28445<!--LootActions: Loot_Buff_SocialBuffRemoval--></T>
                   <T>27896<!--LootActions: Loot_Buff_Social_Happy_MeanMischief--></T>
                   <T>36121<!--LootActions: Skill_Loot_Dynamic_Small_ChildrenOnly_Social--></T>
-                  <T>26086<!--LootActions: Loot_SocialContext_Friendship_Loss_cappedDistasteful--></T>
-                  <T>77582<!--LootActions: Loot_LTR_Romance_Medium_Loss_Conditional--></T>
-                  <T>11044<!--LootActions: Rel_Loss_TankRel--></T>
-                  <T>23791<!--LootActions: Loot_AngrySocialCommodity_20_Target--></T>
-                  <T>10954<!--LootActions: Loot_ForSocialsSocialMotiveMedium--></T>
-                  <T>99498<!--LootActions: Rel_Loss_Medium_ActorChild_TargetHatesChildren--></T>
                   <T>10894<!--LootActions: Loot_LostFight_Target--></T>
                   <T>11022<!--LootActions: Loot_WonFight--></T>
                   <T>76173<!--LootActions: Loot_Commodity_CareerBenefit_Criminal_Boss--></T>
@@ -538,7 +637,6 @@
                 </L>
               </U>
               <U n="weight">
-                <T n="base_value">1</T>
                 <L n="multipliers">
                   <U>
                     <T n="multiplier">8</T>
@@ -553,16 +651,45 @@
                       </L>
                     </L>
                   </U>
+                  <U>
+                    <T n="multiplier">0</T>
+                    <L n="tests">
+                      <L>
+                        <V t="relative_statistic">
+                          <U n="relative_statistic">
+                            <E n="comparison">LESS</E>
+                            <T n="stat">16659<!--Skill: skill_Fitness--></T>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
                 </L>
               </U>
             </U>
           </L>
           <L n="tests">
             <L>
-              <V t="relative_statistic">
-                <U n="relative_statistic">
-                  <E n="comparison">GREATER_OR_EQUAL</E>
-                  <T n="stat">16659<!--Skill: skill_Fitness--></T>
+              <V t="club_gathering_test">
+                <U n="club_gathering_test">
+                  <V t="use_any_club" n="club" />
+                  <V t="enabled" n="club_gathering_status">
+                    <V n="enabled" t="Gathering Exists" />
+                  </V>
+                  <V t="enabled" n="subject_club_gathering_status">
+                    <V n="enabled" t="In Gathering" />
+                  </V>
+                  <V t="enabled" n="target_club_gathering_status">
+                    <V n="enabled" t="In Gathering" />
+                  </V>
+                </U>
+              </V>
+              <V t="club_test">
+                <U n="club_test">
+                  <V t="enabled" n="affordance_rule">
+                    <V n="enabled" t="is_encouraged" />
+                  </V>
+                  <V t="use_any_club" n="club" />
                 </U>
               </V>
             </L>
@@ -843,6 +970,14 @@
         </U>
       </V>
     </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
+    </L>
   </L>
   <L n="test_globals">
     <V t="test_set_reference">
@@ -880,15 +1015,6 @@
     </V>
     <V t="relationship">
       <U n="relationship">
-        <U n="relationship_score_interval">
-          <T n="lower_bound">-100</T>
-          <T n="upper_bound">-15</T>
-        </U>
-        <T n="track">16650<!--RelationshipTrack: LTR_Friendship_Main--></T>
-      </U>
-    </V>
-    <V t="relationship">
-      <U n="relationship">
         <T n="num_relations">1</T>
         <U n="required_relationship_bits">
           <L n="match_all">
@@ -909,13 +1035,8 @@
     <V t="test_set_reference">
       <T n="test_set_reference">36170<!--TestSetInstance: testSet_TeenFightingAvailability--></T>
     </V>
-    <V t="test_based_score_threshold">
-      <U n="test_based_score_threshold">
-        <T n="test_based_score">24573<!--TestBasedScore: scores_socialoutcomes_mean_availability--></T>
-        <U n="threshold">
-          <T n="value">12</T>
-        </U>
-      </U>
+    <V t="test_set_reference">
+      <T n="test_set_reference">128060<!--TestSetInstance: testSet_FightAvailability--></T>
     </V>
     <V t="buff">
       <U n="buff">

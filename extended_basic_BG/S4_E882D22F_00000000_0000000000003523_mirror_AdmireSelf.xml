@@ -37,7 +37,7 @@
       <T n="static_commodity">16427<!--StaticCommodity: StaticCommodity_Excercise--></T>
     </U>
     <U>
-      <T n="static_commodity">128309</T>
+      <T n="static_commodity">128309<!--StaticCommodity: StaticCommodity_Mirror--></T>
     </U>
   </L>
   <T n="allow_autonomous">True</T>

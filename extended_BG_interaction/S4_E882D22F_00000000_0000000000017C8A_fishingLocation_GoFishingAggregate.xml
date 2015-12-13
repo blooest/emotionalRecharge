@@ -158,9 +158,38 @@
   <L n="mood_list">
     <T>14639<!--Mood: Mood_Focused--></T>
   </L>
+  <L n="rallyable">
+    <U>
+      <V n="behavior" t="push_affordance">
+        <U n="push_affordance">
+          <T n="affordance">97418<!--AggregateSuperInteraction: fishingLocation_GoFishingAggregate--></T>
+        </U>
+      </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+      <T n="skip_interaction_test">True</T>
+    </U>
+  </L>
   <E n="scoring_priority">NORMAL</E>
   <T n="subaction_selection_weight">1</T>
   <E n="target_type">OBJECT</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="user_running_interaction">
+        <U n="user_running_interaction">
+          <L n="affordances">
+            <T>74346<!--FishingLocationGoFishingSuperInteraction: fishingLocation_GoFishing_Hole--></T>
+            <T>97277<!--FishingLocationGoFishingSuperInteraction: fishingLocation_GoFishing_Hole_Child--></T>
+            <T>75490<!--FishingLocationGoFishingSuperInteraction: fishingLocation_GoFishing_Spot--></T>
+            <T>97299<!--FishingLocationGoFishingSuperInteraction: fishingLocation_GoFishing_Spot_Child--></T>
+          </L>
+          <E n="participant">Actor</E>
+          <T n="test_for_not_running">True</T>
+        </U>
+      </V>
+    </L>
+  </L>
   <L n="test_globals">
     <V t="buff">
       <U n="buff">

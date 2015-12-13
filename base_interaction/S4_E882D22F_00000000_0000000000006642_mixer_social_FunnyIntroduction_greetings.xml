@@ -8,8 +8,8 @@
   <T n="allow_autonomous">True</T>
   <T n="allow_user_directed">True</T>
   <T n="base_score">1</T>
-  <T n="display_name">0xB2BEB5BA</T>
-  <T n="display_name_target">0xF218EF2B</T>
+  <T n="display_name">0xB2BEB5BA<!--String: "Funny Introduction"--></T>
+  <T n="display_name_target">0xF218EF2B<!--String: "Be Greeted"--></T>
   <U n="display_name_text_tokens">
     <L n="tokens">
       <V t="participant_type">
@@ -24,6 +24,7 @@
       </V>
     </L>
   </U>
+  <T n="ignores_greetings">True</T>
   <L n="interaction_category_tags">
     <E>Interaction_Greeting</E>
     <E>Interaction_Chat</E>
@@ -32,63 +33,63 @@
   </L>
   <L n="mood_preference">
     <U>
-      <T n="key">14632</T>
+      <T n="key">14632<!--Mood: Mood_Angry--></T>
 <T n="value">-100</T>
     </U>
     <U>
-      <T n="key">14633</T>
+      <T n="key">14633<!--Mood: Mood_Bored--></T>
 <T n="value">-80</T>
     </U>
     <U>
-      <T n="key">14634</T>
+      <T n="key">14634<!--Mood: Mood_Confident--></T>
 <T n="value">60</T>
     </U>
     <U>
-      <T n="key">14635</T>
+      <T n="key">14635<!--Mood: Mood_Embarrassed--></T>
       <T n="value">0</T>
     </U>
     <U>
-      <T n="key">14636</T>
+      <T n="key">14636<!--Mood: Mood_Energized--></T>
 <T n="value">40</T>
     </U>
     <U>
-      <T n="key">14637</T>
+      <T n="key">14637<!--Mood: Mood_Fine--></T>
 <T n="value">60</T>
     </U>
     <U>
-      <T n="key">14638</T>
+      <T n="key">14638<!--Mood: Mood_Flirty--></T>
 <T n="value">20</T>
     </U>
     <U>
-      <T n="key">14639</T>
+      <T n="key">14639<!--Mood: Mood_Focused--></T>
 <T n="value">40</T>
     </U>
     <U>
-      <T n="key">14640</T>
+      <T n="key">14640<!--Mood: Mood_Happy--></T>
 <T n="value">80</T>
     </U>
     <U>
-      <T n="key">14641</T>
+      <T n="key">14641<!--Mood: Mood_Inspired--></T>
 <T n="value">40</T>
     </U>
     <U>
-      <T n="key">14642</T>
+      <T n="key">14642<!--Mood: Mood_Playful--></T>
 <T n="value">100</T>
     </U>
     <U>
-      <T n="key">14643</T>
+      <T n="key">14643<!--Mood: Mood_Sad--></T>
 <T n="value">-80</T>
     </U>
     <U>
-      <T n="key">14644</T>
+      <T n="key">14644<!--Mood: Mood_Dazed--></T>
 <T n="value">-20</T>
     </U>
     <U>
-      <T n="key">14645</T>
+      <T n="key">14645<!--Mood: Mood_Stressed--></T>
       <T n="value">0</T>
     </U>
     <U>
-      <T n="key">14646</T>
+      <T n="key">14646<!--Mood: Mood_Uncomfortable--></T>
 <T n="value">-60</T>
     </U>
   </L>
@@ -99,7 +100,7 @@
           <U n="outcome">
             <V n="animation_ref" t="enabled">
               <U n="enabled">
-                <T n="factory">76358</T>
+                <T n="factory">76358<!--AnimationElement: Soc_Greet_FunnyIntroduction_Success_basic--></T>
                 <U n="overrides">
                   <V n="balloons" t="enabled">
                     <L n="enabled">
@@ -107,7 +108,7 @@
                         <L n="balloon_choices">
                           <U>
                             <V n="item" t="balloon_category">
-                              <T n="balloon_category">38698</T>
+                              <T n="balloon_category">38698<!--BalloonCategory: BalloonCategory_SetSocialSTC_Funny_Speech--></T>
                             </V>
                           </U>
                         </L>
@@ -120,11 +121,18 @@
                 </U>
               </U>
             </V>
+            <L n="continuation">
+              <U>
+                <E n="actor">SocialGroupSims</E>
+                <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+                <E n="target">Actor</E>
+              </U>
+            </L>
             <L n="loot_list">
-              <T>11029</T>
-              <T>26262</T>
-              <T>11036</T>
-              <T>102790</T>
+              <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
+              <T>26262<!--LootActions: Loot_SocialContext_Fun_Gain_setFunny--></T>
+              <T>11036<!--LootActions: Rel_Gain_Small--></T>
+              <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
             </L>
             <V n="response" t="enabled">
               <V n="enabled" t="individual">
@@ -133,13 +141,13 @@
                     <U>
                       <E n="target">Actor</E>
                       <U n="animation">
-                        <T n="factory">11830</T>
+                        <T n="factory">11830<!--AnimationElement: Social_Responses_Inspired_HandOnChin--></T>
                       </U>
                     </U>
                     <U>
                       <E n="target">TargetSim</E>
                       <U n="animation">
-                        <T n="factory">11825</T>
+                        <T n="factory">11825<!--AnimationElement: Social_Responses_Happy_Chuckle--></T>
                       </U>
                     </U>
                   </L>
@@ -155,7 +163,7 @@
           <U n="outcome">
             <V n="animation_ref" t="enabled">
               <U n="enabled">
-                <T n="factory">76359</T>
+                <T n="factory">76359<!--AnimationElement: Soc_Greet_FunnyIntroduction_Fail_basic--></T>
                 <U n="overrides">
                   <V n="balloons" t="enabled">
                     <L n="enabled">
@@ -163,7 +171,7 @@
                         <L n="balloon_choices">
                           <U>
                             <V n="item" t="balloon_category">
-                              <T n="balloon_category">12286</T>
+                              <T n="balloon_category">12286<!--BalloonCategory: ChatTopics_Speech--></T>
                             </V>
                           </U>
                         </L>
@@ -176,11 +184,18 @@
                 </U>
               </U>
             </V>
+            <L n="continuation">
+              <U>
+                <E n="actor">SocialGroupSims</E>
+                <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+                <E n="target">Actor</E>
+              </U>
+            </L>
             <L n="loot_list">
-              <T>11042</T>
-              <T>26264</T>
-              <T>11029</T>
-              <T>102790</T>
+              <T>11042<!--LootActions: Rel_Loss_Small--></T>
+              <T>26264<!--LootActions: Loot_SocialContext_Fun_Loss_setBoring--></T>
+              <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
+              <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
             </L>
             <E n="outcome_result">FAILURE</E>
             <V n="response" t="enabled">
@@ -190,13 +205,13 @@
                     <U>
                       <E n="target">Actor</E>
                       <U n="animation">
-                        <T n="factory">11815</T>
+                        <T n="factory">11815<!--AnimationElement: Social_Responses_Embarrassed_TurnHead--></T>
                       </U>
                     </U>
                     <U>
                       <E n="target">TargetSim</E>
                       <U n="animation">
-                        <T n="factory">11807</T>
+                        <T n="factory">11807<!--AnimationElement: Social_Responses_Bored_Yawn--></T>
                       </U>
                     </U>
                   </L>
@@ -213,7 +228,7 @@
               <U n="outcome">
                 <V n="animation_ref" t="enabled">
                   <U n="enabled">
-                    <T n="factory">76358</T>
+                    <T n="factory">76358<!--AnimationElement: Soc_Greet_FunnyIntroduction_Success_basic--></T>
                     <U n="overrides">
                       <V n="balloons" t="enabled">
                         <L n="enabled">
@@ -221,7 +236,7 @@
                             <L n="balloon_choices">
                               <U>
                                 <V n="item" t="balloon_category">
-                                  <T n="balloon_category">38698</T>
+                                  <T n="balloon_category">38698<!--BalloonCategory: BalloonCategory_SetSocialSTC_Funny_Speech--></T>
                                 </V>
                               </U>
                             </L>
@@ -234,11 +249,18 @@
                     </U>
                   </U>
                 </V>
+                <L n="continuation">
+                  <U>
+                    <E n="actor">SocialGroupSims</E>
+                    <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+                    <E n="target">Actor</E>
+                  </U>
+                </L>
                 <L n="loot_list">
-                  <T>11029</T>
-                  <T>26262</T>
-                  <T>11036</T>
-                  <T>102790</T>
+                  <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
+                  <T>26262<!--LootActions: Loot_SocialContext_Fun_Gain_setFunny--></T>
+                  <T>11036<!--LootActions: Rel_Gain_Small--></T>
+                  <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
                 </L>
                 <V n="response" t="enabled">
                   <V n="enabled" t="individual">
@@ -247,13 +269,13 @@
                         <U>
                           <E n="target">Actor</E>
                           <U n="animation">
-                            <T n="factory">11830</T>
+                            <T n="factory">11830<!--AnimationElement: Social_Responses_Inspired_HandOnChin--></T>
                           </U>
                         </U>
                         <U>
                           <E n="target">TargetSim</E>
                           <U n="animation">
-                            <T n="factory">11825</T>
+                            <T n="factory">11825<!--AnimationElement: Social_Responses_Happy_Chuckle--></T>
                           </U>
                         </U>
                       </L>
@@ -270,7 +292,7 @@
             <L>
               <V t="test_based_score_threshold">
                 <U n="test_based_score_threshold">
-                  <T n="test_based_score">24570</T>
+                  <T n="test_based_score">24570<!--TestBasedScore: scores_socialoutcomes_funny--></T>
                   <U n="threshold">
                     <T n="value">8</T>
                   </U>
@@ -295,62 +317,62 @@
         <T n="upper_bound">10</T>
       </U>
     </V>
-    <T n="stat">16699</T>
+    <T n="stat">16699<!--Skill: statistic_Skill_AdultMajor_Charisma--></T>
   </U>
   <L n="social_context_preference">
     <U>
-      <T n="key">111600</T>
+      <T n="key">111600<!--SocialContextBit: relationshipBit_SocialContext_Retail_Uninterested--></T>
     </U>
     <U>
-      <T n="key">111601</T>
+      <T n="key">111601<!--SocialContextBit: relationshipBit_SocialContext_Retail_VeryInterested--></T>
     </U>
     <U>
-      <T n="key">111602</T>
+      <T n="key">111602<!--SocialContextBit: relationshipBit_SocialContext_Retail_MildlyInterested--></T>
     </U>
     <U>
-      <T n="key">24032</T>
+      <T n="key">24032<!--SocialContextBit: relbit_SocialContext_Casual--></T>
     </U>
     <U>
-      <T n="key">24076</T>
+      <T n="key">24076<!--SocialContextBit: relbit_SocialContext_Romance_Amorous--></T>
     </U>
     <U>
-      <T n="key">24077</T>
+      <T n="key">24077<!--SocialContextBit: relbit_SocialContext_Fun_Funny--></T>
     </U>
     <U>
-      <T n="key">24078</T>
+      <T n="key">24078<!--SocialContextBit: relbit_SocialContext_Romance_Suggestive--></T>
     </U>
     <U>
-      <T n="key">24079</T>
+      <T n="key">24079<!--SocialContextBit: relbit_SocialContext_Fun_Hilarious--></T>
     </U>
     <U>
-      <T n="key">24080</T>
+      <T n="key">24080<!--SocialContextBit: relbit_SocialContext_Romance_Steamy--></T>
     </U>
     <U>
-      <T n="key">24081</T>
+      <T n="key">24081<!--SocialContextBit: relbit_SocialContext_Fun_Boring--></T>
     </U>
     <U>
-      <T n="key">24082</T>
+      <T n="key">24082<!--SocialContextBit: relbit_SocialContext_Fun_Tedious--></T>
     </U>
     <U>
-      <T n="key">24083</T>
+      <T n="key">24083<!--SocialContextBit: relbit_SocialContext_Fun_InsufferablyTedious--></T>
     </U>
     <U>
-      <T n="key">24085</T>
+      <T n="key">24085<!--SocialContextBit: relbit_SocialContext_Friendship_Friendly--></T>
     </U>
     <U>
-      <T n="key">24086</T>
+      <T n="key">24086<!--SocialContextBit: relbit_SocialContext_Friendship_Distasteful--></T>
     </U>
     <U>
-      <T n="key">24087</T>
+      <T n="key">24087<!--SocialContextBit: relbit_SocialContext_Friendship_Offensive--></T>
     </U>
     <U>
-      <T n="key">24088</T>
+      <T n="key">24088<!--SocialContextBit: relbit_SocialContext_Friendship_Abhorrent--></T>
     </U>
     <U>
-      <T n="key">24089</T>
+      <T n="key">24089<!--SocialContextBit: relbit_SocialContext_Awkwardness_Awkward--></T>
     </U>
     <U>
-      <T n="key">24090</T>
+      <T n="key">24090<!--SocialContextBit: relbit_SocialContext_Awkwardness_VeryAwkward--></T>
     </U>
   </L>
   <U n="sub_action">
@@ -362,21 +384,21 @@
       <V t="trait">
         <U n="trait">
           <L n="blacklist_traits">
-            <T>9602</T>
+            <T>9602<!--Trait: trait_Loner--></T>
           </L>
         </U>
       </V>
       <V t="buff">
         <U n="buff">
           <L n="blacklist">
-            <T>120201</T>
+            <T>120201<!--Buff: buff_Role_WelcomeWagon_Neighbor_Ungreeted--></T>
           </L>
         </U>
       </V>
       <V t="buff">
         <U n="buff">
           <L n="blacklist">
-            <T>120201</T>
+            <T>120201<!--Buff: buff_Role_WelcomeWagon_Neighbor_Ungreeted--></T>
           </L>
           <E n="subject">TargetSim</E>
         </U>
@@ -387,7 +409,7 @@
     <V t="buff">
       <U n="buff">
         <L n="blacklist">
-          <T>99711</T>
+          <T>99711<!--Buff: buff_GettingMarried--></T>
         </L>
         <E n="subject">TargetSim</E>
       </U>
@@ -396,7 +418,7 @@
       <U n="relationship">
         <U n="prohibited_relationship_bits">
           <L n="match_all">
-            <T>15803</T>
+            <T>15803<!--RelationshipBit: has_met--></T>
           </L>
         </U>
         <L n="target_sim">
@@ -405,19 +427,19 @@
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">100187</T>
+      <T n="test_set_reference">100187<!--TestSetInstance: testSet_NotBetweenNPCs--></T>
     </V>
     <V t="user_running_interaction">
       <U n="user_running_interaction">
         <L n="affordances">
-          <T>106223</T>
+          <T>106223<!--SocialSuperInteraction: interrogate_Interrogate--></T>
         </L>
         <E n="participant">Actor</E>
         <T n="test_for_not_running">True</T>
       </U>
     </V>
     <V t="test_set_reference">
-      <T n="test_set_reference">116449</T>
+      <T n="test_set_reference">116449<!--TestSetInstance: testSetInstance_NotCustomerORNotLotOwnerORChild--></T>
     </V>
   </L>
   <T n="visible">True</T>

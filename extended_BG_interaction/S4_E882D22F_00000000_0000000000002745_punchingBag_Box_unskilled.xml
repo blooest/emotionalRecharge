@@ -458,6 +458,19 @@
       </U>
     </V>
   </U>
+  <L n="rallyable">
+    <U>
+      <V n="behavior" t="push_affordance">
+        <U n="push_affordance">
+          <T n="affordance">125980<!--SuperInteraction: rallyables_GoThenWorkout--></T>
+        </U>
+      </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+      <T n="skip_interaction_test">True</T>
+    </U>
+  </L>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">
       <U n="balloon">
@@ -483,6 +496,28 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Workout</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Chat</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Workout</E>
+        <E>Loud</E>
+      </L>
+    </U>
+  </V>
   <U n="skill_loot_data">
     <E n="effectiveness">StandardPeriodic</E>
     <V t="enabled" n="level_range">

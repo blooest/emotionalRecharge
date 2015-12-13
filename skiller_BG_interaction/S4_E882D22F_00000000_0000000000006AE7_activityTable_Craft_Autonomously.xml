@@ -156,6 +156,19 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V n="sim_affinity_posture_scoring_data" t="enabled">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Activity_Table</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Activity_Table</E>
+      </L>
+    </U>
+  </V>
   <T n="subaction_selection_weight">1</T>
   <V t="literal" n="super_affordance_compatibility">
     <U n="literal">

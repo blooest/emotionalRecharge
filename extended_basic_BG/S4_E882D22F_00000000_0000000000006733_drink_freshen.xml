@@ -116,6 +116,7 @@
           <L n="exclude_affordances">
             <T>103790<!--GoHereSuperInteraction: terrain-Swimhere--></T>
             <T>104856<!--SwimmingWaypointInteraction: pool-swim--></T>
+            <T>129587<!--GoHereSuperInteraction: terrain-Swim_andChatHere--></T>
           </L>
         </U>
       </V>

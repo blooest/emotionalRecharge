@@ -652,9 +652,22 @@
           <T n="negate_tag">True</T>
           <E n="running_interaction_tag">Sleeping</E>
         </U>
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Workout</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Chat</E>
+        </U>
       </L>
       <L n="my_tags">
         <E>Loud</E>
+        <E>Workout</E>
       </L>
     </U>
   </V>
@@ -686,6 +699,7 @@
     <V t="sim_info">
       <U n="sim_info">
         <V t="specified" n="ages" />
+        <E n="who">Actor</E>
       </U>
     </V>
     <V t="buff">

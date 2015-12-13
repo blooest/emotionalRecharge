@@ -630,6 +630,11 @@
         </U>
       </V>
     </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+    </L>
   </L>
   <T n="time_overhead">30</T>
   <V t="enabled" n="utility_info">

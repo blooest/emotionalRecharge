@@ -7,6 +7,7 @@
   </V>
   <L n="_static_commodities">
     <U>
+      <T n="desire">2</T>
       <T n="static_commodity">123949<!--StaticCommodity: StaticCommodity_TwinRoses--></T>
     </U>
   </L>
@@ -17,14 +18,18 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          <U>
+            <T n="item">125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          </U>
         </L>
       </U>
     </V>
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          <U>
+            <T n="item">125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          </U>
         </L>
         <E n="participant">TargetSim</E>
       </U>
@@ -64,7 +69,7 @@
   </L>
   <L n="mood_preference">
     <U>
-      <T n="key">14632</T>
+      <T n="key">14632<!--Mood: Mood_Angry--></T>
 <T n="value">-50</T>
     </U>
     <U>
@@ -72,7 +77,7 @@
       <T n="value">0</T>
     </U>
     <U>
-      <T n="key">14634</T>
+      <T n="key">14634<!--Mood: Mood_Confident--></T>
 <T n="value">30</T>
     </U>
     <U>
@@ -80,47 +85,47 @@
       <T n="value">0</T>
     </U>
     <U>
-      <T n="key">14636</T>
+      <T n="key">14636<!--Mood: Mood_Energized--></T>
 <T n="value">20</T>
     </U>
     <U>
-      <T n="key">14637</T>
+      <T n="key">14637<!--Mood: Mood_Fine--></T>
 <T n="value">40</T>
     </U>
     <U>
-      <T n="key">14638</T>
+      <T n="key">14638<!--Mood: Mood_Flirty--></T>
 <T n="value">-50</T>
     </U>
     <U>
-      <T n="key">14639</T>
+      <T n="key">14639<!--Mood: Mood_Focused--></T>
 <T n="value">20</T>
     </U>
     <U>
-      <T n="key">14640</T>
+      <T n="key">14640<!--Mood: Mood_Happy--></T>
 <T n="value">50</T>
     </U>
     <U>
-      <T n="key">14641</T>
+      <T n="key">14641<!--Mood: Mood_Inspired--></T>
 <T n="value">20</T>
     </U>
     <U>
-      <T n="key">14642</T>
+      <T n="key">14642<!--Mood: Mood_Playful--></T>
 <T n="value">20</T>
     </U>
     <U>
-      <T n="key">14643</T>
+      <T n="key">14643<!--Mood: Mood_Sad--></T>
 <T n="value">-40</T>
     </U>
     <U>
-      <T n="key">14644</T>
+      <T n="key">14644<!--Mood: Mood_Dazed--></T>
 <T n="value">-20</T>
     </U>
     <U>
-      <T n="key">14645</T>
+      <T n="key">14645<!--Mood: Mood_Stressed--></T>
 <T n="value">-30</T>
     </U>
     <U>
-      <T n="key">14646</T>
+      <T n="key">14646<!--Mood: Mood_Uncomfortable--></T>
 <T n="value">-10</T>
     </U>
   </L>
@@ -562,6 +567,14 @@
       </V>
       <V t="test_set_reference">
         <T n="test_set_reference">100369<!--TestSetInstance: testSet_MotivesNotRed--></T>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
       </V>
     </L>
   </L>

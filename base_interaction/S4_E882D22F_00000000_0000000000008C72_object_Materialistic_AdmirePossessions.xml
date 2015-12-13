@@ -334,7 +334,7 @@
       </L>
     </U>
   </V>
-  <T p="InGame\UI\Icons\CAS\Traits\trait_materialistic_cas.png" n="pie_menu_icon">2f7d0004:00000000:47ffeedf30c4b115</T>
+  <T p="InGame\UI\Icons\PieMenu\Traits\trait_materialistic_cas_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:48dc9557a71b70df</T>
   <U n="progress_bar_enabled">
     <T n="bar_enabled">False</T>
   </U>

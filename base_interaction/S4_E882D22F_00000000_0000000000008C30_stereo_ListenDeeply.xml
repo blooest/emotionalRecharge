@@ -210,7 +210,7 @@
     <E>Interaction_All</E>
   </L>
   <V t="single" n="outcome" />
-  <T p="InGame\UI\Icons\CAS\Traits\trait_musiclover_cas.png" n="pie_menu_icon">2f7d0004:00000000:551ab738daff3f65</T>
+  <T p="InGame\UI\Icons\PieMenu\Traits\trait_musiclover_cas_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:b1c1b44356a6a50f</T>
   <T n="pie_menu_priority">4</T>
   <U n="progress_bar_enabled">
     <T n="bar_enabled">False</T>

@@ -18,7 +18,7 @@
         <U n="chance">
           <T n="base_chance">100</T>
         </U>
-        <T n="stat">16655</T>
+        <T n="stat">16655<!--Commodity: motive_Fun--></T>
       </U>
     </V>
   </L>
@@ -30,7 +30,7 @@
   <V t="enabled" n="_saveable" />
   <L n="_static_commodities">
     <U>
-      <T n="static_commodity">112296</T>
+      <T n="static_commodity">112296<!--StaticCommodity: staticCommodity_Retail_Employee_SlackOff--></T>
     </U>
   </L>
 <L n="mood_preference">
@@ -102,7 +102,7 @@
     <U n="flexible_length">
       <L n="conditional_actions">
         <V t="list_reference">
-          <T n="list_reference">40705</T>
+          <T n="list_reference">40705<!--ExitConditionList: ExitConditionList_MotivesNearFail--></T>
         </V>
         <V t="literal">
           <U n="literal">
@@ -121,7 +121,7 @@
       <V n="content" t="looping_content">
         <U n="looping_content">
           <U n="animation_ref">
-            <T n="factory">11701</T>
+            <T n="factory">11701<!--AnimationElement: Phone_Browse--></T>
             <U n="overrides">
               <V n="balloons" t="enabled">
                 <L n="enabled">
@@ -129,7 +129,7 @@
                     <L n="balloon_choices">
                       <U>
                         <V n="item" t="balloon_category">
-                          <T n="balloon_category">12353</T>
+                          <T n="balloon_category">12353<!--BalloonCategory: Phone_Browse_Thought--></T>
                         </V>
                       </U>
                     </L>
@@ -159,7 +159,7 @@
               <U n="statistic_change">
                 <T n="advertise">False</T>
                 <T n="amount">0.78</T>
-                <T n="stat">16655</T>
+                <T n="stat">16655<!--Commodity: motive_Fun--></T>
               </U>
             </V>
           </L>
@@ -168,13 +168,13 @@
       <T n="start_autonomous_inertial">True</T>
     </U>
   </V>
-  <T n="category">105921</T>
-  <T n="display_name">0x878D7591</T>
+  <T n="category">105921<!--PieMenuCategory: phoneCategory_Entertainment--></T>
+  <T n="display_name">0x878D7591<!--String: "Browse Web"--></T>
   <V t="testable" n="display_name_overrides">
     <U n="testable">
       <L n="overrides">
         <U>
-          <T n="new_display_name">0x75C03025</T>
+          <T n="new_display_name">0x75C03025<!--String: "Browse Kid-Friendly Websites"--></T>
           <L n="test">
             <L>
               <V t="sim_info">
@@ -217,7 +217,7 @@
   <E n="scoring_priority">NORMAL</E>
   <T n="subaction_selection_weight">1</T>
   <V t="reference" n="super_affordance_compatibility">
-    <T n="reference">76418</T>
+    <T n="reference">76418<!--AffordanceFilter: af_PhoneCompatability_TappingOnPhone--></T>
   </V>
   <E n="target_type">ACTOR</E>
   <L n="test_autonomous">
@@ -225,7 +225,7 @@
       <V t="trait">
         <U n="trait">
           <L n="whitelist_traits">
-            <T>27914</T>
+            <T>27914<!--Trait: trait_LovesOutdoors--></T>
           </L>
         </U>
       </V>
@@ -241,7 +241,7 @@
         <U n="region">
           <V t="enabled" n="blacklist">
             <L n="enabled">
-              <T>104096</T>
+              <T>104096<!--Region: region_Destination_CampingForest--></T>
             </L>
           </V>
         </U>
@@ -252,7 +252,7 @@
             <V n="is_venue_type" t="enabled">
               <U n="enabled">
                 <T n="negate">True</T>
-                <T n="venue_type">111611</T>
+                <T n="venue_type">111611<!--Venue: venue_HiddenAlienWorld--></T>
               </U>
             </V>
           </U>
@@ -264,23 +264,23 @@
     <V t="buff">
       <U n="buff">
         <L n="blacklist">
-          <T>26171</T>
+          <T>26171<!--Buff: buff_Sim_IsDying--></T>
         </L>
       </U>
     </V>
     <V t="buff">
       <U n="buff">
         <L n="blacklist">
-          <T>12757</T>
-          <T>12758</T>
-          <T>12760</T>
+          <T>12757<!--Buff: Buff_WitnessedDeathFriend--></T>
+          <T>12758<!--Buff: Buff_WitnessedDeathLovedOne--></T>
+          <T>12760<!--Buff: Buff_WitnessedDeathNeutral--></T>
         </L>
       </U>
     </V>
     <V t="posture">
       <U n="posture">
         <L n="prohibited_postures">
-          <T>117257</T>
+          <T>117257<!--Posture: posture_HotTubSit--></T>
         </L>
       </U>
     </V>

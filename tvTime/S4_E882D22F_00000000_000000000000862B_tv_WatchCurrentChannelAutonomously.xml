@@ -140,9 +140,27 @@
           <T n="affordance">34347<!--WatchCurrentChannelAutonomouslySuperInteraction: tv_WatchCurrentChannelAutonomously--></T>
         </U>
       </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+      <T n="skip_interaction_test">True</T>
     </U>
   </L>
   <E n="scoring_priority">NORMAL</E>
+  <V n="sim_affinity_posture_scoring_data" t="enabled">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <T n="negate_tag">True</T>
+          <E n="running_interaction_tag">Sleeping</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Watch_TV</E>
+      </L>
+    </U>
+  </V>
   <T n="state">15375<!--ObjectState: TVChannel--></T>
   <T n="subaction_selection_weight">1</T>
   <V t="reference" n="super_affordance_compatibility">
@@ -207,6 +225,12 @@
       <U n="state">
         <E n="operator">NOTEQUAL</E>
         <T n="value">15085<!--VideoChannel: Channel_Off--></T>
+      </U>
+    </V>
+    <V t="mood">
+      <U n="mood">
+        <T n="disallow">True</T>
+        <T n="mood">27149<!--Mood: Mood_Asleep--></T>
       </U>
     </V>
   </L>

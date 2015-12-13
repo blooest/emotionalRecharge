@@ -21,7 +21,7 @@
       <L n="overrides">
         <U>
           <T n="new_display_name">0xFAC16DFA<!--String: "Mock Outfit"--></T>
-          <T p="InGame\UI\Icons\CAS\Traits\trait_mean_cas.png" n="new_pie_menu_icon">2f7d0004:00000000:24132068c93561df</T>
+          <T p="InGame\UI\Icons\PieMenu\Traits\trait_mean_cas_piemenu.png" n="new_pie_menu_icon">2f7d0004:00000000:9a9cfaf5f98941b1</T>
           <L n="test">
             <L>
               <V t="trait">
@@ -156,6 +156,7 @@
               <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
               <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
               <T>112684<!--LootActions: loot_Commodity_Retail_Employee_SatisfactionDecrease_Small--></T>
+              <T>125414<!--LootActions: loot_Buff_Closet_FashionScorn_ADD--></T>
             </L>
           </U>
         </U>
@@ -187,6 +188,7 @@
                   <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
                   <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
                   <T>112684<!--LootActions: loot_Commodity_Retail_Employee_SatisfactionDecrease_Small--></T>
+                  <T>125414<!--LootActions: loot_Buff_Closet_FashionScorn_ADD--></T>
                 </L>
                 <V t="enabled" n="response">
                   <V n="enabled" t="individual">
@@ -254,6 +256,7 @@
                   <T>99714<!--LootActions: Loot_DidNegativeSocial--></T>
                   <T>104567<!--LootActions: loot_Relationship_Bit_KnowsIsAlien--></T>
                   <T>112684<!--LootActions: loot_Commodity_Retail_Employee_SatisfactionDecrease_Small--></T>
+                  <T>125414<!--LootActions: loot_Buff_Closet_FashionScorn_ADD--></T>
                 </L>
                 <V t="enabled" n="response">
                   <V n="enabled" t="individual">
@@ -566,6 +569,14 @@
           </L>
           <E n="subject">Actor</E>
         </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
       </V>
     </L>
   </L>

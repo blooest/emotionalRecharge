@@ -71,13 +71,13 @@
 <T n="value">-150</T>
 </U>
 </L>
+  <V t="participant" n="_icon" />
+  <V t="enabled" n="_saveable" />
   <L n="_static_commodities">
-	 <U>
+    <U>
       <T n="static_commodity">16427<!--StaticCommodity: StaticCommodity_Excercise--></T>
     </U>
   </L>
-  <V t="participant" n="_icon" />
-  <V t="enabled" n="_saveable" />
   <T n="allow_user_directed">False</T>
   <L n="appropriateness_tags">
     <E>Appropriateness_Workout</E>
@@ -265,6 +265,28 @@
     <T n="bar_enabled">False</T>
   </U>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Workout</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Chat</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Workout</E>
+        <E>Loud</E>
+      </L>
+    </U>
+  </V>
   <U n="skill_loot_data">
     <V t="enabled" n="level_range">
       <U n="enabled">

@@ -18,14 +18,18 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          <U>
+            <T n="item">125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          </U>
         </L>
       </U>
     </V>
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          <U>
+            <T n="item">125441<!--Broadcaster: broadcaster_Reaction_Jealousy_Trait--></T>
+          </U>
         </L>
         <E n="participant">TargetSim</E>
       </U>
@@ -450,7 +454,7 @@
       </L>
     </U>
   </V>
-  <T p="InGame\UI\Icons\Skills\skill_comedy.png" n="pie_menu_icon">2f7d0004:00000000:3a960cb443bc8aca</T>
+  <T p="InGame\UI\Icons\PieMenu\Skills\skill_comedy_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:d2d6987e3cefe7c0</T>
   <U n="posture_preferences">
     <T n="apply_penalties">False</T>
   </U>
@@ -684,6 +688,14 @@
     <L>
       <V t="test_set_reference">
         <T n="test_set_reference">31100<!--TestSetInstance: testSet_FunnySocialsAutonomous--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
       </V>
       <V t="test_set_reference">
         <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>

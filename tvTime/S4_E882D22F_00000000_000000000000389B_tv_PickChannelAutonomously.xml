@@ -229,6 +229,12 @@
         <E n="who">Object</E>
       </U>
     </V>
+    <V t="mood">
+      <U n="mood">
+        <T n="disallow">True</T>
+        <T n="mood">27149<!--Mood: Mood_Asleep--></T>
+      </U>
+    </V>
   </L>
   <T n="time_overhead">60</T>
   <V t="enabled" n="utility_info">

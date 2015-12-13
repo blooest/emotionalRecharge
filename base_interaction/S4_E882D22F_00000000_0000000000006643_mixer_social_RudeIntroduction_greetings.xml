@@ -24,6 +24,7 @@
       </V>
     </L>
   </U>
+  <T n="ignores_greetings">True</T>
   <L n="interaction_category_tags">
     <E>Interaction_Greeting</E>
     <E>Interaction_Chat</E>
@@ -122,11 +123,19 @@
             </U>
           </U>
         </V>
+        <L n="continuation">
+          <U>
+            <E n="actor">SocialGroupSims</E>
+            <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+            <E n="target">Actor</E>
+          </U>
+        </L>
         <L n="loot_list">
           <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
           <T>11040<!--LootActions: Rel_Loss_Medium--></T>
           <T>26086<!--LootActions: Loot_SocialContext_Friendship_Loss_cappedDistasteful--></T>
           <T>32631<!--LootActions: Loot_KnowTrait_Random_3_Observant--></T>
+          <T>130172<!--LootActions: loot_Listeners_Greeting_Group--></T>
         </L>
       </U>
     </U>

@@ -182,7 +182,7 @@
       </L>
     </U>
   </V>
-  <T p="InGame\UI\Icons\CAS\Traits\trait_neat_cas.png" n="pie_menu_icon">2f7d0004:00000000:d1819477f4137c2c</T>
+  <T n="pie_menu_icon" p="InGame\UI\Icons\PieMenu\Traits\trait_neat_cas_piemenu.png">2f7d0004:00000000:35c94988bd77fa72</T>
   <U n="post_run_autonomy_commodities">
     <L n="requests">
       <U>

@@ -72,7 +72,6 @@
                 <T n="advertise">True</T>
                 <T n="amount">0.21</T>
                 <T n="exclusive_to_owning_si">True</T>
-                <T n="retest_on_interval">False</T>
                 <T n="stat">16654<!--Commodity: motive_Energy--></T>
                 <L n="subject">
                   <E>Actor</E>
@@ -176,7 +175,7 @@
       <L n="enabled">
         <U>
           <T n="key">117257<!--Posture: posture_HotTubSit--></T>
-          <V n="value" t="for_reason">
+          <V t="for_reason" n="value">
             <U n="for_reason">
               <V t="enabled" n="on_entry">
                 <E n="enabled">Category_Swimwear</E>
@@ -188,6 +187,19 @@
     </V>
   </U>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Hot_Tub</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Hot_Tub</E>
+      </L>
+    </U>
+  </V>
   <T n="subaction_selection_weight">1</T>
   <V t="literal" n="super_affordance_compatibility">
     <U n="literal">

@@ -11,6 +11,7 @@
       <T n="static_commodity">120613<!--StaticCommodity: staticCommodity_InHotTub--></T>
     </U>
     <U>
+      <T n="desire">2</T>
       <T n="static_commodity">116965<!--StaticCommodity: social_Commodities_MischiefSocials--></T>
     </U>
   </L>
@@ -486,6 +487,14 @@
       </V>
       <V t="test_set_reference">
         <T n="test_set_reference">27928<!--TestSetInstance: testSet_MischiefSocialsAutonomous--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
       </V>
       <V t="test_set_reference">
         <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>

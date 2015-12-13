@@ -161,42 +161,43 @@
   </L>
   <V t="single" n="outcome" />
   <L n="recipes">
-    <T>15657<!--recipe_Drink_Bar_MumAndCola--></T>
+    <T>15657<!--Recipe: recipe_Drink_Bar_MumAndCola--></T>
     <T>15659<!--Recipe: recipe_Drink_Bar_ScootsAndSoda--></T>
-    <T>15654<!--recipe_Drink_Bar_TartAndTonic--></T>
-    <T>15660<!--recipe_Drink_Bar_Wrench--></T>
-    <T>15651<!--recipe_Drink_Bar_Bridgeport--></T>
-    <T>15653<!--recipe_Drink_Bar_DarkAndStormy--></T>
-    <T>15658<!--recipe_Drink_Bar_SaltyLlama--></T>
-    <T>15661<!--recipe_Drink_Bar_SeaSplash--></T>
-    <T>15663<!--recipe_Drink_Bar_PuckerPunch--></T>
-    <T>15655<!--recipe_Drink_Bar_SilentFilm--></T>
-    <T>15652<!--recipe_Drink_Bar_Metropolitan--></T>
-    <T>15650<!--recipe_Drink_Bar_GrannySmash--></T>
-    <T>15662<!--recipe_Drink_Bar_SunsetValley--></T>
-    <T>15656<!--recipe_Drink_Bar_Purgatory--></T>
-    <T>26301<!--recipe_Drink_Bar_Amygdelight--></T>
-    <T>26299<!--recipe_Drink_FlirtyPotion--></T>
-    <T>26317<!--recipe_Drink_Bar_LovePotion4--></T>
-    <T>26360<!--recipe_Drink_ConfidentPotion--></T>
-    <T>26316<!--recipe_Drink_Bar_ProseAndPop--></T>
-    <T>26358<!--recipe_Drink_EnergizedPotion--></T>
-    <T>26313<!--recipe_Drink_Bar_Vigorator--></T>
-    <T>26356<!--recipe_Drink_FocusedPotion--></T>
-    <T>26348<!--recipe_Drink_HappyPotion--></T>
-    <T>26357<!--recipe_Drink_InspiredPotion--></T>
-    <T>26426<!--recipe_Drink_ProteinShake--></T>
-    <T>33737<!--recipe_Drink_AlienJuice--></T>
-    <T>33734<!--recipe_Drink_SpaceEnergy--></T>
-    <T>33829<!--recipe_Drink_Bar_BartenderSpecial--></T>
-    <T>34990<!--recipe_Drink_Bar_FlamingDrSalt--></T>
-    <T>34991<!--recipe_Drink_Bar_SeaOfFire--></T>
-    <T>34992<!--recipe_Drink_Bar_HotAndSmoky--></T>
-    <T>35876<!--recipe_Drink_Bar_BuffaloWingTea--></T>
-    <T>35875<!--recipe_Drink_Bar_ZebraFizz--></T>
-    <T>73846<!--recipe_Drink_Bar_BoilerRoom--></T>
-    <T>73847<!--recipe_Drink_Bar_CupidJuice--></T>
-    <T>76721<!--recipe_Drink_SnaggleFluster--></T>
+    <T>15654<!--Recipe: recipe_Drink_Bar_TartAndTonic--></T>
+    <T>15660<!--Recipe: recipe_Drink_Bar_Wrench--></T>
+    <T>15651<!--Recipe: recipe_Drink_Bar_Bridgeport--></T>
+    <T>15653<!--Recipe: recipe_Drink_Bar_DarkAndStormy--></T>
+    <T>15658<!--Recipe: recipe_Drink_Bar_SaltyLlama--></T>
+    <T>15661<!--Recipe: recipe_Drink_Bar_SeaSplash--></T>
+    <T>15663<!--Recipe: recipe_Drink_Bar_PuckerPunch--></T>
+    <T>15655<!--Recipe: recipe_Drink_Bar_SilentFilm--></T>
+    <T>15652<!--Recipe: recipe_Drink_Bar_Metropolitan--></T>
+    <T>15650<!--Recipe: recipe_Drink_Bar_GrannySmash--></T>
+    <T>15662<!--Recipe: recipe_Drink_Bar_SunsetValley--></T>
+    <T>118852<!--Recipe: recipe_Drink_Bar_FizzyDrink--></T>
+    <T>15656<!--Recipe: recipe_Drink_Bar_Purgatory--></T>
+    <T>26301<!--Recipe: recipe_Drink_Bar_Amygdelight--></T>
+    <T>26299<!--Recipe: recipe_Drink_FlirtyPotion--></T>
+    <T>26317<!--Recipe: recipe_Drink_Bar_LovePotion4--></T>
+    <T>26360<!--Recipe: recipe_Drink_ConfidentPotion--></T>
+    <T>26316<!--Recipe: recipe_Drink_Bar_ProseAndPop--></T>
+    <T>26358<!--Recipe: recipe_Drink_EnergizedPotion--></T>
+    <T>26313<!--Recipe: recipe_Drink_Bar_Vigorator--></T>
+    <T>26356<!--Recipe: recipe_Drink_FocusedPotion--></T>
+    <T>26348<!--Recipe: recipe_Drink_HappyPotion--></T>
+    <T>26357<!--Recipe: recipe_Drink_InspiredPotion--></T>
+    <T>26426<!--Recipe: recipe_Drink_ProteinShake--></T>
+    <T>33737<!--Recipe: recipe_Drink_AlienJuice--></T>
+    <T>33734<!--Recipe: recipe_Drink_SpaceEnergy--></T>
+    <T>33829<!--Recipe: recipe_Drink_Bar_BartenderSpecial--></T>
+    <T>34990<!--Recipe: recipe_Drink_Bar_FlamingDrSalt--></T>
+    <T>34991<!--Recipe: recipe_Drink_Bar_SeaOfFire--></T>
+    <T>34992<!--Recipe: recipe_Drink_Bar_HotAndSmoky--></T>
+    <T>35876<!--Recipe: recipe_Drink_Bar_BuffaloWingTea--></T>
+    <T>35875<!--Recipe: recipe_Drink_Bar_ZebraFizz--></T>
+    <T>73846<!--Recipe: recipe_Drink_Bar_BoilerRoom--></T>
+    <T>73847<!--Recipe: recipe_Drink_Bar_CupidJuice--></T>
+    <T>76721<!--Recipe: recipe_Drink_SnaggleFluster--></T>
   </L>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">
@@ -249,6 +250,11 @@
             <T>16826<!--Trait: trait_Bro--></T>
           </L>
         </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
       </V>
     </L>
   </L>

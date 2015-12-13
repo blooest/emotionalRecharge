@@ -130,6 +130,26 @@
       <T n="start_user_directed_inertial">False</T>
     </U>
   </V>
+  <L n="basic_extras">
+    <V t="broadcaster">
+      <U n="broadcaster">
+        <L n="broadcaster_types">
+          <U>
+            <T n="item">130025<!--Broadcaster: broadcaster_GainRelWithOthersUsingObject_MonkeyBars--></T>
+            <L n="test">
+              <L>
+                <V t="sim_info">
+                  <U n="sim_info">
+                    <V t="enabled" n="npc" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
   <T n="display_name">0x8FFFB8DC<!--String: "Hang Out"--></T>
   <U n="display_name_text_tokens">
     <L n="tokens">
@@ -170,6 +190,10 @@
           <T n="affordance">13730<!--SuperInteraction: monkeyBars_Hangout--></T>
         </U>
       </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+      <T n="skip_interaction_test">True</T>
     </U>
   </L>
   <V t="enabled" n="route_start_balloon">

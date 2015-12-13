@@ -103,22 +103,11 @@
         <V t="list_reference">
           <T n="list_reference">33040<!--ExitConditionList: ExitConditionList_FunExit--></T>
         </V>
+        <V t="reference">
+          <T n="reference">28139<!--ExitCondition: ExitCondition_Time30Min--></T>
+        </V>
         <V t="list_reference">
           <T n="list_reference">39200<!--ExitConditionList: ExitConditionList_StateBrokenObject--></T>
-        </V>
-        <V t="literal">
-          <U n="literal">
-            <L n="conditions">
-              <V t="time_based">
-                <U n="time_based">
-                  <T n="max_time">30</T>
-                  <T n="min_time">10</T>
-                </U>
-              </V>
-            </L>
-            <E n="restrictions">AUTONOMOUS_ONLY</E>
-			<E n="interaction_action">EXIT_NATURALLY</E>
-          </U>
         </V>
       </L>
       <V n="content" t="staging_content">

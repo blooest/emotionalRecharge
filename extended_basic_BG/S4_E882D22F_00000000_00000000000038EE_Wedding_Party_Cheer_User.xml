@@ -118,7 +118,7 @@
       </U>
     </U>
   </V>
-  <T p="InGame\UI\Icons\Headlines\Final\icon_headline_flirty_v1.png" n="pie_menu_icon">2f7d0004:00000000:c73c8dd2b3c77c2e</T>
+  <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_flirty_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:5150ffc2a773e359</T>
   <U n="posture_preferences">
     <T n="apply_penalties">False</T>
   </U>

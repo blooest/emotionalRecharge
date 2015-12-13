@@ -601,7 +601,7 @@
       </L>
     </U>
   </V>
-  <T p="InGame\UI\Icons\Career\Career_Painter_Main.png" n="pie_menu_icon">2f7d0004:00000000:e3067d02f329dbf1</T>
+  <T p="InGame\UI\Icons\PieMenu\Careers\Career_Painter_Main_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:d17d5d5f4fda161b</T>
   <T n="pie_menu_priority">6</T>
   <U n="progress_bar_enabled">
     <T n="bar_enabled">False</T>

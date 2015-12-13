@@ -176,6 +176,22 @@
                 </U>
               </U>
             </V>
+            <V t="statistic_set_max">
+              <U n="statistic_set_max">
+                <T n="stat">125438<!--Commodity: commodity_Trait_Autonomy_Insider--></T>
+                <L n="tests">
+                  <L>
+                    <V t="trait">
+                      <U n="trait">
+                        <L n="whitelist_traits">
+                          <T>125437<!--Trait: trait_Insider--></T>
+                        </L>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </V>
             <V t="statistic_change">
               <U n="statistic_change">
                 <T n="amount">-10</T>

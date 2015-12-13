@@ -175,6 +175,26 @@
       </V>
     </U>
   </V>
+  <L n="basic_extras">
+    <V t="broadcaster">
+      <U n="broadcaster">
+        <L n="broadcaster_types">
+          <U>
+            <T n="item">130027<!--Broadcaster: broadcaster_GainRelWithOthersUsingObject_JungleGym--></T>
+            <L n="test">
+              <L>
+                <V t="sim_info">
+                  <U n="sim_info">
+                    <V t="enabled" n="npc" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
   <V t="disable_focus" n="basic_focus" />
   <V t="enabled" n="canonical_animation">
     <U n="enabled">
@@ -235,7 +255,17 @@
     <T n="bar_enabled">False</T>
   </U>
   <L n="rallyable">
-    <U />
+    <U>
+      <V n="behavior" t="push_affordance">
+        <U n="push_affordance">
+          <T n="affordance">130370<!--SuperInteraction: rallyables_GoThenJungleGym--></T>
+        </U>
+      </V>
+      <V t="enabled" n="pie_menu_icon">
+        <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_ensembles_piemenu.png" n="enabled">2f7d0004:00000000:a113281581961bf1</T>
+      </V>
+      <T n="skip_interaction_test">True</T>
+    </U>
   </L>
   <V t="enabled" n="route_start_balloon">
     <U n="enabled">

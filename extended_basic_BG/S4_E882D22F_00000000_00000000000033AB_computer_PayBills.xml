@@ -99,11 +99,7 @@
     <V t="payment">
       <U n="payment">
         <V t="bills" n="cost" />
-        <V t="at_end" n="timing">
-          <U n="at_end">
-            <E n="criticality">NotCritical</E>
-          </U>
-        </V>
+        <V t="on_xevt" n="timing" />
       </U>
     </V>
     <V t="state_change">

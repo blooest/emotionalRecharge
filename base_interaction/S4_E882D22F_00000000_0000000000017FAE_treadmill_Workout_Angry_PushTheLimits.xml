@@ -671,9 +671,22 @@
           <T n="negate_tag">True</T>
           <E n="running_interaction_tag">Sleeping</E>
         </U>
+        <U>
+          <V t="relationship_based" n="affinity_strategy" />
+          <E n="running_interaction_tag">Workout</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Chat</E>
+        </U>
       </L>
       <L n="my_tags">
         <E>Loud</E>
+        <E>Workout</E>
       </L>
     </U>
   </V>
@@ -705,6 +718,12 @@
     <V t="sim_info">
       <U n="sim_info">
         <V t="specified" n="ages" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="mood">
+      <U n="mood">
+        <T n="mood">14632<!--Mood: Mood_Angry--></T>
       </U>
     </V>
     <V t="buff">
@@ -731,15 +750,6 @@
     <V t="test_set_reference">
       <T n="test_set_reference">97371<!--TestSetInstance: testSet_Fitness_PulledMuscle--></T>
     </V>
-  </L>
-  <L n="tests">
-    <L>
-      <V t="mood">
-        <U n="mood">
-          <T n="mood">14632<!--Mood: Mood_Angry--></T>
-        </U>
-      </V>
-    </L>
   </L>
   <T n="time_overhead">45</T>
   <V t="enabled" n="utility_info">

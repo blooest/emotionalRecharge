@@ -24,6 +24,7 @@
       </V>
     </L>
   </U>
+  <T n="ignores_greetings">True</T>
   <L n="interaction_category_tags">
     <E>Interaction_Greeting</E>
     <E>Interaction_Chat</E>
@@ -122,18 +123,26 @@
             </U>
           </U>
         </V>
+        <L n="continuation">
+          <U>
+            <E n="actor">SocialGroupSims</E>
+            <T n="affordance">130343<!--ImmediateSuperInteraction: immediate_Introduction_MakeHasMetInSocialGroup--></T>
+            <E n="target">Actor</E>
+          </U>
+        </L>
         <L n="loot_list">
           <T>11029<!--LootActions: Rel_Bit_HasMet_Add_Both--></T>
           <T>10900<!--LootActions: Loot_LTR_Romance_Small--></T>
           <T>26058<!--LootActions: Loot_SocialContext_Romance_Gain_cappedSuggestive--></T>
           <T>11080<!--LootActions: Skill_Loot_Dynamic_Small--></T>
           <T>32631<!--LootActions: Loot_KnowTrait_Random_3_Observant--></T>
+          <T>130172<!--LootActions: loot_Listeners_Greeting_Group--></T>
           <T>102790<!--LootActions: Loot_Statistic_Trait_IncrediblyFriendly_Greeting--></T>
         </L>
       </U>
     </U>
   </V>
-  <T p="InGame\UI\Icons\Skills\skill_charisma.png" n="pie_menu_icon">2f7d0004:00000000:00de44d3347dffcd</T>
+  <T p="InGame\UI\Icons\PieMenu\Skills\skill_charisma_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:d48cd6be8cf27137</T>
   <U n="posture_preferences">
     <T n="apply_penalties">False</T>
   </U>

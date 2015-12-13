@@ -38,6 +38,9 @@
       <T n="desire">0.5</T>
       <T n="static_commodity">108882<!--StaticCommodity: staticCommodity_RoleAutonomy_Coworker--></T>
     </U>
+    <U>
+      <T n="static_commodity">127074<!--StaticCommodity: staticCommodity_Chalet_GhostGardening--></T>
+    </U>
   </L>
 <L n="mood_preference">
 <U>

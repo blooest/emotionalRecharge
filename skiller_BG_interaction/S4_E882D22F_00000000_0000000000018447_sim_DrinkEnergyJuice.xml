@@ -141,7 +141,7 @@
       </U>
     </U>
   </V>
-  <T p="InGame\UI\Icons\CAS\Traits\AspirationTraits\traitAspiration_HighMetabolism.png" n="pie_menu_icon">2f7d0004:00000000:3903bb9d457ab40d</T>
+  <T n="pie_menu_icon" p="InGame\UI\Icons\PieMenu\Traits\traitAspiration_HighMetabolism_piemenu.png">2f7d0004:00000000:9cd6733532619f77</T>
   <E n="scoring_priority">NORMAL</E>
   <T n="subaction_selection_weight">1</T>
   <E n="target_type">ACTOR</E>

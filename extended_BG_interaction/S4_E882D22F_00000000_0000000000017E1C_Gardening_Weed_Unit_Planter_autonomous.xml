@@ -32,6 +32,9 @@
     <U>
       <T n="static_commodity">108786<!--StaticCommodity: StaticCommodity_ForestRanger--></T>
     </U>
+    <U>
+      <T n="static_commodity">127074<!--StaticCommodity: staticCommodity_Chalet_GhostGardening--></T>
+    </U>
   </L>
 <L n="mood_preference">
 <U>
@@ -156,6 +159,26 @@
       <T n="start_autonomous_inertial">False</T>
     </U>
   </V>
+  <L n="basic_extras">
+    <V t="broadcaster">
+      <U n="broadcaster">
+        <L n="broadcaster_types">
+          <U>
+            <T n="item">130030<!--Broadcaster: broadcaster_GainRelWithOthersUsingObject_Gardening--></T>
+            <L n="test">
+              <L>
+                <V t="sim_info">
+                  <U n="sim_info">
+                    <V t="enabled" n="npc" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
   <T n="display_name">0x29B549E<!--String: "Weed"--></T>
   <U n="display_name_text_tokens">
     <L n="tokens">

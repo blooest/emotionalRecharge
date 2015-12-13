@@ -223,6 +223,22 @@
     </U>
   </V>
   <V t="do_not_change_focus" n="basic_focus" />
+  <L n="cancel_replacement_affordances">
+    <U>
+      <E n="key">BODY</E>
+      <U n="value">
+        <T n="affordance">131317<!--SuperInteraction: cancelReplacements_ReadtoCarry_fromSurface--></T>
+        <V t="enabled" n="target" />
+      </U>
+    </U>
+    <U>
+      <E n="key">CARRY</E>
+      <U n="value">
+        <T n="affordance">122714<!--SuperInteraction: cancelReplacements_ReadtoCarry--></T>
+        <V t="enabled" n="target" />
+      </U>
+    </U>
+  </L>
   <V t="enabled" n="canonical_animation">
     <U n="enabled">
       <T n="factory">11313<!--AnimationElementSet: Book_Read_Active_Set--></T>
@@ -265,7 +281,7 @@
       </U>
     </U>
   </V>
-  <T p="InGame\UI\Icons\CAS\Traits\trait_bookworm_cas.png" n="pie_menu_icon">2f7d0004:00000000:cfd751132b7f4196</T>
+  <T p="InGame\UI\Icons\PieMenu\Traits\trait_bookworm_cas_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:685aefdd103f665c</T>
   <T n="pie_menu_priority">9</T>
   <U n="posture_preferences">
     <T n="apply_penalties">True</T>
@@ -346,9 +362,18 @@
           <T n="negate_tag">True</T>
           <E n="running_interaction_tag">Loud</E>
         </U>
+        <U>
+          <V n="affinity_strategy" t="attract" />
+          <E n="running_interaction_tag">Reading</E>
+        </U>
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
       </L>
       <L n="my_tags">
         <E>Quiet</E>
+        <E>Reading</E>
       </L>
     </U>
   </V>
@@ -360,6 +385,7 @@
           <L n="exclude_affordances">
             <T>104856<!--SwimmingWaypointInteraction: pool-swim--></T>
             <T>103790<!--GoHereSuperInteraction: terrain-Swimhere--></T>
+            <T>129587<!--GoHereSuperInteraction: terrain-Swim_andChatHere--></T>
           </L>
           <L n="exclude_lists">
             <T>16388<!--AffordanceList: TV_All--></T>

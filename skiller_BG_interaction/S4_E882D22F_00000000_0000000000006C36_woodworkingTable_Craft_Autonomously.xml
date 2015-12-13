@@ -82,6 +82,9 @@
       <T n="static_commodity">3392579<!--GetToCollege--></T>
     </U>
   </L>
+  <L n="appropriateness_tags">
+    <E>Appropriateness_Guest</E>
+  </L>
   <T n="attention_cost">0.75</T>
   <V n="basic_content" t="one_shot">
     <U n="one_shot">
@@ -128,7 +131,6 @@
   <L n="recipes">
     <T>29853<!--Recipe: recipe_Woodwork_Barstool1--></T>
     <T>29894<!--Recipe: recipe_Woodwork_TableEnd1--></T>
-    <T>15789<!--Recipe: recipe_Woodwork_Table1--></T>
     <T>8688<!--Recipe: recipe_Woodwork_Chair1--></T>
     <T>37342<!--Recipe: recipe_Woodwork_Bathtub1--></T>
     <T>29899<!--Recipe: recipe_Woodwork_Toilet1--></T>
@@ -141,6 +143,7 @@
 	<T>29897<!--Recipe: recipe_Woodwork_Violin1--></T>
     <T>38469<!--Recipe: recipe_Woodwork_ViolinChild1--></T>
     <T>9083<!--Recipe: recipe_Woodwork_Sculpture1--></T>
+    <T>15789<!--Recipe: recipe_Woodwork_Table1--></T>
     <T>29878<!--Recipe: recipe_Woodwork_Sculpture_Dragon--></T>
     <T>29879<!--Recipe: recipe_Woodwork_Sculpture_Elephant--></T>
     <T>29880<!--Recipe: recipe_Woodwork_Sculpture_Horse--></T>
@@ -178,12 +181,29 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Quiet</E>
+      </L>
+    </U>
+  </V>
   <T n="subaction_selection_weight">1</T>
   <V t="reference" n="super_affordance_compatibility">
     <T n="reference">76934<!--AffordanceFilter: af_WoodWorkingCompatability--></T>
   </V>
   <E n="target_type">OBJECT</E>
-  <L n="test_autonomous"/>
+  <L n="test_autonomous">
+    <L>
+      <V t="appropriateness" />
+    </L>
+  </L>
   <L n="test_globals">
     <V t="buff">
       <U n="buff">

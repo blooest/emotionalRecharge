@@ -90,6 +90,9 @@
       <T n="static_commodity">3392579<!--GetToCollege--></T>
     </U>
   </L>
+  <L n="appropriateness_tags">
+    <E>Appropriateness_Guest</E>
+  </L>
   <T n="attention_cost">1</T>
   <V n="basic_content" t="one_shot">
     <U n="one_shot">
@@ -185,12 +188,29 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V t="avoid" n="affinity_strategy" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Quiet</E>
+      </L>
+    </U>
+  </V>
   <T n="subaction_selection_weight">1</T>
   <V t="reference" n="super_affordance_compatibility">
     <T n="reference">16298<!--AffordanceFilter: af_Painting_All--></T>
   </V>
   <E n="target_type">OBJECT</E>
-  <L n="test_autonomous"/>
+  <L n="test_autonomous">
+    <L>
+      <V t="appropriateness" />
+    </L>
+  </L>
   <L n="test_globals">
     <V t="buff">
       <U n="buff">

@@ -13,14 +13,89 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>76132<!--Broadcaster: broadcaster_Jealousy--></T>
+          <U>
+            <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+            <T n="stop_processing">True</T>
+            <L n="test">
+              <L>
+                <V t="test_set_reference">
+                  <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="item">76132<!--Broadcaster: broadcaster_Jealousy--></T>
+            <L n="test">
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V t="enabled" n="affordance_rule">
+                      <V n="enabled" t="is_not_encouraged" />
+                    </V>
+                    <V t="use_any_club" n="club" />
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V t="use_any_club" n="club" />
+                    <V t="enabled" n="club_status">
+                      <V n="enabled" t="Not Member" />
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
         </L>
       </U>
     </V>
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>76132<!--Broadcaster: broadcaster_Jealousy--></T>
+          <U>
+            <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+            <T n="stop_processing">True</T>
+            <L n="test">
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V t="enabled" n="affordance_rule">
+                      <V n="enabled" t="is_encouraged" />
+                    </V>
+                    <V t="use_any_club" n="club" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="item">76132<!--Broadcaster: broadcaster_Jealousy--></T>
+            <L n="test">
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V t="enabled" n="affordance_rule">
+                      <V n="enabled" t="is_not_encouraged" />
+                    </V>
+                    <V t="use_any_club" n="club" />
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V t="use_any_club" n="club" />
+                    <V t="enabled" n="club_status">
+                      <V n="enabled" t="Not Member" />
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
         </L>
         <E n="participant">TargetSim</E>
       </U>
@@ -33,7 +108,7 @@
       <L n="overrides">
         <U>
           <T n="new_display_name">0xDC3AE2D8<!--String: "Apologize in Bed"--></T>
-          <T p="InGame\UI\Icons\Headlines\Final\headline_flirty_v1.png" n="new_pie_menu_icon">2f7d0004:00000000:17f8dc97cd7ea09a</T>
+          <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_flirty_piemenu.png" n="new_pie_menu_icon">2f7d0004:00000000:5150ffc2a773e359</T>
           <L n="test">
             <L>
               <V t="sim_info">
@@ -417,7 +492,7 @@
       </L>
     </U>
   </V>
-  <T p="InGame\UI\Icons\Headlines\Final\icon_headline_flirty_v2.png" n="pie_menu_icon">2f7d0004:00000000:c73c8dd2b3c77c2d</T>
+  <T p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_woohoo_piemenu.png" n="pie_menu_icon">2f7d0004:00000000:34e9d440b9d3b96a</T>
   <U n="posture_preferences">
     <T n="apply_penalties">False</T>
   </U>
@@ -688,6 +763,25 @@
       </V>
       <V t="gender_preference">
         <U n="gender_preference">
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+          <L n="target_sim">
+            <E>Listeners</E>
+          </L>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
+      <V t="gender_preference">
+        <U n="gender_preference">
+          <T n="fallback_if_no_perference_is_set">True</T>
           <L n="subject">
             <E>Actor</E>
           </L>

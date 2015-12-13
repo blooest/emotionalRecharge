@@ -14,7 +14,7 @@
   <L n="_false_advertisements">
     <V t="statistic_change">
       <U n="statistic_change">
-        <T n="amount">0.19</T>
+        <T n="amount">0.39</T>
         <T n="stat">16655<!--Commodity: motive_Fun--></T>
       </U>
     </V>
@@ -354,17 +354,6 @@
                 <T n="venue_type">111611<!--Venue: venue_HiddenAlienWorld--></T>
               </U>
             </V>
-          </U>
-        </U>
-      </V>
-      <V t="motive">
-        <U n="motive">
-          <L n="stats">
-            <T>16655<!--Commodity: motive_Fun--></T>
-          </L>
-          <U n="threshold">
-            <E n="comparison">LESS_OR_EQUAL</E>
-            <T n="value">0</T>
           </U>
         </U>
       </V>
