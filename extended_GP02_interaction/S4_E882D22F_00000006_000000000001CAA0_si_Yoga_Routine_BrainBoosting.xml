@@ -347,6 +347,19 @@
   </V>
   <T n="pie_menu_priority">2</T>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V n="affinity_strategy" t="avoid" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Quiet</E>
+      </L>
+    </U>
+  </V>
   <U n="skill_loot_data">
     <E n="effectiveness">StandardPeriodic</E>
     <T n="stat">117858<!--Skill: statistic_Skill_AdultMajor_Wellness--></T>

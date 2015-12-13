@@ -351,6 +351,19 @@
     </U>
   </V>
   <E n="scoring_priority">NORMAL</E>
+  <V t="enabled" n="sim_affinity_posture_scoring_data">
+    <U n="enabled">
+      <L n="my_scoring">
+        <U>
+          <V n="affinity_strategy" t="avoid" />
+          <E n="running_interaction_tag">Very_Loud</E>
+        </U>
+      </L>
+      <L n="my_tags">
+        <E>Quiet</E>
+      </L>
+    </U>
+  </V>
   <T n="subaction_selection_weight">1</T>
   <V t="literal" n="super_affordance_compatibility">
     <U n="literal">
@@ -362,6 +375,11 @@
     <L>
       <V t="test_set_reference">
         <T n="test_set_reference">121131<!--TestSetInstance: testSetInstance_NPCAtSpaOrGym--></T>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
       </V>
     </L>
   </L>

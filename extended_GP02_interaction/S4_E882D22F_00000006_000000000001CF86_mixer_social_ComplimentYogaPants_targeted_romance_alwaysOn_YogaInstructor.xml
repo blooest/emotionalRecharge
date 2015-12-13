@@ -22,14 +22,89 @@
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>76132<!--Broadcaster: broadcaster_Jealousy--></T>
+          <U>
+            <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+            <T n="stop_processing">True</T>
+            <L n="test">
+              <L>
+                <V t="test_set_reference">
+                  <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="item">76132<!--Broadcaster: broadcaster_Jealousy--></T>
+            <L n="test">
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V n="affordance_rule" t="enabled">
+                      <V n="enabled" t="is_not_encouraged" />
+                    </V>
+                    <V t="use_any_club" n="club" />
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V t="use_any_club" n="club" />
+                    <V n="club_status" t="enabled">
+                      <V n="enabled" t="Not Member" />
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
         </L>
       </U>
     </V>
     <V t="broadcaster">
       <U n="broadcaster">
         <L n="broadcaster_types">
-          <T>76132<!--Broadcaster: broadcaster_Jealousy--></T>
+          <U>
+            <T n="item">129459<!--Broadcaster: broadcaster_Jealousy_ClubEncouraged--></T>
+            <T n="stop_processing">True</T>
+            <L n="test">
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V n="affordance_rule" t="enabled">
+                      <V n="enabled" t="is_encouraged" />
+                    </V>
+                    <V t="use_any_club" n="club" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="item">76132<!--Broadcaster: broadcaster_Jealousy--></T>
+            <L n="test">
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V n="affordance_rule" t="enabled">
+                      <V n="enabled" t="is_not_encouraged" />
+                    </V>
+                    <V t="use_any_club" n="club" />
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="club_test">
+                  <U n="club_test">
+                    <V t="use_any_club" n="club" />
+                    <V n="club_status" t="enabled">
+                      <V n="enabled" t="Not Member" />
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
         </L>
         <E n="participant">TargetSim</E>
       </U>
@@ -69,63 +144,63 @@
   </L>
   <L n="mood_preference">
     <U>
-      <T n="key">14632</T>
+      <T n="key">14632<!--Mood: Mood_Angry--></T>
 <T n="value">-75</T>
     </U>
     <U>
-      <T n="key">14633</T>
+      <T n="key">14633<!--Mood: Mood_Bored--></T>
 <T n="value">-30</T>
     </U>
     <U>
-      <T n="key">14634</T>
+      <T n="key">14634<!--Mood: Mood_Confident--></T>
 <T n="value">60</T>
     </U>
     <U>
-      <T n="key">14635</T>
+      <T n="key">14635<!--Mood: Mood_Embarrassed--></T>
 <T n="value">-40</T>
     </U>
     <U>
-      <T n="key">14636</T>
+      <T n="key">14636<!--Mood: Mood_Energized--></T>
 <T n="value">45</T>
     </U>
     <U>
-      <T n="key">14637</T>
+      <T n="key">14637<!--Mood: Mood_Fine--></T>
       <T n="value">0</T>
     </U>
     <U>
-      <T n="key">14638</T>
+      <T n="key">14638<!--Mood: Mood_Flirty--></T>
 <T n="value">75</T>
     </U>
     <U>
-      <T n="key">14639</T>
+      <T n="key">14639<!--Mood: Mood_Focused--></T>
 <T n="value">15</T>
     </U>
     <U>
-      <T n="key">14640</T>
+      <T n="key">14640<!--Mood: Mood_Happy--></T>
 <T n="value">45</T>
     </U>
     <U>
-      <T n="key">14641</T>
+      <T n="key">14641<!--Mood: Mood_Inspired--></T>
 <T n="value">30</T>
     </U>
     <U>
-      <T n="key">14642</T>
+      <T n="key">14642<!--Mood: Mood_Playful--></T>
 <T n="value">45</T>
     </U>
     <U>
-      <T n="key">14643</T>
+      <T n="key">14643<!--Mood: Mood_Sad--></T>
 <T n="value">-75</T>
     </U>
     <U>
-      <T n="key">14644</T>
+      <T n="key">14644<!--Mood: Mood_Dazed--></T>
 <T n="value">-60</T>
     </U>
     <U>
-      <T n="key">14645</T>
+      <T n="key">14645<!--Mood: Mood_Stressed--></T>
 <T n="value">-45</T>
     </U>
     <U>
-      <T n="key">14646</T>
+      <T n="key">14646<!--Mood: Mood_Uncomfortable--></T>
 <T n="value">-45</T>
     </U>
   </L>
@@ -726,6 +801,25 @@
       </V>
       <V t="gender_preference">
         <U n="gender_preference">
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+          <L n="target_sim">
+            <E>Listeners</E>
+          </L>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
+      </V>
+      <V t="gender_preference">
+        <U n="gender_preference">
+          <T n="fallback_if_no_perference_is_set">True</T>
           <L n="subject">
             <E>Actor</E>
           </L>

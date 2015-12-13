@@ -11,6 +11,7 @@
       <T n="static_commodity">120613<!--StaticCommodity: staticCommodity_InHotTub--></T>
     </U>
     <U>
+      <T n="desire">2</T>
       <T n="static_commodity">128312<!--StaticCommodity: StaticCommodity_ScareSpooky--></T>
     </U>
   </L>
@@ -565,6 +566,14 @@
           </L>
           <E n="subject">Actor</E>
         </U>
+      </V>
+    </L>
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">126907<!--TestSetInstance: testSetInstance_InteractionIsEncouragedByClubRules--></T>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
       </V>
     </L>
   </L>
