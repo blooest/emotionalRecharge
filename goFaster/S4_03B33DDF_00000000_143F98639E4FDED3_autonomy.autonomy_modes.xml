@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <M n="autonomy.autonomy_modes" s="1459052357916548819">
-<!-- These numbers are about the lowest you can safely go.
-    Weebl's version of this mod which uses these numbers is still functional,
-	so this module won't go to MTS-live if that is still the case when we reach that stage.-->
+<!-- See the goFaster Module issue #13 -->
   <C n="AutonomyMode">
     <L n="AUTOMATED_RANDOMIZATION_LIST">
       <U>
