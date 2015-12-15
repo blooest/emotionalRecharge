@@ -1,3 +1,6 @@
+# Git's merge function can't handle XML properly. Do it manually.
+*.xml -merge
+
 # Auto detect text files and perform LF normalization
 * text=auto
 
