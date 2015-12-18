@@ -725,7 +725,7 @@
     </U>
   </L>
   <U n="sub_action">
-    <T n="base_weight">3</T>
+    <T n="base_weight">10</T>
   </U>
   <E n="target_type">TARGET</E>
   <L n="test_autonomous">
@@ -756,7 +756,7 @@
         </U>
       </V>
       <V t="test_set_reference">
-        <T n="test_set_reference">27934<!--TestSetInstance: testSet_RomanceSocialsAutonomous--></T>
+        <T n="test_set_reference">132480<!--TestSetInstance: testSet_WoohooAutonomous_Strict--></T>
       </V>
       <V t="test_set_reference">
         <T n="test_set_reference">34737<!--TestSetInstance: testSet_SitBedPosturesPrecluded--></T>
